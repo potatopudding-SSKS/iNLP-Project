@@ -1,0 +1,27 @@
+[
+  {
+    "id": "55031181e9bde69634000014",
+    "type": "summary",
+    "generated_answer": "Hirschsprung disease (HSCR) is primarily considered a genetic disorder, but its inheritance pattern is complex and rarely follows simple Mendelian rules. While mutations in the *RET* proto-oncogene account for a significant proportion of familial cases and demonstrate autosomal dominant inheritance with incomplete penetrance, HSCR is fundamentally a multifactorial condition. Numerous other genes (*EDNRB*, *EDN3*, *SOX10*) contribute to susceptibility, alongside environmental factors, resulting in variable expressivity and a polygenic inheritance model; thus, the disease arises from a combination of genetic predisposition and non-genetic influences. Consequently, recurrence risk assessment requires considering family history and, increasingly, genomic analysis beyond single-gene testing."
+  },
+  {
+    "id": "55046d5ff8aee20f27000007",
+    "type": "list",
+    "generated_answer": "Epidermal growth factor (EGF), transforming growth factor alpha (TGF-α), amphiregulin, betacellulin, heparin-binding EGF-like growth factor (HB-EGF), and epiregulin are signaling molecules, specifically ligands, that bind to and activate the epidermal growth factor receptor (EGFR), initiating downstream intracellular signaling cascades."
+  },
+  {
+    "id": "54e25eaaae9738404b000017",
+    "type": "yesno",
+    "generated_answer": "No, Papilin is primarily a nuclear protein involved in centrosome function and spindle assembly during cell division, with no established secretory pathway or signal peptide indicating extracellular release."
+  },
+  {
+    "id": "535d292a9a4572de6f000003",
+    "type": "yesno",
+    "generated_answer": "Yes, long non-coding RNAs are frequently spliced, as demonstrated by the presence of splice variants and identification of spliceosomal protein binding sites within their structures, indicating processing similar to mRNA."
+  },
+  {
+    "id": "55262a9787ecba3764000009",
+    "type": "yesno",
+    "generated_answer": "Yes, RANKL is secreted from osteoblasts and other stromal cells as a transmembrane or soluble protein that plays a crucial role in regulating osteoclast differentiation and bone resorption."
+  }
+]

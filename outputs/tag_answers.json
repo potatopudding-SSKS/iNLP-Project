@@ -1,0 +1,62 @@
+[
+  {
+    "id": "55031181e9bde69634000014",
+    "type": "summary",
+    "generated_answer": "Hirschsprung disease (HSCR) is a complex, hereditary disorder with a non-mendelian inheritance pattern, demonstrating considerable genetic heterogeneity. While mutations in genes like *RET*, *GDNF*, *EDNRB*, and *SOX10* contribute to the disease, particularly long-segment forms, they do not fully explain its transmission, especially the more common short-segment form. Both rare and common variations within the *RET* gene, including variants in non-coding enhancer regions, contribute to HSCR liability, often exhibiting synergistic effects and incomplete penetrance influenced by modifier loci. The inheritance pattern is further complicated by sex-modified expression, with a lower threshold for expression in males and a stronger association of certain variants with male patients.",
+    "context_pmids": [
+      15858239,
+      20598273,
+      6650562,
+      12239580,
+      21995290
+    ]
+  },
+  {
+    "id": "55046d5ff8aee20f27000007",
+    "type": "list",
+    "generated_answer": "Epidermal growth factor (EGF), transforming growth factor-alpha (TGFα), amphiregulin (AREG), heparin-binding EGF-like growth factor (HB-EGF), betacellulin (BTC), epiregulin, and prolidase (PEPD) interact with the epidermal growth factor receptor (EGFR) as ligands, activating downstream signaling pathways and influencing cancer cell behavior.",
+    "context_pmids": [
+      23959273,
+      21514161,
+      23212918,
+      23888072,
+      23821377
+    ]
+  },
+  {
+    "id": "54e25eaaae9738404b000017",
+    "type": "yesno",
+    "generated_answer": "Yes, papilin is secreted, as evidenced by research showing it was synthesized primarily by hemocytes and secreted into the medium during differentiation of Drosophila embryo cells cultured on vitronectin and laminin substrates [2].",
+    "context_pmids": [
+      3320045,
+      7515725,
+      20805556,
+      19297413,
+      19724244
+    ]
+  },
+  {
+    "id": "535d292a9a4572de6f000003",
+    "type": "yesno",
+    "generated_answer": "Yes, long noncoding RNAs are spliced, although less efficiently than protein-coding genes, as evidenced by studies showing co-transcriptional splicing and the detection of exon junctions and borders in lncRNA transcripts [2, 5].",
+    "context_pmids": [
+      22955988,
+      22955974,
+      24285305,
+      22707570,
+      21622663
+    ]
+  },
+  {
+    "id": "55262a9787ecba3764000009",
+    "type": "yesno",
+    "generated_answer": "Yes, RANKL is secreted from cells, as evidenced by the identification of TNFSF11 transcript variants encoding a secreted form of RANKL expressed by human T cells and the Saos-2 osteosarcoma cell line [2].",
+    "context_pmids": [
+      21618594,
+      23698708,
+      23827649,
+      22901753,
+      22948539
+    ]
+  }
+]
