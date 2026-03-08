@@ -1,0 +1,19 @@
+{
+  "num_gold_questions": 5389,
+  "num_pred_answers": 5389,
+  "num_aligned": 5389,
+  "num_missing_predictions": 0,
+  "counts_by_type_aligned": {
+    "factoid": 1600,
+    "summary": 1283,
+    "yesno": 1459,
+    "list": 1047
+  },
+  "skipped": {},
+  "metrics": {
+    "list_f1": 0.18264652042696963,
+    "yesno_macro_f1": 0.7957173431962454,
+    "factoid_mrr": 0.24238541666666666
+  },
+  "ragas_note": "RAGAS evaluation failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+}
