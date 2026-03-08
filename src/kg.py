@@ -1,12 +1,37 @@
 from Bio import Entrez, Medline
 import json, time, sys, os
 from collections import defaultdict
+import re
+from urllib.error import HTTPError, URLError
+from http.client import IncompleteRead, RemoteDisconnected
 from tqdm import tqdm
 import pickle
 
 Entrez.email = "kssaisankalp.davey@research.iiit.ac.in"
 _ENTREZ_BATCH = 200   # max IDs per efetch request
 _ENTREZ_DELAY = 0.34  # ~3 req/s without API key
+_ENTREZ_RETRIES = 4
+_ENTREZ_BACKOFF = 1.5
+
+
+def _question_words(text: str) -> set[str]:
+    """Lowercased word tokens from a question body."""
+    return set(re.findall(r"\b\w+\b", text.lower()))
+
+
+def _entrez_efetch_with_retries(id_value: str):
+    """Open an Entrez handle with bounded retries for transient network failures."""
+    last_exc = None
+    for attempt in range(_ENTREZ_RETRIES):
+        try:
+            return Entrez.efetch(db="pubmed", id=id_value, rettype="medline", retmode="text")
+        except (RemoteDisconnected, IncompleteRead, URLError, HTTPError, OSError) as exc:
+            last_exc = exc
+            sleep_s = _ENTREZ_DELAY + (_ENTREZ_BACKOFF ** attempt)
+            time.sleep(sleep_s)
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("Entrez efetch failed with unknown error")
 
 
 def build_dataset_index(pmids: set) -> dict:
@@ -16,10 +41,7 @@ def build_dataset_index(pmids: set) -> dict:
     for start in tqdm(range(0, len(pmid_list), _ENTREZ_BATCH), desc="Fetching from Entrez"):
         batch = pmid_list[start : start + _ENTREZ_BATCH]
         try:
-            handle = Entrez.efetch(
-                db="pubmed", id=",".join(str(p) for p in batch),
-                rettype="medline", retmode="text"
-            )
+            handle = _entrez_efetch_with_retries(",".join(str(p) for p in batch))
             for record in Medline.parse(handle):
                 try:
                     pmid = int(record["PMID"])
@@ -30,22 +52,32 @@ def build_dataset_index(pmids: set) -> dict:
                     "abstract": record.get("AB", ""),
                 }
         except Exception as e:
-            print(f"  Warning: batch fetch failed ({e}); will retry individually.")
+            print(f"  Warning: batch fetch failed ({e}); retrying PMIDs individually.")
+            for pmid in batch:
+                if pmid in index:
+                    continue
+                index[pmid] = fetch_from_entrez(str(pmid))
+                time.sleep(_ENTREZ_DELAY)
         time.sleep(_ENTREZ_DELAY)
     return index
 
 
 def fetch_from_entrez(pmid: str) -> dict:
     """Fetch title and abstract for a single paper from the Entrez API (fallback)."""
-    handle = Entrez.efetch(db="pubmed", id=pmid, rettype="medline", retmode="text")
-    records = list(Medline.parse(handle))
-    if not records:
+    try:
+        handle = _entrez_efetch_with_retries(pmid)
+        records = list(Medline.parse(handle))
+        if not records:
+            return {"title": "Title not available", "abstract": "Abstract not available"}
+        record = records[0]
+        return {
+            "title": record.get("TI", "Title not available"),
+            "abstract": record.get("AB", "Abstract not available"),
+        }
+    except Exception as e:
+        # Keep pipeline running even if one PMID is temporarily unavailable.
+        print(f"  Warning: single PMID fetch failed for {pmid} ({e}).")
         return {"title": "Title not available", "abstract": "Abstract not available"}
-    record = records[0]
-    return {
-        "title": record.get("TI", "Title not available"),
-        "abstract": record.get("AB", "Abstract not available"),
-    }
 
 
 def get_paper_data(pmid: int, dataset_index: dict) -> dict:
@@ -74,10 +106,12 @@ def create_tag(file: str = "datasets/train/train.json") -> tuple:
 
     tag: dict[int, dict] = {}
     adj: dict[int, set] = defaultdict(set)
+    edge_question_words: dict[tuple[int, int], set[str]] = defaultdict(set)
 
     for d in tqdm(dct, desc="Processing questions"):
         ids: list[int] = []
         seen: set[int] = set()
+        q_words = _question_words(d.get("body", ""))
         for url in d["documents"]:
             pmid = int(url.rstrip("/").split("/")[-1])
             if pmid not in seen:
@@ -92,12 +126,15 @@ def create_tag(file: str = "datasets/train/train.json") -> tuple:
                 u, v = ids[i], ids[j]
                 adj[u].add(v)
                 adj[v].add(u)
+                edge_question_words[(min(u, v), max(u, v))].update(q_words)
 
-    return dict(adj), tag
+    return dict(adj), tag, dict(edge_question_words)
 
 
 if __name__ == "__main__":
-    adj, tag = create_tag()
+    adj, tag, edge_question_words = create_tag()
     print(adj)
     with open("knowledge_graph/kg.dat", "wb+") as f:
-        pickle.dump((adj, tag), f)
+        pickle.dump({"adjacency_list": adj,
+                     "tag": tag,
+                     "edge_list": edge_question_words}, f)
