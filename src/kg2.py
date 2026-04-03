@@ -34,8 +34,9 @@ _OLLAMA_URL = "http://localhost:11434/api/generate"
 def _lazy_import_graph_tool():
     global _graph_tool
     if _graph_tool is None:
-        import graph_tool.all as gt
-        _graph_tool = gt
+        # Import only core module to avoid GTK/matplotlib drawing dependencies
+        import graph_tool
+        _graph_tool = graph_tool
     return _graph_tool
 
 
@@ -120,12 +121,15 @@ def collect_pmid_to_questions(questions: list[dict[str, Any]]) -> dict[int, list
     return pmid_to_q
 
 
-def fetch_pubmed_from_huggingface(
+def fetch_pubmed_via_entrez(
     pmids: set[int],
     cache_file: str | None = None,
+    email: str | None = None,
+    api_key: str | None = None,
+    batch_size: int = 200,
 ) -> dict[int, dict[str, Any]]:
     """
-    Fetch PubMed records from HuggingFace dataset.
+    Fetch PubMed records via NCBI Entrez API.
     
     Returns dict[pmid] = {
         "abstract": str,
@@ -133,66 +137,104 @@ def fetch_pubmed_from_huggingface(
         "mesh_terms": list[str]
     }
     """
+    import time
+    import xml.etree.ElementTree as ET
+    
     # Check cache first
     if cache_file and os.path.exists(cache_file):
         print(f"Loading cached PubMed data from {cache_file}")
         with open(cache_file, "r") as f:
             cached = json.load(f)
-        # Convert keys back to int
         return {int(k): v for k, v in cached.items()}
     
-    load_dataset = _lazy_import_datasets()
+    # Set up Entrez credentials
+    entrez_email = email or os.getenv("ENTREZ_EMAIL")
+    if not entrez_email:
+        print("Warning: No email set for Entrez. Set ENTREZ_EMAIL env var for better rate limits.")
+        entrez_email = "anonymous@example.com"
     
-    print(f"Loading PubMed dataset from HuggingFace (filtering {len(pmids)} PMIDs)...")
-    print("Note: First run will download ~50GB. This is cached for future runs.")
+    entrez_api_key = api_key or os.getenv("NCBI_API_KEY")
+    
+    print(f"Fetching {len(pmids)} PubMed records via Entrez API...")
+    if entrez_api_key:
+        print("Using API key (10 requests/sec limit)")
+        delay = 0.1
+    else:
+        print("No API key (3 requests/sec limit). Set NCBI_API_KEY for faster fetching.")
+        delay = 0.34
     
     records: dict[int, dict[str, Any]] = {}
-    pmid_set = set(pmids)
-    found_count = 0
+    pmid_list = sorted(pmids)
     
-    # Stream through dataset to avoid loading everything in memory
-    # Use split="train" as that's the only split in this dataset
-    dataset = load_dataset("ncbi/pubmed", split="train", streaming=True)
-    
-    for record in tqdm(dataset, desc="Scanning PubMed dataset"):
+    for start in tqdm(range(0, len(pmid_list), batch_size), desc="Fetching from Entrez"):
+        batch = pmid_list[start:start + batch_size]
+        
+        # Build Entrez efetch URL
+        base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+        params = {
+            "db": "pubmed",
+            "id": ",".join(str(p) for p in batch),
+            "rettype": "xml",
+            "retmode": "xml",
+            "email": entrez_email,
+        }
+        if entrez_api_key:
+            params["api_key"] = entrez_api_key
+        
         try:
-            pmid = record["MedlineCitation"]["PMID"]
-            if pmid in pmid_set:
-                citation = record["MedlineCitation"]
-                article = citation.get("Article", {})
-                
-                # Extract abstract
-                abstract_data = article.get("Abstract", {})
-                abstract = abstract_data.get("AbstractText", "") if abstract_data else ""
-                
-                # Extract title
-                title = article.get("ArticleTitle", "")
-                
-                # Extract MeSH terms
-                mesh_list = citation.get("MeshHeadingList", {})
-                mesh_headings = mesh_list.get("MeshHeading", []) if mesh_list else []
-                mesh_terms = []
-                for mh in mesh_headings:
-                    if isinstance(mh, dict):
-                        desc = mh.get("DescriptorName", "")
-                        if desc:
-                            mesh_terms.append(desc)
-                
-                records[pmid] = {
-                    "abstract": abstract,
-                    "title": title,
-                    "mesh_terms": mesh_terms,
-                }
-                found_count += 1
-                
-                # Early exit if we found all
-                if found_count >= len(pmid_set):
-                    break
+            response = requests.get(base_url, params=params, timeout=60)
+            response.raise_for_status()
+            
+            # Parse XML response
+            root = ET.fromstring(response.content)
+            
+            for article in root.findall(".//PubmedArticle"):
+                try:
+                    # Get PMID
+                    pmid_elem = article.find(".//PMID")
+                    if pmid_elem is None:
+                        continue
+                    pmid = int(pmid_elem.text)
                     
-        except (KeyError, TypeError):
-            continue
+                    # Get title
+                    title_elem = article.find(".//ArticleTitle")
+                    title = title_elem.text if title_elem is not None and title_elem.text else ""
+                    
+                    # Get abstract (may have multiple AbstractText elements)
+                    abstract_parts = []
+                    for abs_text in article.findall(".//AbstractText"):
+                        if abs_text.text:
+                            # Include label if present (e.g., "BACKGROUND:", "METHODS:")
+                            label = abs_text.get("Label", "")
+                            if label:
+                                abstract_parts.append(f"{label}: {abs_text.text}")
+                            else:
+                                abstract_parts.append(abs_text.text)
+                    abstract = " ".join(abstract_parts)
+                    
+                    # Get MeSH terms
+                    mesh_terms = []
+                    for mesh_heading in article.findall(".//MeshHeading"):
+                        descriptor = mesh_heading.find("DescriptorName")
+                        if descriptor is not None and descriptor.text:
+                            mesh_terms.append(descriptor.text)
+                    
+                    records[pmid] = {
+                        "abstract": abstract,
+                        "title": title,
+                        "mesh_terms": mesh_terms,
+                    }
+                    
+                except (ValueError, AttributeError) as e:
+                    continue
+                    
+        except Exception as e:
+            print(f"Warning: Batch fetch failed: {e}")
+            # Continue with next batch
+        
+        time.sleep(delay)
     
-    print(f"Found {len(records)}/{len(pmids)} PMIDs in HuggingFace dataset")
+    print(f"Fetched {len(records)}/{len(pmids)} PubMed records")
     
     # Cache results
     if cache_file:
@@ -482,7 +524,12 @@ def run_pipeline(args: argparse.Namespace) -> None:
         os.path.dirname(args.output) or ".",
         "pubmed_cache.json"
     )
-    pubmed_records = fetch_pubmed_from_huggingface(all_pmids, cache_file=cache_file)
+    pubmed_records = fetch_pubmed_via_entrez(
+        all_pmids, 
+        cache_file=cache_file,
+        email=args.email,
+        api_key=args.api_key,
+    )
     
     # Extract entities from questions
     print("Extracting entities from questions...")
@@ -606,6 +653,18 @@ def parse_args() -> argparse.Namespace:
         "--skip-relations",
         action="store_true",
         help="Skip relation extraction (faster, document-entity edges only)"
+    )
+    
+    # Entrez API options
+    parser.add_argument(
+        "--email",
+        default=None,
+        help="Email for NCBI Entrez API (or set ENTREZ_EMAIL env var)"
+    )
+    parser.add_argument(
+        "--api-key",
+        default=None,
+        help="NCBI API key for faster rate limits (or set NCBI_API_KEY env var)"
     )
     
     return parser.parse_args()
