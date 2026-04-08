@@ -568,9 +568,9 @@ def run_pipeline(args: argparse.Namespace) -> None:
     print(f"Loading questions from {args.train_file}...")
     questions = load_questions(args.train_file)
     print(f"Loaded {len(questions)} questions")
-    questions = questions[:10]
+
     if args.limit_questions:
-        # questions = questions[:args.limit_questions]
+        questions = questions[:args.limit_questions]
         print(f"Limited to {len(questions)} questions")
     
     # Collect PMIDs
