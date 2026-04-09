@@ -499,69 +499,6 @@ def build_knowledge_graph(
 
 
 # ============================================================================
-# Graph Utilities
-# ============================================================================
-
-def load_graph(path: str) -> Any:
-    """Load a graph-tool graph from .gt file."""
-    gt = _lazy_import_graph_tool()
-    return gt.load_graph(path)
-
-
-def find_node_by_id(g: Any, target_id: str) -> Any | None:
-    """Find a vertex by its ID (PMID or entity name)."""
-    vp_id = g.vp["id"]
-    target_lower = target_id.lower()
-    for v in g.vertices():
-        if vp_id[v] == target_id or vp_id[v] == target_lower:
-            return v
-    return None
-
-
-def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[str, int, str]]:
-    """
-    BFS traversal from a starting node.
-    
-    Args:
-        g: graph-tool Graph
-        start_id: ID of starting node (PMID or entity name)
-        max_steps: Number of hops to traverse
-    
-    Returns:
-        List of (node_id, depth, node_type) tuples in BFS order
-    """
-    from collections import deque
-    
-    start_v = find_node_by_id(g, start_id)
-    if start_v is None:
-        raise ValueError(f"Node '{start_id}' not found")
-    
-    vp_id = g.vp["id"]
-    vp_type = g.vp["type"]
-    
-    visited: set[int] = {int(start_v)}
-    queue: deque[tuple[Any, int]] = deque([(start_v, 0)])
-    result: list[tuple[str, int, str]] = [(vp_id[start_v], 0, vp_type[start_v])]
-    
-    while queue:
-        current_v, depth = queue.popleft()
-        
-        if depth >= max_steps:
-            continue
-        
-        for e in current_v.all_edges():
-            neighbor = e.target() if e.source() == current_v else e.source()
-            neighbor_idx = int(neighbor)
-            
-            if neighbor_idx not in visited:
-                visited.add(neighbor_idx)
-                queue.append((neighbor, depth + 1))
-                result.append((vp_id[neighbor], depth + 1, vp_type[neighbor]))
-    
-    return result
-
-
-# ============================================================================
 # Main Pipeline
 # ============================================================================
 
