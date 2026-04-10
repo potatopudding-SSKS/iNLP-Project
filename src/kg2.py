@@ -260,8 +260,7 @@ def extract_entities_from_question(
     Extract important biomedical entities from a question using local Gemma.
     """
     prompt = (
-        "Extract the most important biomedical entities (diseases, genes, proteins, "
-        "drugs, symptoms, anatomical terms) from this question.\n"
+        "Extract the most important biomedical entities from this question.\n"
         f"Return ONLY a JSON array of up to {top_k} entity names.\n"
         "No explanations, no markdown.\n\n"
         f"Question: {question}"
@@ -523,21 +522,20 @@ def find_node_by_id(g: Any, target_id: str) -> Any | None:
     return None
 
 
-def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[str, int, str]]:
-    
+def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[int, int, str]]:
+    """Return BFS tree edges as (source_idx, target_idx, relation)."""
+
     from collections import deque
     
     start_v = find_node_by_id(g, start_id)
     if start_v is None:
         raise ValueError(f"Node '{start_id}' not found")
     
-    vp_id = g.vp["id"]
-    vp_type = g.vp["type"]
     ep_type = g.ep["relation"]
     
     visited: set[int] = {int(start_v)}
     queue: deque[tuple[Any, int]] = deque([(start_v, 0)])
-    result: list[tuple[str, int, str]] = [(vp_id[start_v], 0, vp_type[start_v])]
+    result: list[tuple[int, int, str]] = []
     
     while queue:
         current_v, depth = queue.popleft()
@@ -552,7 +550,7 @@ def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[str, int, str]]:
             if neighbor_idx not in visited:
                 visited.add(neighbor_idx)
                 queue.append((neighbor, depth + 1))
-                result.append((depth+1, vp_id[neighbor], vp_id[current_v], ep_type[e]))
+                result.append((int(current_v), neighbor_idx, str(ep_type[e])))
     
     return result
 

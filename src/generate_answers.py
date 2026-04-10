@@ -19,6 +19,7 @@ import re
 import os
 import time
 import argparse
+import tempfile
 from pathlib import Path
 from typing import Optional
 import google.generativeai as genai
@@ -26,7 +27,7 @@ import google.generativeai as genai
 # ──────────────────────────────────────────────
 #  Configuration
 # ──────────────────────────────────────────────
-API_KEY = "AIzaSyBFWzEDj991hMHodluOCJXrp4JHxheYnfI"
+API_KEY = "AIzaSyBGD0Yxr2sGXukGRi38Zs_XEWYFKScDktU"
 MODEL_NAME = "gemma-3-27b-it"          # or "gemma-3-12b-it", "gemini-1.5-flash", etc.
 REQUEST_DELAY = 1.0                    # seconds between requests (rate-limit friendly)
 MAX_RETRIES = 3                        # retries on transient errors
@@ -34,7 +35,7 @@ RETRY_DELAY = 5.0                      # seconds to wait before retry
 
 TRAIN_JSON = "datasets/train/train.json"
 OUTPUT_DIR = "outputs"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "baseline_answers.json")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "tag_final_answers.json")
 
 # ──────────────────────────────────────────────
 #  Prompt templates per question type
@@ -117,12 +118,13 @@ def init_model(api_key: str, model_name: str):
     return model
 
 
-def call_api(model, prompt: str, retries: int = MAX_RETRIES) -> str:
+def call_api(model, prompt: str, retries: int = MAX_RETRIES, attached_file=None) -> str:
     """Call the Gemma API with retry logic. Returns the generated text."""
     for attempt in range(1, retries + 1):
         try:
+            payload = [prompt, attached_file] if attached_file is not None else prompt
             response = model.generate_content(
-                prompt,
+                payload,
                 generation_config=genai.types.GenerationConfig(
                     temperature=0.0,        # deterministic / greedy
                     max_output_tokens=256,  # cap output length
@@ -136,6 +138,21 @@ def call_api(model, prompt: str, retries: int = MAX_RETRIES) -> str:
     return ""   # return empty string on complete failure
 
 
+def upload_json_context(structure: dict):
+    """Upload JSON context as a temporary file and return the uploaded file handle."""
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", suffix=".json", delete=False, encoding="utf-8"
+        ) as tmp:
+            json.dump(structure, tmp, ensure_ascii=False, indent=2)
+            temp_path = tmp.name
+        return genai.upload_file(path=temp_path, mime_type="application/json")
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.remove(temp_path)
+
+
 # ──────────────────────────────────────────────
 #  Core generation loop
 # ──────────────────────────────────────────────
@@ -146,6 +163,7 @@ def generate_answers(
     model,
     resume: bool = True,
     limit: Optional[int] = None,
+    tag_evaluation: bool = False,
 ):
     """
     Iterate over all questions in train.json, generate answers via Gemma,
@@ -161,6 +179,11 @@ def generate_answers(
     """
     # Load dataset (with repair for known corrupt entries)
     questions = load_bioasq_json(train_path)["questions"]
+
+    graph = None
+    if tag_evaluation:
+        from kg2 import load_graph
+        graph = load_graph("knowledge_graph/bioasq_kg.gt")
 
     if limit:
         questions = questions[:limit]
@@ -185,6 +208,7 @@ def generate_answers(
             qid = q["id"]
             qtype = q.get("type", "summary")
             body = q["body"]
+            attached_file = None
 
             if qid in done_ids:
                 continue  # already processed in a previous run
@@ -193,9 +217,30 @@ def generate_answers(
             prompt_template = PROMPTS.get(qtype, PROMPTS["summary"])
             prompt = prompt_template.format(question=body)
 
+            if tag_evaluation:
+                try:
+                    from main import process_question
+                    structure = process_question(body, graph)
+                    attached_file = upload_json_context(structure)
+                    prompt = prompt.replace(
+                        "\n\nAnswer:",
+                        "\n\nUse ONLY the attached JSON file (biomedical knowledge graph context) to answer."
+                        "\n\nIf the answer cannot be determined from the attached context, say so explicitly."
+                        "\n\nDo NOT use outside knowledge."
+                        "\n\nAnswer:",
+                    )
+                except Exception as e:
+                    print(f"  [TAG context] Failed to build JSON structure: {e}")
+
             # Generate
             print(f"[{idx:>5}/{total}] type={qtype:<8} id={qid}  Q: {body[:80]}...")
-            generated = call_api(model, prompt)
+            generated = call_api(model, prompt, attached_file=attached_file)
+            if attached_file is not None:
+                try:
+                    genai.delete_file(attached_file.name)
+                except Exception:
+                    # Best-effort cleanup; continue even if remote delete fails.
+                    pass
             time.sleep(REQUEST_DELAY)
 
             # Store
@@ -260,6 +305,10 @@ def parse_args():
         "--api-key", default=API_KEY,
         help="Google Generative AI API key"
     )
+    parser.add_argument(
+        "--tag-evaluation", action="store_true",
+        help="Include create_json graph structure in the LLM prompt"
+    )
     return parser.parse_args()
 
 
@@ -279,4 +328,5 @@ if __name__ == "__main__":
         model=model,
         resume=not args.no_resume,
         limit=args.limit,
+        tag_evaluation=args.tag_evaluation,
     )

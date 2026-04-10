@@ -1,0 +1,19 @@
+{
+  "num_gold_questions": 5389,
+  "num_pred_answers": 650,
+  "num_aligned": 650,
+  "num_missing_predictions": 4739,
+  "counts_by_type_aligned": {
+    "factoid": 182,
+    "summary": 147,
+    "yesno": 177,
+    "list": 144
+  },
+  "skipped": {},
+  "metrics": {
+    "list_f1": 0.2085635702124154,
+    "yesno_macro_f1": 0.7149011299435029,
+    "factoid_mrr": 0.26785714285714285
+  },
+  "ragas_note": "RAGAS not available: No module named 'datasets'"
+}
