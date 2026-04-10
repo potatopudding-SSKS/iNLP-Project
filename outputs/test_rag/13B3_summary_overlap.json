@@ -1,0 +1,17 @@
+{
+  "num_gold_summary_questions": 21,
+  "num_pred_answers": 85,
+  "num_aligned_summary": 21,
+  "num_missing_summary_predictions": 0,
+  "metrics": {
+    "rouge_1_precision": 0.49199447773844784,
+    "rouge_1_recall": 0.07829971012531022,
+    "rouge_1_f1": 0.08748144570643318,
+    "rouge_2_precision": 0.19899693133484878,
+    "rouge_2_recall": 0.014739726206584956,
+    "rouge_2_f1": 0.02330704446950705,
+    "rouge_l_precision": 0.38139679268704846,
+    "rouge_l_recall": 0.05963361663623041,
+    "rouge_l_f1": 0.0633155962805354
+  }
+}
