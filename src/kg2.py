@@ -319,7 +319,7 @@ class RelationExtractor:
         self.model.eval()
         
         # Move to GPU if available
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.device = "cuda" if torch.cuda.is_available() else "xpu"
         self.model.to(self.device)
         print(f"Relation extractor on device: {self.device}")
     
@@ -378,6 +378,7 @@ class RelationExtractor:
             subject = match.group(1).strip()
             relation = match.group(2).strip()
             obj = match.group(3).strip()
+            relation, obj = obj, relation
             if subject and relation and obj:
                 triples.append((subject, relation, obj))
         
@@ -440,6 +441,10 @@ def build_knowledge_graph(
     all_entities: set[str] = set()
     for entities in question_entities.values():
         all_entities.update(_normalize_text(e) for e in entities)
+
+    # all_entities: set[str] = set()
+    for e1,_,e2 in entity_relations:
+        all_entities.update(_normalize_text(e) for e in [e1, e2])
     
     # Add entity nodes
     for entity_name in tqdm(sorted(all_entities), desc="Adding entity nodes"):
@@ -519,17 +524,7 @@ def find_node_by_id(g: Any, target_id: str) -> Any | None:
 
 
 def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[str, int, str]]:
-    """
-    BFS traversal from a starting node.
     
-    Args:
-        g: graph-tool Graph
-        start_id: ID of starting node (PMID or entity name)
-        max_steps: Number of hops to traverse
-    
-    Returns:
-        List of (node_id, depth, node_type) tuples in BFS order
-    """
     from collections import deque
     
     start_v = find_node_by_id(g, start_id)
@@ -538,6 +533,7 @@ def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[str, int, str]]:
     
     vp_id = g.vp["id"]
     vp_type = g.vp["type"]
+    ep_type = g.ep["relation"]
     
     visited: set[int] = {int(start_v)}
     queue: deque[tuple[Any, int]] = deque([(start_v, 0)])
@@ -556,7 +552,7 @@ def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[str, int, str]]:
             if neighbor_idx not in visited:
                 visited.add(neighbor_idx)
                 queue.append((neighbor, depth + 1))
-                result.append((vp_id[neighbor], depth + 1, vp_type[neighbor]))
+                result.append((depth+1, vp_id[neighbor], vp_id[current_v], ep_type[e]))
     
     return result
 
@@ -572,7 +568,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     print(f"Loading questions from {args.train_file}...")
     questions = load_questions(args.train_file)
     print(f"Loaded {len(questions)} questions")
-    
+
     if args.limit_questions:
         questions = questions[:args.limit_questions]
         print(f"Limited to {len(questions)} questions")
@@ -633,7 +629,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
         except Exception as e:
             print(f"Warning: Relation extraction failed: {e}")
             print("Continuing without inter-entity relations...")
-    
+    print(len(pubmed_records))
     # Build graph
     print("Constructing knowledge graph...")
     graph = build_knowledge_graph(
