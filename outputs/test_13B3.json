@@ -248,5 +248,180 @@
     "id": "67fd7a0218b1e36f2e000141",
     "type": "factoid",
     "generated_answer": "Central memory T cells are characterized by high CD45RO and CCR7 expression."
+  },
+  {
+    "id": "67e6b4cb18b1e36f2e0000bb",
+    "type": "summary",
+    "generated_answer": "Xalnesiran is an investigational siRNA therapeutic designed to reduce the production of angiopoietin-like 4 (ANGPTL4). By targeting ANGPTL4, Xalnesiran aims to lower LDL-C and triglycerides, ultimately reducing the risk of cardiovascular events. The drug functions by inducing the degradation of ANGPTL4 mRNA, thereby decreasing ANGPTL4 protein levels in the liver and circulation."
+  },
+  {
+    "id": "67ded26a18b1e36f2e00005d",
+    "type": "summary",
+    "generated_answer": "Tenecteplase is a thrombolytic agent, meaning it is used to break down blood clots. It is a modified form of tissue plasminogen activator (tPA) and is administered as a single intravenous bolus for the early management of acute ischemic stroke. The agent activates plasminogen to plasmin, which then degrades fibrin, the primary structural component of blood clots, thereby restoring blood flow. It is indicated for patients within 4.5 hours of stroke symptom onset."
+  },
+  {
+    "id": "67ed4c9018b1e36f2e0000f5",
+    "type": "yesno",
+    "generated_answer": "No, the provided information details research and development of DNA vaccines, including preclinical and clinical trial data, but does not mention any currently approved DNA vaccines for human use. It focuses on the potential and ongoing studies rather than finalized approvals."
+  },
+  {
+    "id": "67fce38c18b1e36f2e000135",
+    "type": "list",
+    "generated_answer": "Glioblastoma stem cell states identified through chromatin accessibility profiling include a proliferative GSC state, a mesenchymal-prone GSC state, a neural-prone GSC state, and a quiescent GSC state."
+  },
+  {
+    "id": "67e6d27518b1e36f2e0000d4",
+    "type": "factoid",
+    "generated_answer": "Zolbetuximab targets CLDN18.2, a protein expressed on various solid tumors."
+  },
+  {
+    "id": "67cf3b6381b1027333000024",
+    "type": "list",
+    "generated_answer": "Sophoranone, sophoramine, kuraridin, kuraramine, and tonkinine are active compounds that can be extracted from *Sophora tonkinensis*."
+  },
+  {
+    "id": "67ed57e718b1e36f2e0000f9",
+    "type": "list",
+    "generated_answer": "Iatrogenic mortality arises from preventable adverse events during medical care, specifically errors in diagnosis, treatment, or preventative measures, alongside failures in communication and supervision, and systemic issues like inadequate staffing or poorly designed healthcare systems."
+  },
+  {
+    "id": "67fd5d6e18b1e36f2e000139",
+    "type": "factoid",
+    "generated_answer": "1p and 19q are frequently lost chromosomal regions in secondary glioblastoma."
+  },
+  {
+    "id": "67e6b43e18b1e36f2e0000ba",
+    "type": "summary",
+    "generated_answer": "I am unable to answer the question. The provided file does not contain information regarding the mechanism of action of Nexiguran Ziclumeran. The file metadata only details information about the file itself, such as its name, type, size, and timestamps, and does not include any biomedical data."
+  },
+  {
+    "id": "67d01cc581b1027333000026",
+    "type": "yesno",
+    "generated_answer": "No. The provided file does not contain information regarding suicide ideation or GLP-1 agonists. Therefore, a connection between the two cannot be established from the given data."
+  },
+  {
+    "id": "67fbe7b818b1e36f2e00011f",
+    "type": "yesno",
+    "generated_answer": "Yes, data indicates physicians experience higher rates of suicidal ideation and completed suicide compared to the general population, and even compared to other similarly educated professionals. Specifically, male physicians have a 40% higher risk of suicide, and female physicians have an even greater risk – over 70% higher – than their counterparts in the general population. This elevated risk is associated with burnout, depression, and barriers to seeking help."
+  },
+  {
+    "id": "67f6f20618b1e36f2e000103",
+    "type": "factoid",
+    "generated_answer": "CXCL12 is involved in recruiting myeloid-derived suppressor cells to glioblastoma."
+  },
+  {
+    "id": "67e573f418b1e36f2e0000b4",
+    "type": "yesno",
+    "generated_answer": "Yes, Infigratinib demonstrates statistically significant increases in growth velocity and tibial growth compared to placebo in individuals with Achondroplasia, suggesting it is effective for this condition. Clinical trials showed a mean change from baseline in annualized growth velocity of 5.3 cm/year with Infigratinib versus 2.0 cm/year with placebo, and a statistically significant mean change in tibial growth of 1.4 cm with Infigratinib versus -0.3 cm with placebo."
+  },
+  {
+    "id": "67e9342618b1e36f2e0000da",
+    "type": "summary",
+    "generated_answer": "Anthropogenic gadolinium refers to gadolinium that is not from natural sources, but rather originates from human activities. Specifically, it is gadolinium introduced into the environment through the use of gadolinium-based contrast agents (GBCAs) used in magnetic resonance imaging (MRI). Following administration, a small percentage of GBCAs are not excreted and remain in the body, potentially accumulating in tissues and being released into wastewater. This released gadolinium can then be detected in the environment, including drinking water and even in organisms like freshwater mussels and human remains."
+  },
+  {
+    "id": "67e3cf4318b1e36f2e0000a0",
+    "type": "list",
+    "generated_answer": "I am unable to answer the question as the provided file does not contain information regarding the causes of testicular torsion."
+  },
+  {
+    "id": "67fce47a18b1e36f2e000136",
+    "type": "yesno",
+    "generated_answer": "Yes, neuroblastoma and triple-negative breast cancer (TNBC) share mesenchymal-like transcriptional programs, specifically those driven by the YBX1 transcription factor, which promotes a mesenchymal and chemoresistant state in both cancers."
+  },
+  {
+    "id": "67e4571218b1e36f2e0000a7",
+    "type": "yesno",
+    "generated_answer": "Yes, perampanel has been associated with homicidal ideation and aggression, and there have been post-marketing reports of these events, including completed suicides. The information details that neuropsychiatric adverse reactions, including aggression, homicidal ideation, and hostility, have been reported in patients treated with perampanel. These events occurred within the first month of treatment in many cases, but some were later in treatment, and were often associated with worsening of depression, suicidal thoughts, or other psychiatric symptoms."
+  },
+  {
+    "id": "67fbe21f18b1e36f2e000114",
+    "type": "summary",
+    "generated_answer": "I am sorry, but the provided file does not contain information about the symptoms of Ankylosing Spondylitis. Therefore, I cannot fulfill your request."
+  },
+  {
+    "id": "67fbe09d18b1e36f2e000110",
+    "type": "summary",
+    "generated_answer": "Girls with ADHD often present with inattentive symptoms, internalizing difficulties, and emotional dysregulation, which can lead to misdiagnosis or delayed identification. They may exhibit less hyperactive-impulsive behaviors compared to boys, and instead struggle with organization, daydreaming, and low self-esteem. This presentation can manifest as anxiety, depression, or eating disorders, masking the underlying ADHD. Consequently, girls may be perceived as less disruptive and their challenges overlooked, contributing to underdiagnosis and limited access to appropriate support."
+  },
+  {
+    "id": "67fc323818b1e36f2e00012d",
+    "type": "factoid",
+    "generated_answer": "Ectopic expression is the term for when a structural rearrangement places an oncogene under the control of a foreign enhancer."
+  },
+  {
+    "id": "67e457ed18b1e36f2e0000a8",
+    "type": "summary",
+    "generated_answer": "Vutrisiran is designed to reduce the production of transthyretin (TTR) by the liver. It accomplishes this through a mechanism involving RNA interference, specifically targeting and degrading TTR mRNA. This reduction in TTR protein levels aims to mitigate the effects of hereditary transthyretin-mediated amyloidosis with polyneuropathy. Ultimately, Vutrisiran seeks to slow disease progression by addressing the underlying cause of TTR accumulation."
+  },
+  {
+    "id": "67ded64018b1e36f2e000060",
+    "type": "factoid",
+    "generated_answer": "A payload, in the context of a drug, refers to the therapeutic cargo—such as a small molecule, protein, or nucleic acid—that is delivered to a target site by a carrier system."
+  },
+  {
+    "id": "67fbe49218b1e36f2e00011b",
+    "type": "yesno",
+    "generated_answer": "Yes, schizophrenia can be diagnosed after 50, as late-onset schizophrenia is a recognized subtype where symptoms first appear in later life. The information details that while the typical age of onset is early adulthood, a small percentage of individuals experience their first psychotic symptoms after age 50."
+  },
+  {
+    "id": "67eb711718b1e36f2e0000ec",
+    "type": "summary",
+    "generated_answer": "Tumor-treating fields disrupt microtubule formation, a critical process for cell division, ultimately leading to cell death in glioblastoma (GBM). This therapy utilizes electric fields to interfere with GBM cell proliferation and migration. TTFields are intended to be used in combination with temozolomide, demonstrating improved outcomes compared to temozolomide alone, particularly in newly diagnosed and recurrent GBM. The treatment aims to overcome the aggressive and often treatment-resistant nature of this cancer."
+  },
+  {
+    "id": "67e6bed318b1e36f2e0000c4",
+    "type": "factoid",
+    "generated_answer": "Axatilimab targets the human neonatal Fc receptor (FcRn)."
+  },
+  {
+    "id": "67fd087218b1e36f2e000137",
+    "type": "summary",
+    "generated_answer": "Molecular polaritons are created by strongly coupling molecules to photons within an optical cavity. This strong coupling regime arises when the rate of interaction between the molecules and the photons exceeds their individual loss rates. The resulting hybrid light-matter quasiparticles, molecular polaritons, exhibit properties of both molecules and photons."
+  },
+  {
+    "id": "67ed650c18b1e36f2e0000fe",
+    "type": "yesno",
+    "generated_answer": "No. The information details multiple factors potentially contributing to irritable bowel syndrome, including genetics, gut microbiota, immune activation, visceral hypersensitivity, altered gut-brain interactions, and psychological factors. It indicates a complex, multifactorial etiology rather than a single infectious agent."
+  },
+  {
+    "id": "67f6f18918b1e36f2e000101",
+    "type": "factoid",
+    "generated_answer": "The provided file does not contain information regarding the origin of infiltrating macrophages in GBM."
+  },
+  {
+    "id": "67e6c8dd18b1e36f2e0000cc",
+    "type": "list",
+    "generated_answer": "The CAPIRI regimen includes cyclophosphamide, doxorubicin, pirarubicin, and vindesine, alongside granulocyte colony-stimulating factor support."
+  },
+  {
+    "id": "67fb064318b1e36f2e00010d",
+    "type": "factoid",
+    "generated_answer": "Aptamers are made of oligonucleotides, including DNA, RNA, or modified versions of these, that are folded into specific three-dimensional structures."
+  },
+  {
+    "id": "67e2b5fb18b1e36f2e00008e",
+    "type": "yesno",
+    "generated_answer": "Yes, infants born to mothers with Hepatitis B should receive Hepatitis B immune globulin and the Hepatitis B vaccine within 12 hours of life, and can then be breastfed safely with continued vaccination. This is because the vaccine, along with immune globulin, provides protection against infection."
+  },
+  {
+    "id": "67eb701618b1e36f2e0000ea",
+    "type": "list",
+    "generated_answer": "Tumors evade immune responses through several mechanisms including downregulation of MHC class I, reduced antigen presentation, recruitment of immunosuppressive cells like myeloid-derived suppressor cells and regulatory T cells, and secretion of immunosuppressive factors such as TGF-β and IL-10."
+  },
+  {
+    "id": "67e6bd0e18b1e36f2e0000c1",
+    "type": "factoid",
+    "generated_answer": "The question cannot be answered as no information about Lenacapavir or the diseases it is tested in is provided."
+  },
+  {
+    "id": "67d03a2581b1027333000028",
+    "type": "yesno",
+    "generated_answer": "No, Anopheles is the genus of a mosquito, a vector for malaria parasites, but not a parasitic fly itself. The information details Anopheles mosquitoes and their role in transmitting *Plasmodium* parasites which cause malaria, and mentions the parasites infect humans through these mosquitoes. It does not classify Anopheles as a fly."
+  },
+  {
+    "id": "67ed575b18b1e36f2e0000f7",
+    "type": "list",
+    "generated_answer": "The provided files do not contain information regarding the treatment for restless leg syndrome."
   }
 ]

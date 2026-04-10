@@ -27,7 +27,7 @@ from google import genai
 # ──────────────────────────────────────────────
 #  Configuration
 # ──────────────────────────────────────────────
-API_KEY = "AIzaSyBGD0Yxr2sGXukGRi38Zs_XEWYFKScDktU"
+API_KEY = "redacted"
 MODEL_NAME = "gemma-3-27b-it"          # or "gemma-3-12b-it", "gemini-1.5-flash", etc.
 REQUEST_DELAY = 1.0                    # seconds between requests (rate-limit friendly)
 MAX_RETRIES = 3                        # retries on transient errors

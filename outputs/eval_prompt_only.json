@@ -1,0 +1,18 @@
+{
+  "num_gold_questions": 340,
+  "num_pred_answers": 340,
+  "num_aligned": 340,
+  "num_missing_predictions": 0,
+  "counts_by_type_aligned": {
+    "factoid": 95,
+    "list": 83,
+    "yesno": 82,
+    "summary": 80
+  },
+  "skipped": {},
+  "metrics": {
+    "list_f1": 0.18628387460191684,
+    "yesno_macro_f1": 0.8399479505530254,
+    "factoid_mrr": 0.2219298245614035
+  }
+}

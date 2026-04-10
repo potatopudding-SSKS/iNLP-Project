@@ -1,1 +1,427 @@
-[]
+[
+  {
+    "id": "67e6cf2618b1e36f2e0000d0",
+    "type": "yesno",
+    "generated_answer": "No, Zotiraciclib should not be used for glioblastoma. While the data suggests some activity, the overall survival benefit was not statistically significant, and the treatment demonstrated unacceptable toxicity. Specifically, the study evaluating Zotiraciclib in combination with temozolomide showed a trend towards improved progression-free survival, but this did not translate to a significant overall survival advantage, and there were concerning adverse events like increased central nervous system depression and falls."
+  },
+  {
+    "id": "680d5e47353a4a2e6b000005",
+    "type": "factoid",
+    "generated_answer": "Bronchiectasis is a chronic condition characterized by airway inflammation and irreversible dilation."
+  },
+  {
+    "id": "680f4a68353a4a2e6b000007",
+    "type": "yesno",
+    "generated_answer": "Yes, biopharmaceuticals are indicated for treatment-resistant depression, specifically those targeting the glutamatergic system like esketamine, and neuropeptide systems are also being investigated as potential targets. Additionally, there is research into utilizing biomarkers to predict treatment response to biopharmaceuticals in depression, and a focus on personalized medicine approaches using these agents."
+  },
+  {
+    "id": "680a083218b1e36f2e00014d",
+    "type": "yesno",
+    "generated_answer": "Yes, microglia play a role in synaptic pruning during development as they phagocytose synapses via complement-dependent and independent mechanisms. This process is activity-dependent and involves the C1q-C3 signaling pathway, with microglia eliminating weaker synapses to refine neural circuits. Microglial dysfunction can lead to improper synaptic pruning and is implicated in neurodevelopmental disorders."
+  },
+  {
+    "id": "67e5557c18b1e36f2e0000ac",
+    "type": "factoid",
+    "generated_answer": "Fezolinetant targets neurokinin 3 (NK3) receptors in the brain."
+  },
+  {
+    "id": "6810fef8353a4a2e6b000016",
+    "type": "factoid",
+    "generated_answer": "Diethylstilbestrol was used to treat recurrent abortion."
+  },
+  {
+    "id": "6810cb23353a4a2e6b000012",
+    "type": "factoid",
+    "generated_answer": "The provided file does not contain information regarding biopharmaceuticals for pediatric bronchiolitis."
+  },
+  {
+    "id": "680bc7a718b1e36f2e000156",
+    "type": "summary",
+    "generated_answer": "This question cannot be answered from the provided file information. The file metadata describes a JSON file and does not contain any information about the cancer-immunity cycle or related biomedical concepts. It only details file properties like name, type, size, timestamps, and storage information."
+  },
+  {
+    "id": "67e56f2018b1e36f2e0000b0",
+    "type": "summary",
+    "generated_answer": "Iptacopan is a first-in-class, oral factor B inhibitor. By selectively inhibiting factor B, a key serine protease in the alternative complement pathway, iptacopan reduces the production of C3b and downstream complement activation. This mechanism aims to restore complement control and reduce inflammation in diseases driven by excessive or inappropriate complement activation."
+  },
+  {
+    "id": "67fe5f0918b1e36f2e000144",
+    "type": "factoid",
+    "generated_answer": "The previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) is NASH."
+  },
+  {
+    "id": "67fbe4d718b1e36f2e00011d",
+    "type": "summary",
+    "generated_answer": "I am unable to answer this question. The provided file does not contain information regarding the genetic basis of addiction. It appears to be metadata about a file, but the file's content is not accessible to me, and therefore I cannot determine its relevance to the question."
+  },
+  {
+    "id": "680a079718b1e36f2e000147",
+    "type": "yesno",
+    "generated_answer": "No, natural killer (NK) cells do not require antigen presentation to eliminate cancer cells. They recognize and respond to cells that have lost or downregulate MHC class I molecules, a common characteristic of many cancer cells, without prior sensitization or antigen presentation. This allows them to directly lyse target cells without the need for antibodies or T cell help."
+  },
+  {
+    "id": "67e5749b18b1e36f2e0000b5",
+    "type": "list",
+    "generated_answer": "Blinatumomab targets CD19-positive B-cells and CD3-positive T-cells."
+  },
+  {
+    "id": "680d5f2a353a4a2e6b000006",
+    "type": "summary",
+    "generated_answer": "Erdosteine is a mucolytic agent investigated for its potential to improve outcomes in patients with bronchiectasis. Clinical trials suggest that Erdosteine can reduce the frequency of exacerbations and enhance quality of life in individuals with this condition. Furthermore, the agent appears to positively impact bronchial health by decreasing mucus production and improving mucociliary clearance, ultimately lessening the burden of bronchiectasis."
+  },
+  {
+    "id": "6810f6f0353a4a2e6b000015",
+    "type": "yesno",
+    "generated_answer": "No, GLP-1 receptor agonists are not currently approved for use in children under 10 years of age for obesity. The information details approvals for adolescent patients aged 12 years and older with obesity, and specifies a lack of safety and efficacy data for younger children. While studies are ongoing to evaluate use in younger populations, current guidelines restrict use to those 12 and up."
+  },
+  {
+    "id": "680a237618b1e36f2e000152",
+    "type": "yesno",
+    "generated_answer": "Yes, radiomic features demonstrate significant prognostic value for overall survival and progression-free survival in glioblastoma patients, and can independently predict survival outcomes. Models incorporating these features outperform traditional clinical parameters in predicting survival."
+  },
+  {
+    "id": "68110110353a4a2e6b000018",
+    "type": "yesno",
+    "generated_answer": "Yes, N‐acetylcysteine treatment improves survival in patients with acute liver failure associated with paracetamol overdose. The data demonstrates that patients treated with N‐acetylcysteine had a significantly higher survival rate compared to those who did not receive the treatment, with a 68% survival rate versus 45%. Additionally, the need for liver transplantation was lower in the N‐acetylcysteine group (19% versus 36%)."
+  },
+  {
+    "id": "680f4c63353a4a2e6b00000d",
+    "type": "factoid",
+    "generated_answer": "The pharmacological treatment of urinary schistosomiasis is praziquantel, typically administered as a single dose."
+  },
+  {
+    "id": "680a087218b1e36f2e00014f",
+    "type": "list",
+    "generated_answer": "Radiomics typically extracts features relating to the shape and size of the region of interest, the intensity distribution of voxels within it, and higher-order textural features describing spatial relationships between voxels."
+  },
+  {
+    "id": "6810daad353a4a2e6b000013",
+    "type": "list",
+    "generated_answer": "Since no information is provided, it is impossible to determine what diseases are treated with fecal transplants."
+  },
+  {
+    "id": "6810c27b353a4a2e6b000010",
+    "type": "yesno",
+    "generated_answer": "No, sertraline is not recommended for use in children under 6 years old due to a lack of safety and efficacy data, and its use between 6 and 10 years should be carefully considered with monitoring for potential adverse effects on bone development."
+  },
+  {
+    "id": "680a07a418b1e36f2e000148",
+    "type": "factoid",
+    "generated_answer": "Dendritic cells and macrophages are the primary antigen-presenting cells."
+  },
+  {
+    "id": "67fbd58c18b1e36f2e00010e",
+    "type": "yesno",
+    "generated_answer": "Yes, the data indicates that a hallmark of neurodegenerative diseases is the accumulation of misfolded and aggregated proteins. This buildup is directly linked to neuronal dysfunction and eventual neuronal death, as observed through various assays measuring protein aggregation, neuronal viability, and functional deficits. Specifically, increased levels of aggregated proteins correlate with reduced neuronal function and heightened cell death markers."
+  },
+  {
+    "id": "67fbe10618b1e36f2e000111",
+    "type": "list",
+    "generated_answer": "I am unable to answer the question as the provided file does not contain information regarding differential traits of autism spectrum disorders in girls."
+  },
+  {
+    "id": "680fcb72353a4a2e6b00000e",
+    "type": "list",
+    "generated_answer": "The major classes of immunoglobulins are IgG, IgM, IgA, IgE, and IgD, each possessing distinct biological functions and structural characteristics related to immune responses."
+  },
+  {
+    "id": "6805568118b1e36f2e000145",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information about DORA type drugs, therefore a list cannot be generated."
+  },
+  {
+    "id": "67e26b0b18b1e36f2e000073",
+    "type": "yesno",
+    "generated_answer": "No, takotsubo cardiomyopathy is more common in postmenopausal women. The condition is rare in men, accounting for approximately 10% of cases."
+  },
+  {
+    "id": "680a080b18b1e36f2e00014b",
+    "type": "summary",
+    "generated_answer": "Radiomics is the high-throughput extraction of quantitative features from radiographic images. These features, beyond what is perceivable by the human eye, are then used to build predictive models. It integrates imaging and data mining to characterize tumor phenotypes and predict response to therapy, potentially improving personalized medicine approaches. Radiomics aims to translate imaging data into clinically relevant information for improved diagnosis, prognosis, and treatment planning."
+  },
+  {
+    "id": "6810db0a353a4a2e6b000014",
+    "type": "factoid",
+    "generated_answer": "The cause of Fibromyalgia is currently unknown, but it is believed to involve widespread pain amplification due to problems with how the central nervous system processes pain signals, potentially linked to genetic predisposition and environmental factors like infections or psychological stress."
+  },
+  {
+    "id": "67e2cfcf18b1e36f2e00009a",
+    "type": "list",
+    "generated_answer": "The file does not contain information regarding the prevention of osteoporosis in postmenopausal women."
+  },
+  {
+    "id": "680a081d18b1e36f2e00014c",
+    "type": "summary",
+    "generated_answer": "I am sorry, but the provided file does not contain information about the functions of astrocytes in the CNS. Therefore, I cannot answer the question."
+  },
+  {
+    "id": "6810ff8f353a4a2e6b000017",
+    "type": "yesno",
+    "generated_answer": "No. The provided information details laparoscopic salpingectomy as a procedure for ovarian cancer risk reduction and does not mention testicular cancer or its treatment. It focuses on fallopian tube removal and its relation to high-grade serous carcinoma of the ovary, fallopian tube cancer, and peritoneal cancer."
+  },
+  {
+    "id": "67fbe21818b1e36f2e000113",
+    "type": "list",
+    "generated_answer": "I am unable to answer the question as the provided file does not contain information regarding factors associated with thyroid cancer."
+  },
+  {
+    "id": "67fc20ee18b1e36f2e00012a",
+    "type": "yesno",
+    "generated_answer": "Yes, glioblastoma tumors frequently exhibit a notable presence of lymphocytes within their microenvironment, though this infiltration doesn't necessarily correlate with improved patient outcomes. The degree of lymphocyte infiltration varies, and the specific types of lymphocytes present—such as CD8+ T cells—can differ significantly between patients. Furthermore, the spatial distribution of these lymphocytes within the tumor is crucial; perivascular localization is often observed, but penetration into the tumor core is less common. The presence of these immune cells indicates an immune response, but the tumor often employs mechanisms to suppress effective anti-tumor immunity."
+  },
+  {
+    "id": "67f8527318b1e36f2e000104",
+    "type": "list",
+    "generated_answer": "The types of videolaryngoscopy for adults undergoing tracheal intubation are direct, indirect, and fiberoptic."
+  },
+  {
+    "id": "680f4ae9353a4a2e6b000009",
+    "type": "yesno",
+    "generated_answer": "No. The information details Electroconvulsive Therapy as a potential treatment for status epilepticus and super-refractory status epilepticus, suggesting it is used in specific, severe epilepsy-related conditions rather than as a general treatment *for* epilepsy itself."
+  },
+  {
+    "id": "67fd922518b1e36f2e000143",
+    "type": "summary",
+    "generated_answer": "The M1/M2 macrophage polarization paradigm describes macrophages as exhibiting distinct phenotypes within the tumor microenvironment. M1 macrophages are typically induced by IFN-γ and LPS, promoting anti-tumor immunity through pro-inflammatory cytokine production and direct cytotoxicity. Conversely, M2 macrophages are polarized by IL-4, IL-10, and IL-13, suppressing anti-tumor responses and fostering angiogenesis and tumor progression. This polarization is often plastic and influenced by signals within the tumor microenvironment, impacting therapeutic efficacy."
+  },
+  {
+    "id": "67fc1a3818b1e36f2e000129",
+    "type": "factoid",
+    "generated_answer": "Nissen fundoplication is a surgical procedure where the upper part of the stomach is wrapped around the lower esophagus to reinforce the lower esophageal sphincter, reducing the likelihood of stomach acid flowing back into the esophagus and alleviating symptoms of gastroesophageal reflux disease."
+  },
+  {
+    "id": "67e285b018b1e36f2e00007b",
+    "type": "factoid",
+    "generated_answer": "The provided file does not contain information about genetic variants in Turner syndrome."
+  },
+  {
+    "id": "680a07f918b1e36f2e00014a",
+    "type": "factoid",
+    "generated_answer": "The data details mitochondrial dysfunction impacting ATP production, indicating mitochondria are responsible for ATP production."
+  },
+  {
+    "id": "67cdc78381b102733300001a",
+    "type": "factoid",
+    "generated_answer": "Biliary atresia commonly affects infants, typically presenting within the first few weeks of life and often diagnosed before three months of age."
+  },
+  {
+    "id": "67d7ff2c18b1e36f2e000049",
+    "type": "list",
+    "generated_answer": "Unfortunately, the provided file does not contain information regarding manifestations of gluten allergy or intolerance; therefore, I cannot answer the question."
+  },
+  {
+    "id": "680a084018b1e36f2e00014e",
+    "type": "yesno",
+    "generated_answer": "No, T cells do not typically enter the CNS in healthy individuals due to the blood-brain barrier and the requirement of specific activation for entry. The document details that T cell entry is observed in the CNS during disease states like multiple sclerosis, indicating it is not a normal occurrence. Furthermore, the process requires specific chemokine signaling and adhesion molecule expression, which are not constitutively active in a healthy CNS."
+  },
+  {
+    "id": "67cde41a81b102733300001d",
+    "type": "yesno",
+    "generated_answer": "Yes, urolithiasis is the same thing as kidney stones. The document defines urolithiasis as stones occurring in the urinary system, specifically mentioning kidney stones, ureteral stones, and bladder stones as examples of urolithiasis."
+  },
+  {
+    "id": "67e2b80618b1e36f2e00008f",
+    "type": "summary",
+    "generated_answer": "I am unable to answer this question. The provided file does not contain information regarding the acquisition of *Legionella pneumophila*. Therefore, I cannot provide an answer based solely on the given content."
+  },
+  {
+    "id": "680a21ff18b1e36f2e000151",
+    "type": "summary",
+    "generated_answer": "The choroid plexus, located within the ventricles of the brain, actively participates in immune surveillance by expressing both innate and adaptive immune molecules. It functions as a site of interaction between the cerebrospinal fluid and the systemic immune system, facilitating immune cell trafficking. Specifically, the choroid plexus epithelium expresses MHC class I and II molecules, enabling antigen presentation and T cell activation, and also secretes chemokines that recruit immune cells to the central nervous system. This positioning and functionality allow it to monitor the cerebrospinal fluid for pathogens and initiate immune responses when necessary."
+  },
+  {
+    "id": "67fc546c18b1e36f2e000130",
+    "type": "yesno",
+    "generated_answer": "No. The provided file does not contain information regarding a link between antibiotic use and hiccups."
+  },
+  {
+    "id": "680f4aa6353a4a2e6b000008",
+    "type": "summary",
+    "generated_answer": "Snake antivenoms contain antibodies that bind to snake venom toxins, neutralizing their harmful effects. These antibodies are produced by immunizing animals, such as horses or sheep, with small amounts of venom. The resulting serum is then processed to purify and concentrate the antibodies, creating the antivenom used to treat snakebites. Different antivenoms are specific to the venoms of different snake species or groups of species."
+  },
+  {
+    "id": "680a078618b1e36f2e000146",
+    "type": "yesno",
+    "generated_answer": "No, microglia and peripheral macrophages have distinct ontogenies. Microglia originate from yolk-sac derived progenitors, establishing themselves in the central nervous system early in development, independent of hematopoietic stem cell-derived monocytes which give rise to peripheral macrophages. While both are part of the mononuclear phagocyte system, their developmental origins differ."
+  },
+  {
+    "id": "67e098cb18b1e36f2e00006d",
+    "type": "summary",
+    "generated_answer": "The provided file does not contain information about gastric pacemakers or how they function. Therefore, it is impossible to answer the question using only the given content."
+  },
+  {
+    "id": "67d6be8a18b1e36f2e000022",
+    "type": "yesno",
+    "generated_answer": "Yes, glaucoma can occur in newborns, as congenital glaucoma is specifically mentioned and described as a rare condition present at birth, often due to improper development of the drainage angle. The information details various forms affecting different age groups, including this neonatal presentation."
+  },
+  {
+    "id": "680bc74618b1e36f2e000155",
+    "type": "list",
+    "generated_answer": "The file details advances in cancer immunotherapy including bispecific antibodies, cellular therapies like CAR-T cells and TIL therapy, oncolytic viruses, and cancer vaccines targeting neoantigens and utilizing mRNA technology, alongside strategies to overcome resistance such as combination therapies and modulation of the tumor microenvironment."
+  },
+  {
+    "id": "67f857eb18b1e36f2e000105",
+    "type": "yesno",
+    "generated_answer": "Yes, delirium is a frequent complication after cardiac surgery, affecting over 20% of patients. It is associated with increased morbidity and mortality, longer hospital stays, and higher healthcare costs."
+  },
+  {
+    "id": "67e291a718b1e36f2e000081",
+    "type": "list",
+    "generated_answer": "The document details several phobias including arachnophobia, ochophobia, acrophobia, agoraphobia, and trypanophobia, alongside their respective triggers of spiders, crowds, heights, open spaces, and medical injections."
+  },
+  {
+    "id": "680b7f4818b1e36f2e000154",
+    "type": "summary",
+    "generated_answer": "Convolutional neural networks (CNNs) can be used to automatically extract quantitative features from medical images, bypassing the need for manual feature engineering. These networks are particularly effective at identifying complex patterns and textures within images, which can be indicative of disease. CNNs can also be implemented for image segmentation, delineating regions of interest for more precise radiomic analysis, and for classification tasks to predict treatment response or disease prognosis. Ultimately, CNNs enhance the efficiency and robustness of radiomic workflows."
+  },
+  {
+    "id": "67cde43c81b102733300001e",
+    "type": "summary",
+    "generated_answer": "Graves disease is an autoimmune disorder resulting in hyperthyroidism, commonly caused by antibodies activating the TSH receptor. This activation leads to excessive thyroid hormone production and can manifest with symptoms like ophthalmopathy and dermopathy. Treatment options include antithyroid drugs, radioactive iodine therapy, and thyroidectomy, aiming to restore normal thyroid function and manage associated symptoms. Genetic predisposition and environmental factors contribute to the development of this condition, with a higher prevalence among females."
+  },
+  {
+    "id": "67e2958018b1e36f2e000084",
+    "type": "yesno",
+    "generated_answer": "Yes, the data includes information on genome-wide association studies (GWAS) identifying common genetic variants associated with suicidal behavior, as well as studies exploring rare copy number variations and polygenic scores related to suicide risk. It also details research into the genetics of psychiatric disorders that frequently co-occur with suicide, such as major depressive disorder and schizophrenia."
+  },
+  {
+    "id": "680c174d353a4a2e6b000001",
+    "type": "list",
+    "generated_answer": "Common post-translational modifications of proteins include acetylation, alkylation, amidation, carboxylation, formylation, glycosylation, hydroxylation, methylation, phosphorylation, and ubiquitination."
+  },
+  {
+    "id": "67e0053118b1e36f2e000067",
+    "type": "yesno",
+    "generated_answer": "Yes, both MiOXSYS and OxiSperm are described as methods for measuring ROS levels in sperm, specifically utilizing chemiluminescence to quantify the emission of light produced during the reaction of ROS with specific probes. MiOXSYS measures total ROS, while OxiSperm differentiates between total ROS and superoxide radicals."
+  },
+  {
+    "id": "67e2a8d618b1e36f2e000088",
+    "type": "list",
+    "generated_answer": "Hookworm, trichuriasis, and schistosomiasis are parasitic infections that can cause anemia."
+  },
+  {
+    "id": "680a07ed18b1e36f2e000149",
+    "type": "factoid",
+    "generated_answer": "The provided file does not contain information about neurotransmitters or muscle activation."
+  },
+  {
+    "id": "67e93f2d18b1e36f2e0000db",
+    "type": "factoid",
+    "generated_answer": "Gadolinium-based contrast agents used in magnetic resonance imaging cause nephrogenic systemic fibrosis in patients with impaired kidney function."
+  },
+  {
+    "id": "67e2bde318b1e36f2e000093",
+    "type": "yesno",
+    "generated_answer": "Yes, obesity is a risk factor for sleep apnea. The information details how increased body mass index is associated with a higher apnea-hypopnea index, indicating greater severity of sleep apnea, and that weight loss can improve the condition."
+  },
+  {
+    "id": "680c137818b1e36f2e000158",
+    "type": "list",
+    "generated_answer": "Tumor microenvironment components, like pericytes, characteristically promote sustaining proliferative signaling, resisting cell death, inducing angiogenesis, activating invasion and metastasis, and evading immune destruction."
+  },
+  {
+    "id": "67ca061181b102733300000a",
+    "type": "factoid",
+    "generated_answer": "XIST proteins mediate the coating of chromosomes with RNA, leading to gene silencing and ultimately, X-chromosome inactivation."
+  },
+  {
+    "id": "67e26d6218b1e36f2e000074",
+    "type": "factoid",
+    "generated_answer": "The typical age range of onset for systemic scleroderma is between 30 and 50 years."
+  },
+  {
+    "id": "680a21eb18b1e36f2e000150",
+    "type": "factoid",
+    "generated_answer": "Oligodendrocytes are responsible for myelination in the central nervous system."
+  },
+  {
+    "id": "67fa3c5818b1e36f2e000109",
+    "type": "factoid",
+    "generated_answer": "BIONDA is a novel, broadly neutralizing antibody targeting the receptor-binding domain of SARS-CoV-2, exhibiting potent in vitro neutralization against multiple variants including BA.4/BA.5, BQ.1.1, and XBB.1.5, and demonstrating efficacy in vivo in a K18-hACE2 mouse model."
+  },
+  {
+    "id": "6810c54b353a4a2e6b000011",
+    "type": "list",
+    "generated_answer": "I am unable to answer the question as the provided file does not contain information regarding indications for electro-convulsive therapy."
+  },
+  {
+    "id": "67fd5d6518b1e36f2e000138",
+    "type": "factoid",
+    "generated_answer": "A common chromosome-level gain in glioblastoma is amplification of the entire chromosome 7."
+  },
+  {
+    "id": "67fb046e18b1e36f2e00010c",
+    "type": "factoid",
+    "generated_answer": "Zanidatamab targets the CD30 protein expressed on tumor cells and T cells."
+  },
+  {
+    "id": "67d6bbfa18b1e36f2e000020",
+    "type": "summary",
+    "generated_answer": "HIV infection diagnosis involves identifying antibodies against the virus or HIV antigens themselves. Testing can detect the virus directly through methods like HIV RNA detection, or indirectly by looking for the body’s immune response to the virus. Confirmation is typically done with further testing to rule out false positives and differentiate between HIV-1 and HIV-2."
+  },
+  {
+    "id": "680fe1e3353a4a2e6b00000f",
+    "type": "yesno",
+    "generated_answer": "No. A single-nucleotide polymorphism is a variation at a single position in a DNA sequence, specifically when it occurs at a frequency of at least 1% in the population. A mutation, however, is a change in the DNA sequence that is not necessarily common and can occur spontaneously or be induced. Therefore, while a SNP *is* a type of genetic variation, not all mutations are SNPs because SNPs are common variations while mutations are not restricted by frequency."
+  },
+  {
+    "id": "680d5dd8353a4a2e6b000004",
+    "type": "summary",
+    "generated_answer": "Melatonin is present in human milk, with concentrations varying throughout the day and being highest at night. Melatonin levels in milk correlate with maternal circulating levels, suggesting a potential role in infant sleep regulation. The amount of melatonin transferred to infants through breast milk is influenced by maternal intake and circadian rhythms. Furthermore, melatonin in human milk exhibits antioxidant properties and may contribute to infant gut health."
+  },
+  {
+    "id": "67d7208218b1e36f2e00002e",
+    "type": "summary",
+    "generated_answer": "I am unable to answer this question. The provided file does not contain information regarding the physiopathology of alopecia. Therefore, I cannot formulate a response based solely on the given content."
+  },
+  {
+    "id": "67fc381f18b1e36f2e00012f",
+    "type": "summary",
+    "generated_answer": "Phenotype switching in melanoma involves transitions between invasive and non-invasive states, driven by changes in cell morphology and gene expression. This process is regulated by signaling pathways like MAPK and Wnt, and is influenced by the tumor microenvironment. Specifically, melanoma cells can switch between mesenchymal and amoeboid invasion phenotypes, impacting their metastatic potential and response to therapy. Ultimately, phenotype switching contributes to treatment resistance and disease progression in melanoma."
+  },
+  {
+    "id": "67c9e46881b1027333000004",
+    "type": "summary",
+    "generated_answer": "Neoantigens are peptides derived from mutated proteins within cancer cells. These peptides are presented on the cell surface via MHC molecules, making them recognizable by the immune system, specifically T cells. Importantly, neoantigens are not found in normal cells, representing a target for personalized cancer immunotherapy designed to elicit an anti-tumor immune response. The prediction of neoantigens relies on understanding an individual’s tumor mutations and their potential to bind to MHC molecules."
+  },
+  {
+    "id": "67fbe2ab18b1e36f2e000116",
+    "type": "yesno",
+    "generated_answer": "Yes, hyaluronic acid injections can improve knee pain. The data indicates a statistically significant reduction in WOMAC pain scores following injections, and a substantial proportion of patients experienced clinically meaningful improvements, with some maintaining benefits for up to 52 weeks. Furthermore, the injections demonstrated a favorable safety profile."
+  },
+  {
+    "id": "67eaf14c18b1e36f2e0000de",
+    "type": "list",
+    "generated_answer": "The transcription factors important to define human astrocyte identity are SOX9, NFIB, and STAT3."
+  },
+  {
+    "id": "67c9e7ee81b1027333000007",
+    "type": "yesno",
+    "generated_answer": "Yes, Peto's Paradox is associated with cancer rates. The information details that larger and longer-lived species should have higher cancer rates, yet this is not observed in humans, which is the core of Peto's Paradox. The document further explores mechanisms attempting to explain this observation, specifically focusing on the role of p53 and its influence on cancer development across different species and lifespans."
+  },
+  {
+    "id": "67d71d8f18b1e36f2e00002b",
+    "type": "factoid",
+    "generated_answer": "Clostridioides difficile is an anaerobic bacterium that thrives in the absence of oxygen and produces spores that can survive for extended periods."
+  },
+  {
+    "id": "67cdb26a81b1027333000017",
+    "type": "list",
+    "generated_answer": "Sodium-glucose cotransporter 2 inhibitors reduce the risk of cardiovascular death, nonfatal myocardial infarction, and nonfatal stroke, as well as slow the progression of renal disease and reduce the risk of hospitalization for heart failure."
+  },
+  {
+    "id": "67e2b0a018b1e36f2e00008b",
+    "type": "factoid",
+    "generated_answer": "Escherichia coli is the most common cause of uncomplicated urinary tract infections."
+  },
+  {
+    "id": "67e090be18b1e36f2e00006c",
+    "type": "yesno",
+    "generated_answer": "Yes, Bacillus Clausii is a probiotic because it is listed as a probiotic strain within a formulation designed for gut health and microbiome support."
+  },
+  {
+    "id": "67d7fded18b1e36f2e000042",
+    "type": "list",
+    "generated_answer": "Symptoms of chlamydia genital infection in women include abnormal vaginal discharge, a burning sensation when urinating, lower abdominal pain, painful sexual intercourse, bleeding between periods, and postcoital bleeding."
+  }
+]

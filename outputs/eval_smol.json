@@ -1,19 +1,18 @@
 {
   "num_gold_questions": 85,
-  "num_pred_answers": 50,
-  "num_aligned": 50,
-  "num_missing_predictions": 35,
+  "num_pred_answers": 85,
+  "num_aligned": 85,
+  "num_missing_predictions": 0,
   "counts_by_type_aligned": {
-    "summary": 12,
-    "list": 15,
-    "yesno": 12,
-    "factoid": 11
+    "factoid": 26,
+    "list": 23,
+    "yesno": 17,
+    "summary": 19
   },
   "skipped": {},
   "metrics": {
-    "list_f1": 0.23555555555555555,
-    "yesno_macro_f1": 0.625,
-    "factoid_mrr": 0.4090909090909091
-  },
-  "ragas_note": "RAGAS not available: No module named 'datasets'"
+    "list_f1": 0.17839105339105338,
+    "yesno_macro_f1": 0.7166666666666667,
+    "factoid_mrr": 0.09615384615384616
+  }
 }
