@@ -1,0 +1,19 @@
+{
+  "num_gold_questions": 85,
+  "num_pred_answers": 85,
+  "num_aligned": 85,
+  "num_missing_predictions": 0,
+  "counts_by_type_aligned": {
+    "list": 22,
+    "yesno": 22,
+    "summary": 21,
+    "factoid": 20
+  },
+  "skipped": {},
+  "metrics": {
+    "list_f1": 0.09810483634013045,
+    "yesno_macro_f1": 0.5108695652173914,
+    "factoid_mrr": 0.2125
+  },
+  "ragas_note": "RAGAS not available: No module named 'ragas'"
+}
