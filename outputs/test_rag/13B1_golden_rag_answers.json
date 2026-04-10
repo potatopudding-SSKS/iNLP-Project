@@ -1,0 +1,427 @@
+[
+  {
+    "id": "67d74cde18b1e36f2e00003c",
+    "type": "summary",
+    "generated_answer": "The provided text does not contain information about RankMHC. Therefore, a description of RankMHC cannot be formulated from the given information. The documents discuss PMO treatment, lentiviral vectors, lung cancer association with polymyositis/dermatomyositis, the Mediator complex, and histone methyltransferase purification, but none relate to RankMHC."
+  },
+  {
+    "id": "65f7741fc4010b4d78000027",
+    "type": "factoid",
+    "generated_answer": "The proportion of colorectal cancer cases not assignable to any of the consensus molecular subtype (CMS) groups is not explicitly stated, but the provided information indicates that all tumors studied were classified into one of the four CMS groups (CMS1, CMS2, CMS3, and CMS4)."
+  },
+  {
+    "id": "67cc973e81b1027333000011",
+    "type": "list",
+    "generated_answer": "Avanafil, sildenafil, vardenafil, and tadalafil are phosphodiesterase-5 inhibitors, and tofacitinib is a pan-JAK inhibitor characterized by a short half-life."
+  },
+  {
+    "id": "67d722e818b1e36f2e000036",
+    "type": "summary",
+    "generated_answer": "Irritable bowel syndrome is a functional gastrointestinal disorder characterized by abdominal pain and altered bowel habits, and its development is multifactorial. Its pathophysiology involves abnormalities in gut-brain interactions, visceral hypersensitivity, altered colon motility, and psychological factors, alongside dysregulation of communication between the brain and gut. Alterations in intestinal motility, gut permeability, and gut microbiota composition are also associated with IBS, potentially influenced by epigenetic factors and metabolites produced by the gut microbiota. While not fully understood, the condition is linked to both intra-intestinal and extra-intestinal factors, including psychiatric comorbidities."
+  },
+  {
+    "id": "67da17c918b1e36f2e000055",
+    "type": "summary",
+    "generated_answer": "AXL receptor tyrosine kinase promotes survival and chemoresistance in cancer cells and is often upregulated in malignancies like glioma and acute myeloid leukemia. EZH2 drives glioma invasiveness through transcriptional control of AXL, and AXL expression correlates with malignancy in human gliomas. Additionally, AXL plays a role in activating FLT3, which is implicated in the pathogenesis of acute myeloid leukemia, and can contribute to resistance to treatments like crizotinib in lung tumors."
+  },
+  {
+    "id": "66301d1d187cba990d000026",
+    "type": "yesno",
+    "generated_answer": "Yes, patients with low forced vital capacity (FVC) values, which indicate respiratory muscle weakness, had low levels of serum miR-1 and miR-133b. Additionally, life expectancy is increasing with advances in respiratory care, making preservation of hand function increasingly important with advanced disease."
+  },
+  {
+    "id": "67d3518718b1e36f2e000008",
+    "type": "factoid",
+    "generated_answer": "Rare cases of early-onset familial Parkinson’s Disease are mutated in the UCHL1 gene, and loss of UCHL1 activity has been reported in many neurodegenerative diseases."
+  },
+  {
+    "id": "662154f0b9f8b89d7e000009",
+    "type": "factoid",
+    "generated_answer": "First-line triplet or doublet chemotherapy combined with targeted therapy is the systemic treatment used in conversion therapy for colorectal cancer with potentially resectable liver metastasis."
+  },
+  {
+    "id": "67c847f581b1027333000003",
+    "type": "yesno",
+    "generated_answer": "Yes, age is an underlying factor in AMD, as it is referred to as “age-related” macular degeneration throughout the provided information and is described as potentially being exacerbated with age due to increasing iron levels. It is also noted as a disease of aging alongside Alzheimer’s disease and glaucoma."
+  },
+  {
+    "id": "67d7fe2618b1e36f2e000044",
+    "type": "factoid",
+    "generated_answer": "Zika virus is primarily transmitted by the Aedes aegypti mosquito, and changes in climate contribute to the spread of Aedes vectors carrying the virus."
+  },
+  {
+    "id": "67d7503018b1e36f2e00003e",
+    "type": "list",
+    "generated_answer": "STAT3 and AP-1 are the main transcription factors driving the mesenchymal-like state, as STAT3 contributes to glioblastoma multiforme stem-like cell development and maintenance, while AP-1 is responsible for MES enhancer activity in melanoma, a cancer that also exhibits mesenchymal characteristics."
+  },
+  {
+    "id": "67d34fb318b1e36f2e000007",
+    "type": "factoid",
+    "generated_answer": "The provided text does not contain information about the role of AAAGG in RFC1 repeat expansions."
+  },
+  {
+    "id": "662fc277187cba990d000013",
+    "type": "yesno",
+    "generated_answer": "No, its relevance in clinical practice is still under investigation. While efforts are being made to combine molecular features of colorectal cancer using the CMS classification, it has not yet been implemented in routine care, and further validation is needed to determine its utility in predicting responses to treatments like bevacizumab."
+  },
+  {
+    "id": "67cddce881b102733300001c",
+    "type": "list",
+    "generated_answer": "Major complications of Clostridium difficile infection include being a common nosocomial infection, surpassing other bacterial infections as a leading cause of these infections, recurrence after antibiotic treatment, and dysbiosis of the gut microbiota due to antibiotic consumption."
+  },
+  {
+    "id": "67d43cd218b1e36f2e000011",
+    "type": "list",
+    "generated_answer": "Polycystic ovarian syndrome presents with hormonal dysfunction, oligoanovulation, clinical and biochemical hyperandrogenism, polycystic ovaries, and can be associated with infertility, as well as potentially manifesting as pleural effusion and ascites mimicking ovarian cancer."
+  },
+  {
+    "id": "67d9f6a418b1e36f2e000051",
+    "type": "list",
+    "generated_answer": "Sox10 is a well-conserved transcription factor involved in the determination of cell fate within the oligodendrocyte lineage, and platelet-derived growth factor receptor alpha (PDGFalpha-R) serves as an OPC marker, while neural crest cells also contribute to the oligodendrocyte lineage."
+  },
+  {
+    "id": "67d7531018b1e36f2e000041",
+    "type": "list",
+    "generated_answer": "Data from a phase III randomized trial performed on advanced NSCLC patients and studies analyzing data from 2186 patients with NSCLC and newly diagnosed brain metastases between 2006 and 2014 have been used to demonstrate improvements in NSCLC survival prediction, including the development of the Lung-molGPA tool incorporating gene alteration data."
+  },
+  {
+    "id": "660999a0fdcbea915f00001a",
+    "type": "list",
+    "generated_answer": "Patients with familial adenomatous polyposis may undergo yearly monitoring starting in adolescence, prophylactic colectomy in early adulthood if polyposis occurs, endoscopic excision of advanced adenomas, or major surgery as a result of disease progression."
+  },
+  {
+    "id": "67c7708481b1027333000002",
+    "type": "yesno",
+    "generated_answer": "No, mucopolysaccharidosis-plus syndrome (MPSPS) is not directly mentioned as a X-linked disease; however, Hunter syndrome (mucopolysaccharidosis type II) is explicitly stated to be X-linked and recessive. Several instances detail how the disease manifests in females due to X chromosome anomalies or inactivation patterns, indicating a connection to X-linked inheritance for this specific mucopolysaccharidosis. Other mucopolysaccharidoses are described as autosomal recessive."
+  },
+  {
+    "id": "67d7201b18b1e36f2e00002c",
+    "type": "list",
+    "generated_answer": "Cesarean section is commonly performed in obstetrics, and may be indicated by difficult access to the lower uterine segment such as in preterm labor, dense adhesion, or placenta previa/accrete, as well as intrahepatic cholestasis of pregnancy, hemorrhage, hypertensive disorder complicating pregnancy, or infection."
+  },
+  {
+    "id": "67da148418b1e36f2e000054",
+    "type": "list",
+    "generated_answer": "Melanoma exhibits numerous transcriptional cell states including neural crest-like cells, pigmented melanocytic cells, differentiated/proliferative states, invasive stem cell-like states, and drug-tolerant dedifferentiated states, with plasticity manifesting between epithelial and mesenchymal cell-states as well as along axes of stemness and differentiation, drug-sensitivity and resistance."
+  },
+  {
+    "id": "67d3434d18b1e36f2e000002",
+    "type": "factoid",
+    "generated_answer": "BIOASQ is a biomedical challenge that has developed a publicly available evaluation infrastructure for biomedical semantic indexing and question answering, allowing biomedical experts to obtain concise answers to their questions."
+  },
+  {
+    "id": "662fc6aa187cba990d000017",
+    "type": "summary",
+    "generated_answer": "Trifluridine/tipiracil is comprised of trifluridine, a thymidine-based nucleoside analogue, and tipiracil, a thymidine phosphorylase inhibitor. Trifluridine works by being incorporated into DNA, ultimately inhibiting cell proliferation, while tipiracil increases systemic exposure to trifluridine. This combination has shown promise in treating metastatic colorectal cancer, even in patients refractory to standard therapies, and is more cost-effective than regorafenib. Additionally, it has a favorable safety profile with a low incidence of certain adverse events."
+  },
+  {
+    "id": "67cc89fa81b102733300000c",
+    "type": "yesno",
+    "generated_answer": "No. The provided information details the mechanisms and biological significance of X-chromosome inactivation as a dosage compensation method between sexes and its role in specific genetic disorders, but there is no mention of any link to cognitive function. The focus remains on the genetic and epigenetic processes involved in silencing one X chromosome in females."
+  },
+  {
+    "id": "67d4354518b1e36f2e000010",
+    "type": "factoid",
+    "generated_answer": "Premenstrual dysphoric disorder affects 3-8% of women of reproductive age, and lifetime prevalence is estimated between 2 and 5% in cases of social activities interruption."
+  },
+  {
+    "id": "67d74a9b18b1e36f2e00003a",
+    "type": "yesno",
+    "generated_answer": "No, the provided information focuses on GATA-1’s role in erythroid and hematopoietic differentiation, as well as cardiac development through MEF2/GATA-4 synergy. There is no mention of GATA factors being present or functioning in the brain."
+  },
+  {
+    "id": "67d41b8518b1e36f2e00000d",
+    "type": "yesno",
+    "generated_answer": "No. The provided information details the pathophysiology, clinical presentation, and treatment options for myasthenia gravis, focusing on autoimmune and neuromuscular aspects, but does not mention AGRN or any connection between it and the disease."
+  },
+  {
+    "id": "67cdbe0c81b1027333000019",
+    "type": "list",
+    "generated_answer": "Tetralogy of Fallot is characterized by biventricular origin of the aorta above a large ventricular septal defect, obstruction of the pulmonary outflow, right ventricular hypertrophy, and an atrial septal defect which, when combined, constitutes pentalogy of Fallot."
+  },
+  {
+    "id": "67d7238518b1e36f2e000038",
+    "type": "summary",
+    "generated_answer": "Genome-wide association studies have identified a new susceptibility locus near ODZ4 and confirmed associations for CACNA1C and a region including NEK4-ITIH1-ITIH3-ITIH4 in relation to bipolar disorder. Additionally, a pathway comprised of subunits of calcium channels appears enriched in bipolar disorder association intervals. Increasing sample sizes in studies of bipolar disorder is expected to confirm additional genetic loci involved in the disorder."
+  },
+  {
+    "id": "67d74b0418b1e36f2e00003b",
+    "type": "summary",
+    "generated_answer": "Hypoxia-inducible factor 1α (HIF-1α) is an upstream regulator of MGMT, an enzyme involved in DNA repair and resistance to temozolomide in glioblastoma multiforme (GBM). Investigating the effect of treatment on HIF-1α was part of a study examining cell proliferation and apoptosis in GBM cell lines. While the context does not detail how hypoxia directly influences cell states, it suggests HIF-1α plays a role in regulating factors related to GBM cell behavior and treatment response."
+  },
+  {
+    "id": "67d496ed18b1e36f2e000019",
+    "type": "factoid",
+    "generated_answer": "The increase in CORE profiles is not explicitly stated in the provided information, as the most recent release discussed is JASPAR 2022, which had a 19% expansion over the previous release."
+  },
+  {
+    "id": "67cdca3881b102733300001b",
+    "type": "summary",
+    "generated_answer": "The effects of baclofen are uncertain as evidence regarding its use is either very low quality or trials did not report numerical data. It was studied as a potential treatment for cramps in motor neuron disease, but the review did not definitively determine its efficacy. Additionally, no randomized controlled trials were available to evaluate its use for spasticity. Therefore, its mode of action in these contexts remains unclear based on the available information."
+  },
+  {
+    "id": "67d6bf9a18b1e36f2e000023",
+    "type": "list",
+    "generated_answer": "Nausea is a frequently reported adverse event following metformin therapy, though it is typically transient and rarely leads to withdrawal, and there are no biochemically confirmed episodes of hypoglycemia or increased blood lactic acid levels associated with its use."
+  },
+  {
+    "id": "67c7392981b1027333000001",
+    "type": "list",
+    "generated_answer": "Glioblastoma multiforme involves glial cells, tumor microvascular endothelial cells that can become senescent, cancer stem cells resistant to therapy and capable of differentiating into endothelial-like cells, and cells expressing EphA2 and ephrinA1, alongside genetic alterations impacting p16INK4a/p14ARF/p15INK4b and p18INK4c expression."
+  },
+  {
+    "id": "67d34ad518b1e36f2e000005",
+    "type": "yesno",
+    "generated_answer": "No, the provided information does not mention a link between high WEE1 expression and PARP inhibition resistance. However, the documents discuss several mechanisms of resistance to PARP inhibitors, including upregulated ABCB1, acquisition of new mutations, and defects in DNA damage repair, specifically homologous recombination. Blunted PARP trapping is also associated with resistance to olaparib."
+  },
+  {
+    "id": "67cc9e6381b1027333000016",
+    "type": "list",
+    "generated_answer": "Surgical treatments are mentioned for carpal tunnel syndrome as carpal tunnel release surgery, which can be performed open or endoscopically, and for intractable Meniere’s disease, though specific procedures are not detailed."
+  },
+  {
+    "id": "67d7fe1718b1e36f2e000043",
+    "type": "factoid",
+    "generated_answer": "Dengue is a systemic arthropod-borne viral disease transmitted by vectors, and its control is often challenged due to factors like virus transmission outside the home."
+  },
+  {
+    "id": "67da131f18b1e36f2e000053",
+    "type": "yesno",
+    "generated_answer": "Yes, glioblastoma cells can differentiate into glial cells, potentially losing their tumoral phenotype, and this occurs within the microenvironment, suggesting a shift in cell state that may contribute to recurrence. Additionally, cancer stem cells are implicated in treatment resistance and recurrence, representing a driving mechanism of treatment difficulties."
+  },
+  {
+    "id": "67d45d5818b1e36f2e000012",
+    "type": "factoid",
+    "generated_answer": "The provided text does not contain information regarding an association between the CUBN gene and T2DM genetic susceptibility."
+  },
+  {
+    "id": "67cde99581b102733300001f",
+    "type": "yesno",
+    "generated_answer": "No. The provided information details successful stem cell therapies for non-arthritic diseases like hematopoietic and muscle disorders, as well as heart failure and cartilage regeneration. Dental pulp is mentioned as a potential stem cell source, but there is no mention of xerostomia or therapies specifically for that condition."
+  },
+  {
+    "id": "67d6bda918b1e36f2e000021",
+    "type": "factoid",
+    "generated_answer": "African trypanosomiasis is caused by the parasite *Trypanosoma brucei*, and sometimes *Trypanosoma brucei gambiense*."
+  },
+  {
+    "id": "67d7506e18b1e36f2e00003f",
+    "type": "factoid",
+    "generated_answer": "TEAD transcription factors bind to specific DNA elements via their TEA domain to regulate gene expression, and require coactivators to activate transcription."
+  },
+  {
+    "id": "67d4854918b1e36f2e000014",
+    "type": "summary",
+    "generated_answer": "Several databases, including Deciphering Developmental Disorders Study, Genematcher, and AnnEX, are used to identify de novo variants through whole exome sequencing. These variants are then validated using Sanger sequencing. Identifying these variants helps to establish causality in conditions like developmental and epileptic encephalopathy and Ehlers-Danlos Syndromes, and can reveal novel pathogenic changes in genes such as *YWHAG* and *COL5A1*. These methods are used to further understand genotype-phenotype correlations in various genetic disorders."
+  },
+  {
+    "id": "67cec6e781b1027333000021",
+    "type": "yesno",
+    "generated_answer": "No. The provided information focuses on neuropathies induced by oxaliplatin and organophosphates, detailing their causes, symptoms (like peripheral neuropathy, mechanical allodynia), and potential treatments. There is no mention of creatinine levels or intestinal neuropathy in relation to these drugs or any others discussed. Therefore, it cannot be determined from the given information if creatinine is usually elevated in drug-induced intestinal neuropathy."
+  },
+  {
+    "id": "67d721d118b1e36f2e000031",
+    "type": "yesno",
+    "generated_answer": "No. The provided texts discuss microbiome imbalance or dysbiosis being associated with various diseases, and the importance of a diverse and balanced microbiome for overall health and immunity. While no specific mention of beta lactams is made, the texts emphasize that alterations in the microbiome—such as loss of beneficial bacteria and blooms of opportunistic microorganisms—can contribute to disease pathogenesis and hinder recovery, suggesting that factors disrupting microbiome composition could be detrimental."
+  },
+  {
+    "id": "67da0c0f18b1e36f2e000052",
+    "type": "factoid",
+    "generated_answer": "EGFR gene amplification is the most common genetic abnormality associated with glioblastoma multiforme, occurring in 38% of 58 glioblastoma patients studied."
+  },
+  {
+    "id": "67d486e118b1e36f2e000015",
+    "type": "list",
+    "generated_answer": "The context does not mention ALOX12 gene polymorphisms, but it does associate single nucleotide polymorphisms with cardiovascular events such as atrial fibrillation, cardiomyopathy, heart failure, ischaemic stroke, coronary heart disease, cardiac or cerebral events, myocardial infarction, and death."
+  },
+  {
+    "id": "67cc9bef81b1027333000013",
+    "type": "factoid",
+    "generated_answer": "Drug reaction with eosinophilia and systemic symptoms (DRESS) is a severe cutaneous adverse reaction that, along with Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN), shares some clinical and laboratory features, and can be caused by drugs like allopurinol and carbamazepine."
+  },
+  {
+    "id": "67d430f918b1e36f2e00000f",
+    "type": "list",
+    "generated_answer": "Statins are associated with adverse effects including myopathy, transaminase elevations, an increased risk of incident diabetes mellitus, and potential impacts on renal and neurologic function, though the frequency of these effects decreases over time as a percentage of current users, while the absolute number of patients affected by statin myopathy increases with treatment duration, and they may also worsen insulin resistance and secretion."
+  },
+  {
+    "id": "67d3460218b1e36f2e000004",
+    "type": "summary",
+    "generated_answer": "The provided information does not contain any details about oncoEnrichR. However, research is being conducted on primary lung cancer associated with polymyositis/dermatomyositis, with histological types including small cell lung cancer, squamous cell carcinoma, and adenocarcinoma. Studies also investigate gene expression and modifications, such as histone lysine methylation, which are relevant to understanding cancer development and progression. These investigations utilize techniques like ELISA, RT-PCR, and western blotting to evaluate efficacy and toxicity."
+  },
+  {
+    "id": "67cc9ca681b1027333000014",
+    "type": "list",
+    "generated_answer": "Treatments for endometrioma and endometriosis include laparoscopic excision, ablation using plasma energy, oral contraceptives, a levonorgestrel-releasing intrauterine system, a combination of gonadotropin releasing hormone analogue and oral contraceptives, surgical techniques like excision/stripping or vaporization/coagulation, surgical ovarian suture, and barrier agents such as Interceed, Oxiplex/AP gel, and Adept solution to reduce adhesion formation, as well as assisted reproductive technologies like IVF/ICSI."
+  },
+  {
+    "id": "67d7fee818b1e36f2e000048",
+    "type": "summary",
+    "generated_answer": "An association exists between anti-Neu5Gc antibody development and autoimmune hypothyroidism. Depression is a major public health problem in students, and increased levels of B vitamins, like folate, may decrease symptoms of depression. Depression increases the risk of death in elderly men, though neither generalized anxiety nor mixed anxiety-depression are associated with excess mortality."
+  },
+  {
+    "id": "67d48f6c18b1e36f2e000017",
+    "type": "factoid",
+    "generated_answer": "DEEPSEN, a convolutional neural network based method, exists for predicting super-enhancers, which are clusters of transcriptional active enhancers that dictate gene expression and play a role in disease development."
+  },
+  {
+    "id": "67cf221a81b1027333000022",
+    "type": "factoid",
+    "generated_answer": "Wharton's Jelly Mesenchymal Stem Cells would be derived from umbilical cord tissue."
+  },
+  {
+    "id": "67d6c1bb18b1e36f2e000029",
+    "type": "list",
+    "generated_answer": "Infectious aortitis may be secondary to bacterial, tubercular, syphilitic, and viral pathogens, while feline infectious peritonitis virus is a coronavirus that causes a lethal systemic granulomatous disease in cats and infectious hepatitis can lead to conjugated hyperbilirubinemia."
+  },
+  {
+    "id": "67d49ade18b1e36f2e00001b",
+    "type": "summary",
+    "generated_answer": "The immune system can both destroy cancer cells and select for those that are less recognizable to the immune system, alongside developing an immune-suppressive environment. This process, called cancer immunoediting, is an important concept in cancer immunotherapy. In the germline, retrotransposons are silenced by the PIWI-interacting RNA pathway, and mutations can accumulate that potentially contribute to deterioration of biological processes and senescence. These mutations may enhance mutation rate and influence the aging process in present and future generations."
+  },
+  {
+    "id": "67cc94f681b102733300000e",
+    "type": "list",
+    "generated_answer": "Mesenchymal stem cells show therapeutic potential for traumatic, ischaemic, and immune-mediated skin conditions, multiple sclerosis, rheumatoid arthritis, lupus, Alzheimer’s disease, atherosclerosis, and Amyotrophic lateral sclerosis, and can also inhibit the growth of cholangiocarcinoma."
+  },
+  {
+    "id": "67d723d918b1e36f2e000039",
+    "type": "summary",
+    "generated_answer": "Yes, several biomarkers are associated with depression. These include nitric oxide metabolites (NOx) and total radical trapping antioxidant parameter (TRAP), which are increased in individuals with chronic apical periodontitis-related depression, as well as neurofilament protein light (NFL), amyloid beta-42, and the CSF/serum albumin ratio found in the cerebrospinal fluid of elderly women. Additionally, sputum interleukin-6, tumor necrosis factor-α, and salivary cortisol variation can serve as biomarkers, particularly in lung cancer patients."
+  },
+  {
+    "id": "67d34e2518b1e36f2e000006",
+    "type": "list",
+    "generated_answer": "The context does not contain information about what is caused by biallelic CRELD1 variants; however, biallelic variants in adipocyte enhancer binding protein 1 cause classical-like Ehlers-Danlos Syndromes type 2, biallelic mutations in PMS2 can cause café-au-lait macules, colonic polyps, and a distinctive tumor spectrum, biallelic pathogenic SLC39A13 variants are characterized by short stature and other features of spondylodysplastic Ehlers-Danlos syndrome, and biallelic variants in HPDL cause hereditary spastic paraplegia ranging from juvenile-onset pure forms to infantile-onset spasticity and developmental delays."
+  },
+  {
+    "id": "67cc960381b102733300000f",
+    "type": "factoid",
+    "generated_answer": "Desflurane and sevoflurane are anesthetics used to maintain anesthesia, with desflurane also being used for inducing anesthesia and potentially contributing to postoperative nausea and vomiting."
+  },
+  {
+    "id": "67d7232418b1e36f2e000037",
+    "type": "summary",
+    "generated_answer": "Non-steroidal anti-inflammatory drugs are efficacious in relieving primary dysmenorrhea, indicating inflammation is involved. Studies have shown that inflammatory markers like interleukin-6 may be predictive of conditions causing pain, and elagolix treatment significantly reduced dysmenorrhea scores in a randomized controlled study. Therefore, inflammatory markers are associated with dysmenorrhea and its treatment."
+  },
+  {
+    "id": "67d751e418b1e36f2e000040",
+    "type": "factoid",
+    "generated_answer": "The context does not provide information about which protein is silencing MIR139 to promote AML oncogenesis."
+  },
+  {
+    "id": "67cc97c481b1027333000012",
+    "type": "factoid",
+    "generated_answer": "The Fontan procedure is a surgical treatment performed on the heart to address complex congenital heart malformations."
+  },
+  {
+    "id": "67d6b4e218b1e36f2e00001e",
+    "type": "yesno",
+    "generated_answer": "Yes, exposure to air pollution influences asthma development, suggesting a potential link between highly polluted areas and increased childhood asthma cases. The review of epigenetic changes in asthma notes that external effects, like air pollution, influence asthma development."
+  },
+  {
+    "id": "67d4161318b1e36f2e00000a",
+    "type": "yesno",
+    "generated_answer": "No, the provided information does not indicate that nucleosomal DNA has topological memory. However, it does state that DNA is organized with torsional tension and divided into topological domains, and that psoralen photobinding can be used to measure supercoiling and topological domain size *in vivo*. Additionally, the interaction between the H3/H4 tetramer and nucleosomal DNA is responsible for positioning nucleosomes, suggesting a structural relationship, but not memory."
+  },
+  {
+    "id": "67c9e84181b1027333000008",
+    "type": "factoid",
+    "generated_answer": "Autophagy is a cellular process associated with the degradation of long-lived proteins and the recycling of cellular components."
+  },
+  {
+    "id": "67d7203018b1e36f2e00002d",
+    "type": "factoid",
+    "generated_answer": "Psychosis is common across dementia types with a prevalence of 20% to 70%."
+  },
+  {
+    "id": "67d497c418b1e36f2e00001a",
+    "type": "factoid",
+    "generated_answer": "The context does not provide information about the effect of liver RBFOX2."
+  },
+  {
+    "id": "67cc826c81b102733300000b",
+    "type": "yesno",
+    "generated_answer": "No, Geographic Atrophy (GA) is associated with age-related macular degeneration and impacts the eye, specifically causing compromise of visual function and quality of life, and is measured using fundus autofluorescence imaging. The provided information details its impact on vision and retinal features, not the hand or foot."
+  },
+  {
+    "id": "67d7fe6a18b1e36f2e000046",
+    "type": "summary",
+    "generated_answer": "Genital herpes is a prevalent sexually transmitted infection that can be distressing, painful, and chronic, though sometimes mild in severity. It can manifest with primary infection alongside aseptic meningitis, and recurrent infections may include headache, paresthesia, and fever. Treatment options, such as valacyclovir, aim to alleviate symptoms, suppress recurrences, and reduce transmission of the virus."
+  },
+  {
+    "id": "67d352e918b1e36f2e000009",
+    "type": "list",
+    "generated_answer": "The context does not contain information about what is caused by heterozygous loss of function SPTAN1."
+  },
+  {
+    "id": "67cc969581b1027333000010",
+    "type": "summary",
+    "generated_answer": "The provided information does not discuss the effect of berberine in ischemic stroke. However, several treatments are explored for their potential neuroprotective effects and impact on stroke outcomes. Statin therapy may alleviate mitochondrial dysfunction and offer benefits both before and after stroke, while targeting the TRPM2 systemically shows promise as a therapeutic approach. Additionally, studies investigate the effects of tirilazad mesylate and intra-arterial treatment on infarct volume and functional recovery following ischemic stroke."
+  },
+  {
+    "id": "67d7fe9318b1e36f2e000047",
+    "type": "summary",
+    "generated_answer": "There is a significant relation between eating disorders and urinary incontinence in female long-distance runners. Childhood ADHD symptoms are associated with an increased risk for substance-use disorders. Additionally, children diagnosed with ADHD may exhibit sociability disorders, and idiopathic toe-walking was observed in over 20% of patients with ADHD."
+  },
+  {
+    "id": "67d418f418b1e36f2e00000c",
+    "type": "summary",
+    "generated_answer": "ORM1 is a polymorphic gene affecting warfarin dose requirements and is a plasma drug binding protein. While ORM1’s polymorphism influences warfarin therapy, liquid biopsy analyzes circulating cell-free tumor DNA in plasma to improve clinical outcomes, particularly in non-small cell lung cancer. Therefore, ORM1 is related to components found within liquid biopsy samples, though its specific role in analyzing cell-free DNA isn’t detailed."
+  },
+  {
+    "id": "67cc9d4c81b1027333000015",
+    "type": "yesno",
+    "generated_answer": "No, the provided information focuses on mRNA biomarkers for body fluid and tissue identification, predictive tests for eye color, genetic screening related to cardiac arrhythmias and sudden cardiac death, and ethical considerations in forensic psychiatry. There is no mention of ameleographics or tooth prints as a method for forensic identification."
+  },
+  {
+    "id": "67d81c7218b1e36f2e00004d",
+    "type": "list",
+    "generated_answer": "Prion diseases are fatal neurodegenerative disorders characterized by aggregation and deposition of misfolded prion protein in the brain, can be familial due to pathogenic mutations in the prion protein gene, and are typically incurable, though yeast prions—while detrimental to their hosts and capable of arousing a stress response—are related to non-chromosomally inherited phenotypic traits and can be cured by host anti-prion systems."
+  },
+  {
+    "id": "67d4903418b1e36f2e000018",
+    "type": "factoid",
+    "generated_answer": "The immunoglobulin kappa (Igκ) light chain receptor locus shapes the three-dimensional structure of the enhancer network."
+  },
+  {
+    "id": "67c9e48f81b1027333000005",
+    "type": "summary",
+    "generated_answer": "Neoantigens are created through somatic mutations and gene fusions that result in immunogenic peptides. These peptides are tumor-specific aberrations derived from sequencing data. Computational pipelines can predict these neoantigens by inferring a patient’s Human Leukocyte Antigen types and predicting which neoepitopes will bind to them, alongside features related to immunogenicity."
+  },
+  {
+    "id": "67d7219018b1e36f2e000030",
+    "type": "list",
+    "generated_answer": "Sudden deafness can result from ischemia possibly due to migraine-associated vasospasm, and may also occur alongside conditions like endolymphatic hydrops or be unexplained in cases of sudden death."
+  },
+  {
+    "id": "67d74dd718b1e36f2e00003d",
+    "type": "list",
+    "generated_answer": "The TREAT-NMD global patient registry and its national Japanese counterpart capture clinical and molecular genetic data, as well as all required items for the global registry, and the TREAT-NMD care and trial site registry reports data on neuromuscular patients and site characteristics like the number of patients seen per site, pediatric/adult breakdowns, and trial experience."
+  },
+  {
+    "id": "67cdbdb981b1027333000018",
+    "type": "factoid",
+    "generated_answer": "Abdominal fat is the origin of nodular masses that can appear as incidental findings or be of neoplastic origin in cats and dogs."
+  },
+  {
+    "id": "67d7228818b1e36f2e000034",
+    "type": "factoid",
+    "generated_answer": "The context does not provide information regarding mean survival after a diagnosis of multiple sclerosis."
+  },
+  {
+    "id": "67d49cf318b1e36f2e00001c",
+    "type": "summary",
+    "generated_answer": "A deep learning approach was developed for prognostic models to predict malignant transformation and associated clinical outcomes in oral epithelial dysplasia (OED) tissue sections using histology whole slide images. This method achieved an average area under the receiver-operator characteristic curve of 0.78 for predicting malignant transformation in OED. Significant prognostic factors identified included features of nuclei and the count of peri-epithelial lymphocytes. This suggests a digital score of peri-epithelial lymphocytic activity can predict malignant transformation."
+  },
+  {
+    "id": "67c9e75881b1027333000006",
+    "type": "factoid",
+    "generated_answer": "CD47 functions as a “do not eat me” signal that is overexpressed in myeloid malignancies, leading to tumor evasion of phagocytosis by macrophages."
+  },
+  {
+    "id": "67d6c10618b1e36f2e000027",
+    "type": "yesno",
+    "generated_answer": "No, the context indicates surfactant is used in numerous pulmonary conditions where there are anomalies of the surfactant system, not solely in premature newborns with respiratory distress syndrome. While much of the provided information focuses on neonatal RDS, it states there are “numerous pulmonary conditions” benefiting from surfactant therapy."
+  }
+]
