@@ -513,13 +513,85 @@ def load_graph(path: str) -> Any:
 
 
 def find_node_by_id(g: Any, target_id: str) -> Any | None:
-    """Find a vertex by its ID (PMID or entity name)."""
+    """Find a vertex by ID with MeSH-backed fallback.
+
+    Matching strategy:
+    1) Exact entity/document ID match (case-insensitive)
+    2) If no ID match, search document MeSH terms
+    3) For MeSH hits, return the best matching document node directly
+    """
     vp_id = g.vp["id"]
-    target_lower = target_id.lower()
+    vp_type = g.vp["type"]
+
+    target_norm = _normalize_text(target_id)
+    if not target_norm:
+        return None
+
+    # First pass: direct ID match (prefer entity nodes).
+    direct_doc_match = None
     for v in g.vertices():
-        if vp_id[v] == target_id or vp_id[v] == target_lower:
+        node_id = _normalize_text(str(vp_id[v]))
+        if node_id != target_norm:
+            continue
+        if vp_type[v] == "entity":
             return v
-    return None
+        if direct_doc_match is None:
+            direct_doc_match = v
+
+    if direct_doc_match is not None:
+        return direct_doc_match
+
+    # Second pass: fallback through document MeSH terms.
+    if "mesh_terms" not in g.vp:
+        return None
+
+    vp_mesh = g.vp["mesh_terms"]
+    mesh_hit_docs = []
+
+    for v in g.vertices():
+        if vp_type[v] != "document":
+            continue
+
+        mesh_terms = vp_mesh[v]
+        if not mesh_terms:
+            continue
+
+        has_hit = False
+        for term in mesh_terms:
+            term_norm = _normalize_text(str(term))
+            if not term_norm:
+                continue
+
+            # Exact or containment to handle minor phrasing differences.
+            if term_norm == target_norm or target_norm in term_norm or term_norm in target_norm:
+                has_hit = True
+                break
+
+        if has_hit:
+            mesh_hit_docs.append(v)
+
+    if not mesh_hit_docs:
+        return None
+
+    # Choose the best document by strongest MeSH-text overlap.
+    best_doc = None
+    best_score = -1
+    for doc_v in mesh_hit_docs:
+        doc_score = 0
+        for term in vp_mesh[doc_v]:
+            term_norm = _normalize_text(str(term))
+            if not term_norm:
+                continue
+            if term_norm == target_norm:
+                doc_score = max(doc_score, 3)
+            elif target_norm in term_norm or term_norm in target_norm:
+                doc_score = max(doc_score, 1)
+
+        if doc_score > best_score:
+            best_score = doc_score
+            best_doc = doc_v
+
+    return best_doc if best_doc is not None else mesh_hit_docs[0]
 
 
 def bfs(g: Any, start_id: str, max_steps: int) -> list[tuple[int, int, str]]:

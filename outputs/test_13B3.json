@@ -1,0 +1,252 @@
+[
+  {
+    "id": "67e6ce6e18b1e36f2e0000cf",
+    "type": "factoid",
+    "generated_answer": "Through pQTL mapping within the Pharma Proteomics Project, 188 primary genetic associations were identified."
+  },
+  {
+    "id": "67e6a05c18b1e36f2e0000b8",
+    "type": "summary",
+    "generated_answer": "Imlunestrant is an oral selective estrogen receptor degrader (SERD) with a distinct binding profile compared to other SERDs like elacestrant. It demonstrates potent and sustained downregulation of estrogen receptor alpha (ERα) expression, leading to reduced ERα-mediated transcriptional activity. This mechanism inhibits the growth of ER-positive breast cancer cells by effectively blocking estrogen signaling."
+  },
+  {
+    "id": "67e12bc718b1e36f2e00006e",
+    "type": "yesno",
+    "generated_answer": "No, the provided information details advancements in treating temporomandibular joint (TMJ) disorders through techniques like arthroscopy, arthrocentesis, and various surgical procedures to repair or reposition the joint components, but it does not mention successful *replacement* of the entire temporomandibular joint. It focuses on restoration and reconstruction, not complete substitution."
+  },
+  {
+    "id": "67fbe85d18b1e36f2e000122",
+    "type": "summary",
+    "generated_answer": "Individuals with anxiety disorders may exhibit structural and functional brain abnormalities, including variations in the amygdala, hippocampus, and prefrontal cortex. These differences can manifest as altered gray matter volume and connectivity patterns. Specifically, reduced hippocampal volume and heightened amygdala reactivity are frequently observed in anxiety-related conditions, potentially impacting emotional regulation and memory processes. These brain alterations are thought to contribute to the development and maintenance of anxiety symptoms."
+  },
+  {
+    "id": "67fc2f7818b1e36f2e00012c",
+    "type": "yesno",
+    "generated_answer": "Yes, PTEN loss in glioblastoma (GBM) is associated with decreased T cell infiltration into tumors and reduced expression of PD-1, suggesting a mechanism of resistance to immunotherapy. Specifically, PTEN loss leads to increased secretion of immunosuppressive factors like CCL2 and recruitment of myeloid-derived suppressor cells (MDSCs), creating an immunosuppressive tumor microenvironment. Additionally, PTEN loss correlates with lower levels of tumor-associated neoantigens, further diminishing the potential for an effective immune response."
+  },
+  {
+    "id": "67d49e0c18b1e36f2e00001d",
+    "type": "list",
+    "generated_answer": "The highlighted genes by RJH-Metastasis 1.0 for colorectal cancer with liver metastasis include CEACAM6, FAP, and TERT."
+  },
+  {
+    "id": "67e6b34318b1e36f2e0000b9",
+    "type": "factoid",
+    "generated_answer": "rVSV-ZEBOV-GP is used as a vaccine candidate against Ebola virus disease."
+  },
+  {
+    "id": "67e0906c18b1e36f2e00006b",
+    "type": "factoid",
+    "generated_answer": "The provided files do not contain information about seromas."
+  },
+  {
+    "id": "67fbe2f318b1e36f2e000117",
+    "type": "yesno",
+    "generated_answer": "No. The provided information does not contain any details regarding pilates or pelvic pain. Therefore, it is impossible to determine if pilates reduces pelvic pain based on the given data."
+  },
+  {
+    "id": "67f6f13618b1e36f2e0000ff",
+    "type": "list",
+    "generated_answer": "Transcription factors driving epithelial-to-mesenchymal transition (EMT) include SNAI1, SNAI2, ZEB1, ZEB2, and TWIST1, which repress E-cadherin expression and induce mesenchymal markers, alongside additional factors like FOXC2, SMADs, and various others functioning in complex regulatory networks to promote this process."
+  },
+  {
+    "id": "67e296bc18b1e36f2e000085",
+    "type": "factoid",
+    "generated_answer": "The largest whole-exome sequencing study of epilepsy to date involved 15,000 exomes."
+  },
+  {
+    "id": "67e4590e18b1e36f2e0000a9",
+    "type": "factoid",
+    "generated_answer": "Westermark’s Sign is specific to pulmonary embolism."
+  },
+  {
+    "id": "67fafe7318b1e36f2e00010b",
+    "type": "yesno",
+    "generated_answer": "No, Faecalibacterium prausnitzii is an anaerobic bacteria. The data indicates it thrives in an oxygen-deprived environment, specifically within the colon, and its metabolic processes are inhibited by oxygen exposure, as evidenced by decreased butyrate production when oxygen levels increase."
+  },
+  {
+    "id": "67ed634018b1e36f2e0000fa",
+    "type": "list",
+    "generated_answer": "Several measles vaccines are under investigation, including mRNA-based vaccines, subunit vaccines targeting the measles virus hemagglutinin and fusion proteins, and live attenuated vaccines with modified genomes to enhance safety and efficacy."
+  },
+  {
+    "id": "67fd734e18b1e36f2e00013f",
+    "type": "yesno",
+    "generated_answer": "Yes, both CD8+ T cells and NK cells utilize perforin and granzyme B, as they are both described as employing cytotoxic granules to induce target cell death through similar pathways involving the release of these molecules. Specifically, the data indicates both cell types mediate cytotoxicity via the granule exocytosis pathway, releasing perforin to form pores and granzyme B to initiate apoptosis."
+  },
+  {
+    "id": "67e6d1b518b1e36f2e0000d3",
+    "type": "factoid",
+    "generated_answer": "An association between clonal haematopoiesis and the *ASXL1* gene has been identified in the UK biobank proteogenomics study."
+  },
+  {
+    "id": "67e56ff018b1e36f2e0000b1",
+    "type": "list",
+    "generated_answer": "Zenocutuzumab targets CD37 and CD20, both of which are expressed on B-cells, and it is designed to induce antibody-dependent cellular cytotoxicity and complement-dependent cytotoxicity."
+  },
+  {
+    "id": "67fc555a18b1e36f2e000131",
+    "type": "factoid",
+    "generated_answer": "Hysterosalpingography evaluates the uterus and fallopian tubes."
+  },
+  {
+    "id": "67fbe68c18b1e36f2e00011e",
+    "type": "factoid",
+    "generated_answer": "Men should begin considering prostate cancer screening starting at age 50 for those at average risk, and earlier for those with a family history or who are African American."
+  },
+  {
+    "id": "67f6f14118b1e36f2e000100",
+    "type": "yesno",
+    "generated_answer": "Yes, mesenchymal-like glioblastoma cells exhibit increased immune evasion due to reduced MHC class I expression and upregulation of immunosuppressive molecules like PD-L1. This creates a tumor microenvironment that shields them from immune detection and attack."
+  },
+  {
+    "id": "67d45fbc18b1e36f2e000013",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information regarding CARD8 variants or diabetic nephropathy, therefore an answer cannot be provided."
+  },
+  {
+    "id": "67e6c0f618b1e36f2e0000c7",
+    "type": "yesno",
+    "generated_answer": "Yes, Fasudil is indicated for the improvement of neurological sequelae after cerebral vasospasm following subarachnoid haemorrhage. It is a Rho-kinase inhibitor and has demonstrated efficacy in improving outcomes in this condition."
+  },
+  {
+    "id": "67f8584b18b1e36f2e000106",
+    "type": "summary",
+    "generated_answer": "Activation Likelihood Estimation (ALE) maps represent the probability of a voxel being activated for a given task, accounting for variability in voxel location across subjects. ALE meta-analysis identifies consistent activation patterns by combining results from multiple studies, addressing issues of inconsistent peak locations. This method uses a permutation test to determine the statistical significance of observed clusters, correcting for multiple comparisons. ALE can also be used to investigate convergent and divergent activation patterns across different experiments or conditions."
+  },
+  {
+    "id": "67fbe1a118b1e36f2e000112",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information about mutations that increase the risk for pancreatic cancer."
+  },
+  {
+    "id": "67fc380c18b1e36f2e00012e",
+    "type": "summary",
+    "generated_answer": "GBM heterogeneity significantly impacts treatment response due to variations in genomic alterations, signaling pathways, and the tumor microenvironment across different regions within the same tumor and between patients. This leads to diverse responses to therapies like radiation and chemotherapy, as some subclones possess inherent resistance mechanisms or are protected by their location within the tumor. Consequently, treatment strategies targeting a single pathway may only eliminate susceptible cells, leaving resistant subclones to proliferate and drive tumor recurrence. Spatial heterogeneity, in particular, contributes to treatment failure by creating microenvironments that shield cancer cells from therapeutic agents."
+  },
+  {
+    "id": "67d48d1118b1e36f2e000016",
+    "type": "summary",
+    "generated_answer": "FINDbase is a comprehensive resource designed to accelerate drug discovery by integrating diverse biomedical data types. It links genomic, proteomic, and clinical data with chemical information to facilitate target identification and validation. This integration aims to improve the efficiency of finding and developing new therapeutics. FINDbase also supports the prediction of drug-target interactions and potential biomarkers."
+  },
+  {
+    "id": "67e6b72818b1e36f2e0000bd",
+    "type": "list",
+    "generated_answer": "The VRd regimen for myeloma includes bortezomib, lenalidomide, and dexamethasone."
+  },
+  {
+    "id": "67daf71018b1e36f2e000057",
+    "type": "yesno",
+    "generated_answer": "Yes, pollinosis is described as an allergic reaction to tree or grass pollen, specifically manifesting as symptoms like sneezing and itchy eyes when pollen counts are high. It is characterized by an immune response to airborne pollen grains."
+  },
+  {
+    "id": "67ed64e118b1e36f2e0000fd",
+    "type": "summary",
+    "generated_answer": "The low-FODMAP diet is recommended for managing Irritable Bowel Syndrome (IBS) symptoms. This diet involves reducing the intake of fermentable oligosaccharides, disaccharides, monosaccharides, and polyols to minimize gas and bloating. Following the low-FODMAP diet can lead to significant improvements in abdominal pain and changes in bowel habits associated with IBS. It is suggested to work with a registered dietitian to properly implement and personalize this dietary approach."
+  },
+  {
+    "id": "67f6f1c218b1e36f2e000102",
+    "type": "summary",
+    "generated_answer": "I am sorry, but the provided file does not contain information about how macrophages influence the glioblastoma microenvironment. Therefore, I cannot answer the question."
+  },
+  {
+    "id": "67dae2d018b1e36f2e000056",
+    "type": "list",
+    "generated_answer": "The AURA3 trial demonstrated that patients with EGFR exon 20 insertion mutations who developed resistance to osimertinib experienced a median progression-free survival of 4.3 months with platinum-based chemotherapy, and 8.5 months with mobocertinib, along with an overall response rate of 28% for platinum-based chemotherapy and 35% for mobocertinib."
+  },
+  {
+    "id": "67e6cd6a18b1e36f2e0000ce",
+    "type": "yesno",
+    "generated_answer": "Yes, Luvadaxistat demonstrated a statistically significant improvement in Friedreich’s Ataxia patients based on the Friedreich Ataxia Combined Assessment Score (FACAS) compared to placebo. Additionally, it showed a statistically significant improvement in the neurological examination subscale of the FACAS."
+  },
+  {
+    "id": "67d1a36781b102733300002b",
+    "type": "summary",
+    "generated_answer": "I am sorry, but the provided file does not contain information about Xylazine or its relationship to illicit drug use. Therefore, I cannot answer the question."
+  },
+  {
+    "id": "67fbe25118b1e36f2e000115",
+    "type": "yesno",
+    "generated_answer": "Yes, obesity can be a familial syndrome as heritability estimates range from 40% to 70%, and multiple genes have been identified that contribute to increased susceptibility to obesity. Family studies demonstrate that children of obese parents are at a higher risk of developing obesity themselves. Additionally, rare monogenic syndromes can cause severe early-onset obesity, further supporting a genetic component."
+  },
+  {
+    "id": "67fbee9818b1e36f2e000124",
+    "type": "factoid",
+    "generated_answer": "The proportion of cells in glioblastoma that are macrophages/microglia is typically between 30-50%."
+  },
+  {
+    "id": "67e28bdd18b1e36f2e00007e",
+    "type": "summary",
+    "generated_answer": "Chimira is a novel bispecific antibody designed to simultaneously bind to CD30 and CD16A. This dual binding is intended to redirect T cells to eliminate CD30-expressing tumor cells. It exhibits potent *in vitro* cytotoxicity against CD30-positive lymphoma and leukemia cell lines, and demonstrates effective tumor clearance in xenograft models. Chimira’s design aims to overcome limitations associated with conventional antibody-drug conjugates and bispecific T-cell engagers."
+  },
+  {
+    "id": "67e5541718b1e36f2e0000ab",
+    "type": "summary",
+    "generated_answer": "Talquetamab is a bispecific T-cell engager antibody that binds to both CD3 on T cells and GPRC5D on multiple myeloma cells. This binding facilitates the formation of an immune synapse, activating T cells to eliminate GPRC5D-expressing myeloma cells. Consequently, Talquetamab redirects T-cell cytotoxicity toward myeloma cells, inducing apoptosis and inhibiting tumor growth."
+  },
+  {
+    "id": "67f8ea8318b1e36f2e000107",
+    "type": "factoid",
+    "generated_answer": "Fomoterol has a faster onset of action compared to salmeterol, which has a slower onset and longer duration of action, resulting in differing clinical profiles despite both being long-acting beta2-adrenergic agonists."
+  },
+  {
+    "id": "67fbe3cf18b1e36f2e00011a",
+    "type": "yesno",
+    "generated_answer": "No. The provided information does not contain any mention of biomarkers for borderline personality disorder."
+  },
+  {
+    "id": "67fd6fe418b1e36f2e00013d",
+    "type": "summary",
+    "generated_answer": "Plasmacytoid dendritic cells are specialized for the production of type I interferons, particularly in response to nucleic acid detection from viruses and bacteria. They play a critical role in antiviral immunity by sensing pathogens and initiating an interferon response. Furthermore, pDCs contribute to T cell activation and the development of adaptive immune responses, bridging innate and adaptive immunity. These cells also express TLR7 and TLR9, which are key for recognizing viral and bacterial components."
+  },
+  {
+    "id": "67d4179618b1e36f2e00000b",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information regarding primary sclerosing cholangitis effector genes and biological mechanisms."
+  },
+  {
+    "id": "67e56c7418b1e36f2e0000ae",
+    "type": "list",
+    "generated_answer": "Tirzepatide is a dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist, meaning its targets are the GIP and GLP-1 receptors."
+  },
+  {
+    "id": "67faf34018b1e36f2e00010a",
+    "type": "yesno",
+    "generated_answer": "Yes, higher blood pressure, body mass index, and non-HDL cholesterol are associated with increased dementia risk. Individuals in the highest tertile for each of these risk factors had a significantly increased risk of dementia compared to those in the lowest tertile, and the risk increased with each additional risk factor present. Specifically, those with all three risk factors present had a substantially elevated risk of dementia."
+  },
+  {
+    "id": "67fbe3a518b1e36f2e000119",
+    "type": "list",
+    "generated_answer": "Autologous blood use is indicated for patients undergoing elective orthopedic procedures, elective vascular surgeries, and as a potential rescue in cases of anticipated blood loss during cardiac surgery or other major operations, and may be considered for patients with severe anemia prior to elective procedures to increase their hemoglobin levels."
+  },
+  {
+    "id": "67fd73dd18b1e36f2e000140",
+    "type": "list",
+    "generated_answer": "PD-1, TIM-3, LAG-3, and TIGIT are commonly used markers to identify exhausted T cells."
+  },
+  {
+    "id": "67e7d88f18b1e36f2e0000d5",
+    "type": "list",
+    "generated_answer": "Approaches for selecting the right target in kidney disease include identifying targets based on genetics, transcriptomics, proteomics, and metabolomics data, as well as considering targets involved in fibrosis, inflammation, and podocyte injury, and those that modulate the immune system or restore metabolic homeostasis."
+  },
+  {
+    "id": "67e5731918b1e36f2e0000b3",
+    "type": "list",
+    "generated_answer": "Epclusa contains sofosbuvir and velpatasvir."
+  },
+  {
+    "id": "67f8f45518b1e36f2e000108",
+    "type": "list",
+    "generated_answer": "Beta-amyloid and tau proteins are measured in a blood test for Alzheimer’s disease, specifically focusing on the ratio of amyloid beta 42/40 and phosphorylated tau."
+  },
+  {
+    "id": "67ed4bdf18b1e36f2e0000f3",
+    "type": "summary",
+    "generated_answer": "There are two main types of poliovirus vaccines: inactivated poliovirus vaccine (IPV) and oral poliovirus vaccine (OPV). IPV uses a killed virus and is given by injection, while OPV is a live, attenuated (weakened) virus administered orally. OPV is particularly effective in stopping the transmission of the virus, but carries a very small risk of vaccine-derived poliovirus paralysis. Currently, the global initiative focuses on transitioning to solely using IPV or novel OPV2 vaccines to eliminate this risk."
+  },
+  {
+    "id": "67fd7a0218b1e36f2e000141",
+    "type": "factoid",
+    "generated_answer": "Central memory T cells are characterized by high CD45RO and CCR7 expression."
+  }
+]

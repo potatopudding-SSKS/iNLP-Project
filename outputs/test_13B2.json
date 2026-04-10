@@ -1,0 +1,427 @@
+[
+  {
+    "id": "67dedd6818b1e36f2e000061",
+    "type": "factoid",
+    "generated_answer": "Deep learning-based ensemble framework PheML has been developed harnessing UK Biobank data."
+  },
+  {
+    "id": "67e6b93718b1e36f2e0000be",
+    "type": "summary",
+    "generated_answer": "Nipocalimab is a human IgG4 monoclonal antibody. It blocks the neonatal Fc receptor (FcRn), leading to the reduction of IgG levels. This mechanism is intended to treat autoimmune diseases driven by pathogenic IgG antibodies. By lowering IgG concentrations, nipocalimab aims to decrease the autoantibody-mediated tissue damage observed in these conditions."
+  },
+  {
+    "id": "67ded51918b1e36f2e00005e",
+    "type": "summary",
+    "generated_answer": "Theragnostics represent an integrated approach to medical treatment, combining diagnostic imaging with therapeutic intervention. These agents are designed to both visualize a disease process and simultaneously deliver a targeted therapy to that same location. This allows for personalized treatment strategies based on individual patient characteristics and real-time monitoring of therapeutic response. Theragnostics utilize molecularly targeted agents, often radiolabeled, to achieve this dual functionality."
+  },
+  {
+    "id": "67e2cfa918b1e36f2e000099",
+    "type": "summary",
+    "generated_answer": "Knee steroid injections can provide short-term pain relief and improve function for individuals with knee osteoarthritis. However, these injections do not appear to offer long-term benefits for pain or structural changes in the knee joint. Repeated injections may even be associated with cartilage loss over time, potentially accelerating the progression of osteoarthritis. Therefore, while offering temporary relief, steroid injections are not a disease-modifying treatment for knee osteoarthritis."
+  },
+  {
+    "id": "67eaf2cd18b1e36f2e0000e1",
+    "type": "summary",
+    "generated_answer": "Cancer-associated fibroblasts (CAFs) create a physical barrier that limits immune cell infiltration into tumors. They also secrete factors like CXCL12 and TGF-β, which suppress T cell function and promote the recruitment of immunosuppressive cells. Furthermore, CAFs can express PD-L1, directly inhibiting T cell activity and contributing to an immunosuppressive tumor microenvironment."
+  },
+  {
+    "id": "67e2d75118b1e36f2e00009d",
+    "type": "summary",
+    "generated_answer": "Mantis-ML 2.0 is a system designed for biomedical knowledge graph completion and link prediction. It achieves state-of-the-art performance on both tasks, demonstrating improvements over previous methods. The system utilizes a novel approach to effectively learn and predict relationships within biomedical knowledge graphs. It represents an advancement in the field of biomedical data analysis and knowledge discovery."
+  },
+  {
+    "id": "67e6bf8818b1e36f2e0000c5",
+    "type": "factoid",
+    "generated_answer": "Zodasiran targets hepatocyte-expressed angiopoietin-like 4 (ANGPTL4)."
+  },
+  {
+    "id": "67e1356018b1e36f2e000070",
+    "type": "factoid",
+    "generated_answer": "The sublci and gyri are found in the brain."
+  },
+  {
+    "id": "67e28ded18b1e36f2e000080",
+    "type": "factoid",
+    "generated_answer": "I am sorry, but the provided file does not contain information about the most common reversible cause of infertility in men, and therefore I cannot answer the question."
+  },
+  {
+    "id": "67eaf29c18b1e36f2e0000e0",
+    "type": "factoid",
+    "generated_answer": "A BRAF V600E mutation is found in approximately 50% of melanomas."
+  },
+  {
+    "id": "67e6cf7218b1e36f2e0000d1",
+    "type": "list",
+    "generated_answer": "Several novel potential biomarkers identified in basal cell carcinoma from MR-PheWAS include increased risk of lichen planus, decreased risk of age-related macular degeneration, and associations with various autoimmune and inflammatory conditions like rheumatoid arthritis and Crohn’s disease."
+  },
+  {
+    "id": "67e5530418b1e36f2e0000aa",
+    "type": "yesno",
+    "generated_answer": "Yes, Plozasiran demonstrated a statistically significant reduction in the incidence of pancreatitis compared to placebo in patients with genetic predisposition to pancreatitis. Specifically, the incidence of pancreatitis was 0% in the Plozasiran group versus 1.9% in the placebo group."
+  },
+  {
+    "id": "67e0533418b1e36f2e000069",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information about the symptoms of Chikungunya virus infection."
+  },
+  {
+    "id": "67e40c0f18b1e36f2e0000a2",
+    "type": "factoid",
+    "generated_answer": "The data details interventions like maternal antiviral therapy with valganciclovir to reduce the rate of congenital CMV infection and developmental delay, and intravenous immunoglobulin (IVIG) is being investigated for its potential to prevent transmission."
+  },
+  {
+    "id": "67eb822e18b1e36f2e0000f1",
+    "type": "factoid",
+    "generated_answer": "The ten-eleven translocation (TET) enzymes are a characteristic family responsible for DNA demethylation."
+  },
+  {
+    "id": "67df18f518b1e36f2e000064",
+    "type": "yesno",
+    "generated_answer": "Yes, MAP3K15 expression is increased in adipose tissue of obese individuals and positively correlates with BMI, HOMA-IR, and fasting insulin levels, suggesting a role in obesity-related metabolic dysfunction. Additionally, silencing MAP3K15 in adipocytes reduces lipogenesis and increases insulin sensitivity."
+  },
+  {
+    "id": "67e69d2718b1e36f2e0000b6",
+    "type": "summary",
+    "generated_answer": "Remibrutinib is an oral Bruton’s tyrosine kinase (BTK) inhibitor. It forms a covalent bond with a cysteine residue in the BTK active site, leading to irreversible BTK inhibition. This mechanism results in the reduction of BTK signaling, impacting B-cell receptor signaling and downstream pathways involved in B-cell activation, proliferation, and survival."
+  },
+  {
+    "id": "67e1359918b1e36f2e000071",
+    "type": "summary",
+    "generated_answer": "I am sorry, but I cannot fulfill this request. The provided file is a JSON object containing metadata about a file, but does not contain any information about \"pendelluft\" or its summary. Therefore, it is impossible to answer the question using only the given context."
+  },
+  {
+    "id": "67e2abdf18b1e36f2e000089",
+    "type": "list",
+    "generated_answer": "The data details potential complications of elective abortion as including hemorrhage, infection, incomplete abortion requiring surgical intervention, and potential damage to the uterus or cervix."
+  },
+  {
+    "id": "67eb70ee18b1e36f2e0000eb",
+    "type": "yesno",
+    "generated_answer": "No, glioblastoma is characterized by its invasive nature within the brain but limited ability to metastasize outside the central nervous system. It typically spreads locally within the CNS rather than distantly to other organs."
+  },
+  {
+    "id": "67e7df6118b1e36f2e0000d8",
+    "type": "factoid",
+    "generated_answer": "The SILVA database serves as a catalogue of full-length 16S rRNA gene sequences from bacteria in wastewater treatment plants."
+  },
+  {
+    "id": "67e6c4dd18b1e36f2e0000ca",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information about WHIM syndrome or its features."
+  },
+  {
+    "id": "67e85c4318b1e36f2e0000d9",
+    "type": "list",
+    "generated_answer": "Radiofrequency ablation, microwave ablation, and cryoablation are percutaneous thermal ablation techniques suitable for the treatment of bone oligometastases."
+  },
+  {
+    "id": "67e270d318b1e36f2e000075",
+    "type": "factoid",
+    "generated_answer": "The most common infectious cause of congenital deafness is cytomegalovirus."
+  },
+  {
+    "id": "67eb6ea518b1e36f2e0000e9",
+    "type": "yesno",
+    "generated_answer": "Yes, melanoma can occur in areas not exposed to sunlight. Acral lentiginous melanoma, a less common type, appears on the palms, soles, or under the nails, which are areas typically shielded from sun exposure. Additionally, mucosal melanoma can develop on mucous membranes, regardless of sunlight exposure."
+  },
+  {
+    "id": "67dc452018b1e36f2e00005a",
+    "type": "yesno",
+    "generated_answer": "Yes, CYLD is identified as a deubiquitinase that regulates multiple signaling pathways impacting the tumor microenvironment, including those involving extracellular matrix remodeling. It directly interacts with and deubiquitinates proteins like NEDD4, influencing collagen production and thus extracellular matrix organization."
+  },
+  {
+    "id": "67e6c2fa18b1e36f2e0000c8",
+    "type": "yesno",
+    "generated_answer": "No, the provided information does not mention meningitis or whether gepotidacin can be used to treat it. The data focuses on gepotidacin's activity against *Neisseria gonorrhoeae* and its pharmacokinetic/pharmacodynamic properties, specifically regarding uncomplicated gonorrhea, not meningitis."
+  },
+  {
+    "id": "67cf3f6481b1027333000025",
+    "type": "factoid",
+    "generated_answer": "Bromocriptine is indicated for the treatment of hyperprolactinemia, acromegaly, and Parkinson’s disease."
+  },
+  {
+    "id": "67e2b8a818b1e36f2e000091",
+    "type": "yesno",
+    "generated_answer": "Yes, biologics are used in pancreatic cancer. The provided information details several biologics, including nivolumab and pembrolizumab, being investigated in clinical trials for pancreatic cancer, often in combination with chemotherapy or other treatments. Additionally, the document lists biomarkers, such as PD-L1 expression, used to determine patient eligibility for trials involving these biologics."
+  },
+  {
+    "id": "67eb713518b1e36f2e0000ed",
+    "type": "yesno",
+    "generated_answer": "Yes, MGMT promoter methylation is associated with increased sensitivity to temozolomide, and therefore predicts a better response. Patients with methylated MGMT promoters experience prolonged survival compared to those with unmethylated promoters when treated with temozolomide. This is because MGMT repairs DNA damage caused by temozolomide; when the MGMT gene is silenced by methylation, temozolomide is more effective."
+  },
+  {
+    "id": "67e7db2918b1e36f2e0000d6",
+    "type": "factoid",
+    "generated_answer": "Currently, 66 germline associations with clonal hematopoiesis have been identified in European-ancestry populations."
+  },
+  {
+    "id": "67e6c3f918b1e36f2e0000c9",
+    "type": "list",
+    "generated_answer": "Exblifep contains pirtobrutinib, a Bruton’s tyrosine kinase (BTK) inhibitor, and its inactive ingredients are microcrystalline cellulose, croscarmellose sodium, lactose monohydrate, magnesium stearate, hypromellose, titanium dioxide, polyethylene glycol, and talc."
+  },
+  {
+    "id": "67decf2a18b1e36f2e00005c",
+    "type": "list",
+    "generated_answer": "Current interventions for congenital talipes equinovarus include observation, stretching, casting—such as the Ponseti method involving serial casting—and, in some cases, surgical intervention or French functional physical therapy."
+  },
+  {
+    "id": "67e2b26318b1e36f2e00008c",
+    "type": "list",
+    "generated_answer": "Biologic drugs used in respiratory diseases include anti-IgE, anti-IL-5, anti-IL-17, and anti-TSLP therapies."
+  },
+  {
+    "id": "67eb559518b1e36f2e0000e5",
+    "type": "summary",
+    "generated_answer": "IDH1/IDH2 mutations are frequently observed in gliomas and are associated with a more favorable prognosis compared to gliomas without these mutations. These mutations lead to the production of 2-hydroxyglutarate, which alters cellular metabolism and impacts gene regulation. Specifically, IDH-mutant gliomas generally exhibit slower growth rates and improved responses to therapy, resulting in longer overall survival for patients. The presence of these mutations is therefore a significant factor in determining the grade and clinical behavior of gliomas."
+  },
+  {
+    "id": "67df1a1d18b1e36f2e000065",
+    "type": "factoid",
+    "generated_answer": "The missense variant in SPDL1 associated with IPF is p.Arg814Trp."
+  },
+  {
+    "id": "67e6be3118b1e36f2e0000c3",
+    "type": "factoid",
+    "generated_answer": "Fidanacogene elaparvovec is a gene therapy indicated for the treatment of hemophilia B."
+  },
+  {
+    "id": "67e3113d18b1e36f2e00009f",
+    "type": "summary",
+    "generated_answer": "The Pringle maneuver is utilized to control hemorrhage in the liver. It involves applying manual compression to the hepatic veins, specifically the middle and left hepatic veins, to temporarily stem bleeding. This technique is often employed during trauma or liver resection when direct control of bleeding is challenging. The maneuver can provide critical time for definitive repair or intervention."
+  },
+  {
+    "id": "67e2942a18b1e36f2e000082",
+    "type": "summary",
+    "generated_answer": "Histoplasma capsulatum thrives in environments enriched with bird or bat droppings. Specifically, it is found in soil contaminated with these droppings, particularly in areas undergoing disturbance like construction or demolition. The organism is a dimorphic fungus, meaning it exists as a mold in the environment and transitions to a yeast form within the host. These conditions support its growth and dissemination, leading to potential human infection."
+  },
+  {
+    "id": "67eb569718b1e36f2e0000e8",
+    "type": "list",
+    "generated_answer": "Tumors often exploit PD-1, PD-L1, CTLA-4, and LAG-3 immune checkpoint proteins to evade immune responses, thereby suppressing T cell activity and promoting tumor growth."
+  },
+  {
+    "id": "67e6c9d518b1e36f2e0000cd",
+    "type": "factoid",
+    "generated_answer": "One thousand individuals were selected for generation of whole-genome sequencing data in the Mexico City Prospective Study."
+  },
+  {
+    "id": "67e6c6fa18b1e36f2e0000cb",
+    "type": "list",
+    "generated_answer": "Samter's Triad features nasal polyps, asthma, and aspirin sensitivity."
+  },
+  {
+    "id": "67e014c918b1e36f2e000068",
+    "type": "factoid",
+    "generated_answer": "Bempedoic acid inhibits ATP citrate lyase, an enzyme upstream of cholesterol synthesis, leading to reduced cholesterol levels."
+  },
+  {
+    "id": "67e2c03d18b1e36f2e000094",
+    "type": "summary",
+    "generated_answer": "Adolescent obesity is linked to an increased risk of premature death and disability in adulthood. Specifically, it significantly elevates the likelihood of developing cardiovascular disease, type 2 diabetes, and certain cancers later in life. Furthermore, severe obesity during youth is associated with a higher chance of musculoskeletal disorders and mental health issues persisting into adulthood. These long-term health consequences underscore the importance of addressing obesity early in life."
+  },
+  {
+    "id": "67eb817c18b1e36f2e0000f0",
+    "type": "factoid",
+    "generated_answer": "The median survival time for glioblastoma patients with standard treatment is 12 to 18 months."
+  },
+  {
+    "id": "67dede2918b1e36f2e000062",
+    "type": "factoid",
+    "generated_answer": "An ensemble machine-learning framework called DeepDruggability has been developed for predicting druggability."
+  },
+  {
+    "id": "67e6b63118b1e36f2e0000bc",
+    "type": "summary",
+    "generated_answer": "I am unable to answer the question. The provided file does not contain information regarding the clinical significance of the Eiffel-by-Night Sign. Therefore, I cannot formulate a response based solely on the given content."
+  },
+  {
+    "id": "67d0396281b1027333000027",
+    "type": "summary",
+    "generated_answer": "Guillain-Barré syndrome is hypothesized to be triggered by an infection preceding the onset of symptoms. Specifically, it involves a molecular mimicry where antibodies created to fight the infection mistakenly attack the peripheral nerves. This immune response leads to inflammation and damage of the myelin sheath, ultimately causing muscle weakness and paralysis.  *Campylobacter jejuni* is identified as a common preceding infection, but other viral and bacterial infections can also be implicated."
+  },
+  {
+    "id": "67e2849218b1e36f2e00007a",
+    "type": "factoid",
+    "generated_answer": "The most common genetic variant of cystic fibrosis is the ΔF508 mutation, accounting for approximately 70% of alleles in individuals with cystic fibrosis."
+  },
+  {
+    "id": "67eaf28f18b1e36f2e0000df",
+    "type": "list",
+    "generated_answer": "The glioblastoma tumor microenvironment consists of tumor cells, infiltrating immune cells, endothelial cells, pericytes, astrocytes, microglia, and extracellular matrix components."
+  },
+  {
+    "id": "67e2944218b1e36f2e000083",
+    "type": "factoid",
+    "generated_answer": "PathVisio is the Cytoscape application developed for the study of metabolic pathway evolution."
+  },
+  {
+    "id": "67e6d06918b1e36f2e0000d2",
+    "type": "yesno",
+    "generated_answer": "Yes, Galcanezumab is approved for the preventive treatment of migraine, and it is specifically mentioned as a treatment option for episodic or chronic migraine *including* vestibular migraine. The document details its use in adults experiencing migraine with or without aura, and explicitly lists vestibular migraine as a condition it can address."
+  },
+  {
+    "id": "67dec8fb18b1e36f2e00005b",
+    "type": "summary",
+    "generated_answer": "Kisspeptin demonstrates a complex relationship with cancer, exhibiting both tumor-suppressive and tumor-promoting effects depending on the cancer type and stage. In some cancers, kisspeptin and its receptor are downregulated, correlating with disease progression and potentially serving as a prognostic marker. Conversely, kisspeptin can stimulate cancer cell proliferation and metastasis in other contexts, highlighting its dual role and the need for further investigation to determine targeted therapeutic strategies. Specifically, kisspeptin signaling appears to influence cancer progression through modulation of angiogenesis, cell migration, and immune responses."
+  },
+  {
+    "id": "67e40a2418b1e36f2e0000a1",
+    "type": "list",
+    "generated_answer": "I am unable to answer the question as the provided file does not contain information regarding infections caused by Klebsiella spp."
+  },
+  {
+    "id": "67eb55d818b1e36f2e0000e6",
+    "type": "yesno",
+    "generated_answer": "No, DNA methylation does not always lead to gene silencing. The information details that while methylation is often associated with transcriptional repression, it can also play a role in gene activation depending on the genomic location. Specifically, methylation within gene bodies is correlated with increased transcriptional activity."
+  },
+  {
+    "id": "67e7dbc518b1e36f2e0000d7",
+    "type": "summary",
+    "generated_answer": "Gene-SCOUT is a platform designed to predict potential off-target effects of CRISPR-based gene editing. It utilizes a machine learning model trained on a comprehensive dataset of CRISPR-Cas9 activity to score and rank guide RNAs based on their likelihood of unintended on- and off-target activity. The platform provides comprehensive reports detailing potential off-target sites, including their genomic location and predicted activity levels, aiding in the design of highly specific and effective gene editing experiments. Gene-SCOUT aims to minimize off-target effects and improve the safety and precision of CRISPR-based therapies and research."
+  },
+  {
+    "id": "67e69e7918b1e36f2e0000b7",
+    "type": "yesno",
+    "generated_answer": "No. The provided information does not contain any details regarding the effectiveness of Inebilizumab for IgG4-Related Disease. The file focuses on Inebilizumab’s use in preventing cytomegalovirus disease in adult recipients of hematopoietic stem cell transplants and does not mention IgG4-Related Disease."
+  },
+  {
+    "id": "67ded55318b1e36f2e00005f",
+    "type": "yesno",
+    "generated_answer": "Yes, botulinum toxin A is used to treat arthritis as it reduces pain and improves function by blocking the release of substances involved in pain transmission. It is also noted to be effective in managing osteoarthritis and rheumatoid arthritis, offering benefits like decreased pain intensity and improved range of motion."
+  },
+  {
+    "id": "67e40e9418b1e36f2e0000a4",
+    "type": "list",
+    "generated_answer": "The heel prick test screens neonates for phenylketonuria, congenital adrenal hyperplasia, galactosemia, biotinidase deficiency, congenital hypothyroidism, and severe combined immunodeficiency."
+  },
+  {
+    "id": "67eb55f418b1e36f2e0000e7",
+    "type": "factoid",
+    "generated_answer": "The most common genetic alteration in primary glioblastoma is EGFR amplification."
+  },
+  {
+    "id": "67df10be18b1e36f2e000063",
+    "type": "summary",
+    "generated_answer": "gwRVIS is a recurrent neural network (RNN) architecture designed for time series forecasting, specifically tailored for predicting future values based on past observations. It incorporates a novel gating mechanism, termed the \"recurrent viscosity,\" to regulate information flow and enhance long-term dependency modeling. This viscosity parameter allows the network to adaptively control the influence of past states, improving performance on complex temporal patterns and offering robustness against noise. Furthermore, gwRVIS demonstrates competitive performance compared to established RNN variants like LSTMs and GRUs across various benchmark datasets."
+  },
+  {
+    "id": "67e56e1e18b1e36f2e0000af",
+    "type": "summary",
+    "generated_answer": "NTLA-2002 is an mRNA therapeutic designed to deliver a functional transthyretin (TTR) protein to address the underlying cause of hereditary transthyretin-mediated amyloidosis. It utilizes lipid nanoparticles to encapsulate and deliver mRNA encoding a stabilized TTR variant to the liver. This mRNA is then translated by the liver cells, resulting in the production of functional TTR, which reduces the levels of misfolded TTR protein responsible for amyloid fibril formation and associated disease pathology. Ultimately, NTLA-2002 aims to decrease both circulating and liver-derived TTR, thereby mitigating disease progression."
+  },
+  {
+    "id": "67e133f118b1e36f2e00006f",
+    "type": "factoid",
+    "generated_answer": "Calabash chalk is consumed by pregnant women due to its kaolin content, which is believed to alleviate nausea and vomiting, and its provision of iron, calcium, and other minerals that address nutritional deficiencies during pregnancy."
+  },
+  {
+    "id": "67e288d518b1e36f2e00007c",
+    "type": "factoid",
+    "generated_answer": "The country with the highest incidence of African Trypanosomiasis is the Democratic Republic of Congo, accounting for over 80% of reported cases."
+  },
+  {
+    "id": "67ea538318b1e36f2e0000dd",
+    "type": "summary",
+    "generated_answer": "I am sorry, but the provided file does not contain information about the role of the tumor microenvironment in the MES-like state of glioblastoma multiforme (GBM). Therefore, I cannot answer the question."
+  },
+  {
+    "id": "67dc41a618b1e36f2e000059",
+    "type": "yesno",
+    "generated_answer": "No, loss of the tumour suppressor LKB1/STK11 contributes to cancer development and progression, specifically by promoting therapy resistance through increased oxidative phosphorylation and enhanced DNA repair capacity in cancer cells. It is associated with poor prognosis across multiple cancer types and can lead to resistance to therapies like chemotherapy and radiation."
+  },
+  {
+    "id": "67e6bdc618b1e36f2e0000c2",
+    "type": "factoid",
+    "generated_answer": "Tulisokibart targets the von Hippel-Lindau (VHL) protein, specifically binding to the VHL-p53 interface with a nanomolar affinity."
+  },
+  {
+    "id": "67cf365781b1027333000023",
+    "type": "list",
+    "generated_answer": "The provided file does not contain information about the symptoms of Landau-Klettner syndrome."
+  },
+  {
+    "id": "67e2c4b618b1e36f2e000095",
+    "type": "list",
+    "generated_answer": "Unfortunately, the provided file does not contain information regarding the consequences of environmental exposure to lead poisoning, and therefore a response cannot be generated."
+  },
+  {
+    "id": "67eb557218b1e36f2e0000e4",
+    "type": "summary",
+    "generated_answer": "Glioblastoma stem-like cells (GSCs) are a subpopulation of cells within glioblastoma that drive tumor initiation, maintenance, and recurrence. These cells exhibit self-renewal and differentiation capabilities, contributing to the tumor’s ability to regenerate and evade complete eradication. GSCs demonstrate resistance to conventional therapies like radiation and chemotherapy, potentially due to increased DNA repair capacity, altered drug metabolism, and activation of survival pathways. Targeting GSCs is therefore considered crucial for improving treatment outcomes and overcoming therapy resistance in glioblastoma."
+  },
+  {
+    "id": "67e28a8418b1e36f2e00007d",
+    "type": "list",
+    "generated_answer": "Mirnovo offers advantages including the ability to profile guide RNAs with high sensitivity and genome-wide coverage, identify on-target sites with high precision, and detect off-target effects—features not consistently available in existing tools like HTGTS, GUIDE-seq, or CIRCLE-seq."
+  },
+  {
+    "id": "67e56b5418b1e36f2e0000ad",
+    "type": "factoid",
+    "generated_answer": "Abelacimab targets factor XI and kallikrein, inhibiting both activated factor XI and kallikrein."
+  },
+  {
+    "id": "67e94f4418b1e36f2e0000dc",
+    "type": "yesno",
+    "generated_answer": "No, Ameloblastoma is described as a benign, slow-growing, locally invasive neoplasm. It is specifically differentiated from carcinomas and sarcomas, which are malignant. The document details its characteristics as a non-cancerous odontogenic tumor."
+  },
+  {
+    "id": "67e2cd8b18b1e36f2e000097",
+    "type": "factoid",
+    "generated_answer": "The treatment for paracetamol intoxication is N-acetylcysteine, which is given either intravenously or orally."
+  },
+  {
+    "id": "67eb7cf718b1e36f2e0000ef",
+    "type": "list",
+    "generated_answer": "Tumors secrete immunosuppressive cytokines such as TGF-β, IL-10, and VEGF to induce the activation of regulatory T-cells and evade the immune system, additionally producing CCL20, CXCL12, and PGE2 to further promote immune suppression."
+  },
+  {
+    "id": "67e2d99318b1e36f2e00009e",
+    "type": "yesno",
+    "generated_answer": "Yes, copy number variations (CNVs) are enriched in familial generalized and focal epilepsies, indicating their contribution to the genetic architecture of these conditions. Specifically, rare, damaging CNVs are frequently identified in individuals with these epilepsies, and these CNVs often contain genes with known neurological functions."
+  },
+  {
+    "id": "67e5712e18b1e36f2e0000b2",
+    "type": "factoid",
+    "generated_answer": "Plaques en Prairie Fauchée are specific to Alzheimer's disease."
+  },
+  {
+    "id": "67d1a0de81b102733300002a",
+    "type": "list",
+    "generated_answer": "The potential complications associated with Plastic Multilayer Closure include seroma, hematoma, wound dehiscence, infection, and skin edge necrosis."
+  },
+  {
+    "id": "67e4165d18b1e36f2e0000a6",
+    "type": "yesno",
+    "generated_answer": "No, the information indicates that biologicals generally have a pregnancy risk rating of C or D, meaning either animal studies have shown an adverse effect or there are no adequate and well-controlled studies in humans. Specifically, live vaccines should not be given during pregnancy. Additionally, the use of TNF-alpha inhibitors is not recommended during pregnancy."
+  },
+  {
+    "id": "67eaf32618b1e36f2e0000e3",
+    "type": "summary",
+    "generated_answer": "E-boxes are short DNA sequences found in the promoter region of many genes, and they serve as binding sites for transcription factors. Specifically, the Myc transcription factor binds to E-boxes, influencing gene expression, and overexpression of Myc is frequently observed in various cancers. This binding to E-boxes regulates the expression of genes involved in cell growth, proliferation, and apoptosis, ultimately contributing to the development and progression of cancer. Therefore, E-boxes play a critical role in the gene regulatory networks disrupted in cancer."
+  },
+  {
+    "id": "67dc40da18b1e36f2e000058",
+    "type": "summary",
+    "generated_answer": "StarGazer is a system designed to evaluate large language models (LLMs) on medical question answering. It utilizes a retrieval-augmented generation (RAG) pipeline, combining information retrieval with LLM capabilities. The system incorporates a multi-stage filtering process to refine retrieved evidence and improve answer quality, focusing on both relevance and support for the final response. StarGazer aims to provide a robust and reliable assessment of LLMs in the medical domain."
+  },
+  {
+    "id": "67e6ba8e18b1e36f2e0000bf",
+    "type": "list",
+    "generated_answer": "Ivonescimab targets programmed death-ligand 1 (PD-L1), vascular endothelial growth factor A (VEGF-A), and programmed cell death protein 1 (PD-1)."
+  },
+  {
+    "id": "67e08afd18b1e36f2e00006a",
+    "type": "factoid",
+    "generated_answer": "Eptinezumab is a monoclonal antibody directed against soluble KLKB1, a precursor of kallikrein."
+  },
+  {
+    "id": "67e299b618b1e36f2e000087",
+    "type": "summary",
+    "generated_answer": "Ophthalmologic loa-loa is caused by the migration of *Loa loa* filarial worms into the conjunctiva. This condition presents with symptoms like transient eyelid edema, subconjunctival hemorrhages, and discomfort as the worm moves across the eye. Diagnosis is typically made by direct visualization of the worm under the conjunctiva, and treatment involves surgical removal. The worms can cause significant irritation and inflammation, but generally do not threaten vision."
+  },
+  {
+    "id": "67eb86d618b1e36f2e0000f2",
+    "type": "yesno",
+    "generated_answer": "Yes, a single gene can be regulated by multiple enhancers because enhancers can act in a combinatorial manner, and different enhancers can be active in different cell types or at different developmental stages to fine-tune gene expression. The data also indicates that multiple enhancers frequently collaborate to achieve appropriate levels of gene expression, and a gene’s expression pattern is determined by the collective activity of its enhancers."
+  }
+]

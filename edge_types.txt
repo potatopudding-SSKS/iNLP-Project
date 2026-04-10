@@ -1,0 +1,79 @@
+related-to	156806
+has effect	341
+main subject	18
+instance of	920
+subject has role	190
+has part	285
+product or material produced	33
+sport	1
+drug used for treatment	564
+facet of	432
+use	104
+subclass of	767
+author	3
+part of	380
+medical condition treated	529
+field of work	4
+has cause	397
+different from	93
+encodes	17
+opposite of	18
+manufacturer	9
+inception	2
+connects with	6
+named after	67
+parent taxon	25
+said to be the same as	43
+organizer	1
+field of this occupation	1
+used by	3
+crosses	1
+followed by	10
+is a list of	21
+developer	22
+point in time	2
+programming language	7
+studies	23
+has part <subj> blood type <obj> has part	1
+endemic to	1
+uses	22
+studied by	32
+has parts of the class	7
+owned by	2
+follows	6
+has part <subj> Chl1 <obj> has part	1
+drug used for treatment <subj> Bevacizumab <obj> drug used for treatment	1
+drug used for treatment <subj> Aflibercept <obj> drug used for treatment	1
+award received	2
+based on	4
+country of origin	5
+parent organization	1
+affiliation	2
+shares border with	2
+practiced by	1
+start time	1
+part of the series	1
+taxonomic type	5
+has part <subj> DNA <obj> has part	1
+medical condition treated <subj> COPD <obj> medical condition treated	1
+place of death	1
+family	1
+mother	1
+has part <subj> SOX2 <obj> has part	1
+applies to jurisdiction	2
+owner of	1
+has part <subj> Polα <obj> has part	1
+medical condition treated <subj> juvenile idiopathic arthritis <obj> medical condition treated	1
+child	1
+located in the administrative territorial entity	4
+has part <subj> E7 <obj> has part	1
+political ideology	2
+location	1
+country	3
+number of episodes	1
+sports season of league or competition	1
+instance of <subj> graph database <obj> instance of	1
+publisher	1
+present in work	1
+contains administrative territorial entity	1
+discoverer or inventor	1

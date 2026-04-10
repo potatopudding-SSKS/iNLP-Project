@@ -19,14 +19,15 @@ import re
 import os
 import time
 import argparse
+import tempfile
 from pathlib import Path
 from typing import Optional
-import google.generativeai as genai
+from google import genai
 
 # ──────────────────────────────────────────────
 #  Configuration
 # ──────────────────────────────────────────────
-API_KEY = "AIzaSyBFWzEDj991hMHodluOCJXrp4JHxheYnfI"
+API_KEY = "AIzaSyBGD0Yxr2sGXukGRi38Zs_XEWYFKScDktU"
 MODEL_NAME = "gemma-3-27b-it"          # or "gemma-3-12b-it", "gemini-1.5-flash", etc.
 REQUEST_DELAY = 1.0                    # seconds between requests (rate-limit friendly)
 MAX_RETRIES = 3                        # retries on transient errors
@@ -34,52 +35,93 @@ RETRY_DELAY = 5.0                      # seconds to wait before retry
 
 TRAIN_JSON = "datasets/train/train.json"
 OUTPUT_DIR = "outputs"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "baseline_answers.json")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "tag_final_answers.json")
 
 # ──────────────────────────────────────────────
 #  Prompt templates per question type
 # ──────────────────────────────────────────────
 
 PROMPTS = {
-    "yesno": (
-        "You are a biomedical expert. Answer the following yes/no biomedical question "
-        "with a single, complete natural-language sentence. "
-        "Begin your sentence with either 'Yes' or 'No', then immediately provide a "
-        "brief biomedical justification in the same sentence (maximum 60 words total). "
-        "Do NOT produce a bare 'yes' or 'no' — the explanation must be included.\n\n"
-        "Question: {question}\n\n"
-        "Answer:"
-    ),
-    "factoid": (
-        "You are a biomedical expert. Answer the following factoid biomedical question "
-        "with exactly one complete natural-language sentence (maximum 40 words). "
-        "Your sentence must name the specific biomedical entity or entities being asked "
-        "about and may include one brief qualifying detail (e.g. function, class, or "
-        "context). Do NOT use bullet points, numbering, or lists.\n\n"
-        "Question: {question}\n\n"
-        "Answer:"
-    ),
-    "list": (
-        "You are a biomedical expert. Answer the following list biomedical question "
-        "with a single fluent natural-language sentence (maximum 80 words) that "
-        "enumerates all the relevant biomedical entities. "
-        "Write in the style of a textbook answer: present the entities as a "
-        "grammatically complete sentence, using commas and 'and' to separate items. "
-        "Do NOT use bullet points, numbered lists, or a bare comma-separated list "
-        "without an introductory clause.\n\n"
-        "Question: {question}\n\n"
-        "Answer:"
-    ),
-    "summary": (
-        "You are a biomedical expert. Write a concise, informative summary answer "
-        "to the following biomedical question in 2 to 4 complete natural-language "
-        "sentences (maximum 120 words). "
-        "Be factual and precise; synthesise the key biomedical facts relevant to "
-        "the question. Write in a style suitable for a biomedical review article — "
-        "do NOT use headings, bullet points, or lists.\n\n"
-        "Question: {question}\n\n"
-        "Answer:"
-    ),
+    "yesno": """You are a biomedical expert. Answer the question using ONLY the provided context.
+Do not use outside knowledge. Do not refer to the context as passages, excerpts, documents, or studies.
+Do not write phrases such as "Passage 1", "the passage", "the context states", or "according to the text".
+Write the answer directly and fluently.
+
+Context:
+{context}
+
+Question: {question}
+
+Instructions:
+- Answer with "Yes" or "No" followed by a brief justification.
+- Use only the provided context.
+- If the answer is not explicitly stated, infer the best possible answer from the context.
+- Use multiple passages if needed.
+- Do not mention passages, context blocks, or source formatting in the answer.
+- The answer must be fluent, complete, and non-empty.
+
+Answer:""",
+
+    "factoid": """You are a biomedical expert. Answer the question using ONLY the provided context.
+Do not use outside knowledge. Do not refer to the context as passages, excerpts, documents, or studies.
+Do not write phrases such as "Passage 1", "the passage", "the context states", or "according to the text".
+Write the answer directly and fluently.
+
+Context:
+{context}
+
+Question: {question}
+
+Instructions:
+- Provide the answer in a single complete sentence.
+- Name the specific entity, value, or concept being asked for.
+- Use only the provided context.
+- If the answer is not explicitly stated, infer the best possible answer from the context.
+- Use multiple passages if needed.
+- Do not mention passages, context blocks, or source formatting in the answer.
+- The answer must be fluent, specific, and non-empty.
+
+Answer:""",
+
+    "list": """You are a biomedical expert. Answer the question using ONLY the provided context.
+Do not use outside knowledge. Do not refer to the context as passages, excerpts, documents, or studies.
+Do not write phrases such as "Passage 1", "the passage", "the context states", or "according to the text".
+Write the answer directly and fluently.
+
+Context:
+{context}
+
+Question: {question}
+
+Instructions:
+- Provide all relevant items in a single fluent sentence using natural enumeration.
+- Use only the provided context.
+- If the answer is not explicitly stated, infer the best possible answer from the context.
+- Use multiple passages if needed.
+- Do not mention passages, context blocks, or source formatting in the answer.
+- The answer must be fluent, complete, and non-empty.
+
+Answer:""",
+
+    "summary": """You are a biomedical expert. Answer the question using ONLY the provided context.
+Do not use outside knowledge. Do not refer to the context as passages, excerpts, documents, or studies.
+Do not write phrases such as "Passage 1", "the passage", "the context states", or "according to the text".
+Write the answer directly and fluently.
+
+Context:
+{context}
+
+Question: {question}
+
+Instructions:
+- Write a concise, informative answer in 2-4 complete sentences.
+- Use only the provided context.
+- If the answer is not explicitly stated, infer the best possible answer from the context.
+- Use multiple passages if needed.
+- Do not mention passages, context blocks, or source formatting in the answer.
+- The answer must be fluent, coherent, and non-empty.
+
+Answer:"""
 }
 
 
@@ -110,23 +152,21 @@ def load_bioasq_json(path: str) -> dict:
 #  API helpers
 # ──────────────────────────────────────────────
 
-def init_model(api_key: str, model_name: str):
+def init_client(api_key: str):
     """Initialise the Gemma/Gemini model via Google GenAI SDK."""
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(model_name)
-    return model
+    client = genai.Client(api_key=api_key)
+    return client
 
 
-def call_api(model, prompt: str, retries: int = MAX_RETRIES) -> str:
+def call_api(client, model_name, prompt: str, retries: int = MAX_RETRIES) -> str:
     """Call the Gemma API with retry logic. Returns the generated text."""
     for attempt in range(1, retries + 1):
         try:
-            response = model.generate_content(
-                prompt,
-                generation_config=genai.types.GenerationConfig(
-                    temperature=0.0,        # deterministic / greedy
-                    max_output_tokens=256,  # cap output length
-                ),
+            response = client.models.generate_content(
+                model = model_name,
+                contents = [
+                    prompt
+                ]
             )
             return response.text.strip()
         except Exception as e:
@@ -136,6 +176,21 @@ def call_api(model, prompt: str, retries: int = MAX_RETRIES) -> str:
     return ""   # return empty string on complete failure
 
 
+def upload_json_context(client, structure: dict):
+    """Upload JSON context as a temporary file and return uploaded file metadata."""
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", suffix=".json", delete=False, encoding="utf-8"
+        ) as tmp:
+            json.dump(structure, tmp, ensure_ascii=False, indent=2)
+            temp_path = tmp.name
+        return client.files.upload(file=temp_path)
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.remove(temp_path)
+
+
 # ──────────────────────────────────────────────
 #  Core generation loop
 # ──────────────────────────────────────────────
@@ -143,9 +198,11 @@ def call_api(model, prompt: str, retries: int = MAX_RETRIES) -> str:
 def generate_answers(
     train_path: str,
     output_path: str,
-    model,
+    client,
+    model_name: str,
     resume: bool = True,
     limit: Optional[int] = None,
+    tag_evaluation: bool = False,
 ):
     """
     Iterate over all questions in train.json, generate answers via Gemma,
@@ -155,12 +212,17 @@ def generate_answers(
     ----------
     train_path   : path to train.json
     output_path  : path for the output JSON file
-    model        : initialised GenerativeModel
+    client       : initialised GenAI client
     resume       : if True, skip questions already present in output_path
     limit        : if set, process at most this many questions (for testing)
     """
     # Load dataset (with repair for known corrupt entries)
     questions = load_bioasq_json(train_path)["questions"]
+
+    graph = None
+    if tag_evaluation:
+        from kg2 import load_graph
+        graph = load_graph("knowledge_graph/bioasq_kg.gt")
 
     if limit:
         questions = questions[:limit]
@@ -185,17 +247,35 @@ def generate_answers(
             qid = q["id"]
             qtype = q.get("type", "summary")
             body = q["body"]
+            attached_file = None
 
             if qid in done_ids:
                 continue  # already processed in a previous run
 
             # Build prompt
             prompt_template = PROMPTS.get(qtype, PROMPTS["summary"])
-            prompt = prompt_template.format(question=body)
 
+            if tag_evaluation:
+                try:
+                    from graph_traversal import process_question
+                    structure = process_question(body, graph)
+                    attached_file = upload_json_context(client, structure)
+                except Exception as e:
+                    print(f"  [TAG context] Failed to build JSON structure: {e}")
+
+            prompt = prompt_template.format(
+                context=f"[Attached JSON file: {attached_file}]" if attached_file else "No additional context.",
+                question=body
+            )
             # Generate
             print(f"[{idx:>5}/{total}] type={qtype:<8} id={qid}  Q: {body[:80]}...")
-            generated = call_api(model, prompt)
+            generated = call_api(client, model_name, prompt)
+            if attached_file is not None:
+                try:
+                    client.files.delete(name=attached_file.name)
+                except Exception:
+                    # Best-effort remote cleanup.
+                    pass
             time.sleep(REQUEST_DELAY)
 
             # Store
@@ -260,6 +340,10 @@ def parse_args():
         "--api-key", default=API_KEY,
         help="Google Generative AI API key"
     )
+    parser.add_argument(
+        "--tag-evaluation", action="store_true",
+        help="Include create_json graph structure in the LLM prompt"
+    )
     return parser.parse_args()
 
 
@@ -272,11 +356,13 @@ if __name__ == "__main__":
     if args.limit:
         print(f"Limit : {args.limit} questions")
 
-    model = init_model(args.api_key, args.model)
+    client = init_client(args.api_key)
     generate_answers(
         train_path=args.train,
         output_path=args.output,
-        model=model,
+        client=client,
+        model_name=args.model,
         resume=not args.no_resume,
         limit=args.limit,
+        tag_evaluation=args.tag_evaluation,
     )
