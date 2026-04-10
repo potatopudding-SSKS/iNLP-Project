@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "67d74cde18b1e36f2e00003c",
+    "type": "summary",
+    "generated_answer": "RankMHC is a computational method used to predict peptide binding affinity to Major Histocompatibility Complex (MHC) molecules, crucial for understanding T-cell mediated immunity. Utilizing structural information and machine learning algorithms, RankMHC scores peptides based on their likelihood of binding to a specific MHC allele, effectively ranking potential immunogenic epitopes. Unlike earlier methods, RankMHC incorporates a detailed structural analysis of the peptide-MHC complex, improving prediction accuracy, particularly for identifying strong binders. This tool is widely applied in vaccine design, immunodiagnostics, and studies of disease pathogenesis involving T-cell responses."
+  },
+  {
+    "id": "65f7741fc4010b4d78000027",
+    "type": "factoid",
+    "generated_answer": "Approximately 10-15% of colorectal cancers remain unclassified by the consensus molecular subtypes (CMS) due to complex or atypical genomic profiles."
+  },
+  {
+    "id": "67cc973e81b1027333000011",
+    "type": "list",
+    "generated_answer": "Several phosphodiesterase 5 inhibitors, including vardenafil, lodenafil, and dapoxetine, exhibit short half-lives—ranging from approximately 3 to 6 hours—necessitating more frequent administration compared to longer-acting drugs like tadalafil and sildenafil, impacting their clinical use in treating erectile dysfunction and pulmonary arterial hypertension."
+  },
+  {
+    "id": "67d722e818b1e36f2e000036",
+    "type": "summary",
+    "generated_answer": "Irritable Bowel Syndrome (IBS) pathophysiology is multifactorial, involving bidirectional communication disruptions between the gut and brain—often termed the gut-brain axis. Key mechanisms include visceral hypersensitivity, altered gut motility (ranging from diarrhea to constipation), and psychosocial factors contributing to symptom perception. Emerging evidence points to low-grade inflammation, gut microbiota dysbiosis, and increased intestinal permeability as significant contributors, though a definitive singular cause remains elusive; these factors likely interact to influence symptom expression in genetically predisposed individuals. Ultimately, IBS is characterized by functional gastrointestinal disorders *without* demonstrable structural abnormalities."
+  },
+  {
+    "id": "67da17c918b1e36f2e000055",
+    "type": "summary",
+    "generated_answer": "AXL, a receptor tyrosine kinase, frequently exhibits aberrant overexpression in numerous malignancies, correlating with aggressive disease phenotypes and poor prognosis. Its activation promotes cellular processes crucial for cancer progression, including proliferation, migration, invasion, and resistance to apoptosis and chemotherapy. AXL mediates these effects through downstream signaling pathways like PI3K/AKT and MAPK, and importantly, often functions in a ligand-independent manner in cancer, amplifying its oncogenic potential. Consequently, AXL is increasingly recognized as a promising therapeutic target, with ongoing efforts focused on developing inhibitors to disrupt its signaling and overcome treatment resistance."
+  },
+  {
+    "id": "66301d1d187cba990d000026",
+    "type": "yesno",
+    "generated_answer": "Yes, respiratory measurements such as forced vital capacity are correlated with disease severity in Duchenne Muscular Dystrophy, as progressive weakness of respiratory muscles is a hallmark of the disease and directly impacts pulmonary function."
+  },
+  {
+    "id": "67d3518718b1e36f2e000008",
+    "type": "factoid",
+    "generated_answer": "Neurodevelopmental disorder with or without dystonia is caused by heterozygous loss-of-function variants in the *UCHL1* gene, which encodes an ubiquitin-editing enzyme."
+  },
+  {
+    "id": "662154f0b9f8b89d7e000009",
+    "type": "factoid",
+    "generated_answer": "FOLFOX or FOLFIRI chemotherapy regimens, often combined with targeted agents like bevacizumab or cetuximab, represent the standard systemic treatment for resectable colorectal cancer liver metastases."
+  },
+  {
+    "id": "67c847f581b1027333000003",
+    "type": "yesno",
+    "generated_answer": "Yes, age is a significant underlying factor in age-related macular degeneration (AMD) because the risk substantially increases with advancing age due to accumulated oxidative stress and physiological changes in the retinal pigment epithelium."
+  },
+  {
+    "id": "67d7fe2618b1e36f2e000044",
+    "type": "factoid",
+    "generated_answer": "*Aedes* mosquitoes, particularly *Aedes aegypti* and *Aedes albopictus*, are the primary vectors transmitting Zika virus to humans through their bites."
+  },
+  {
+    "id": "67d7503018b1e36f2e00003e",
+    "type": "list",
+    "generated_answer": "The mesenchymal-like state of glioblastoma multiforme is primarily driven by transcription factors including SNAI1, SNAI2, ZEB1, ZEB2, TWIST1, and MYC, which regulate epithelial-mesenchymal transition (EMT) and contribute to stem cell properties, therapeutic resistance, and tumor invasion."
+  },
+  {
+    "id": "67d34fb318b1e36f2e000007",
+    "type": "factoid",
+    "generated_answer": "AAAGG is a G-quadruplex forming sequence that can stabilize RFC1 repeat expansions, potentially hindering DNA repair mechanisms and promoting instability."
+  },
+  {
+    "id": "662fc277187cba990d000013",
+    "type": "yesno",
+    "generated_answer": "No, the CMS classification currently lacks sufficient validation and standardized assays for reliable implementation in routine clinical practice, despite its prognostic value identified in research settings."
+  },
+  {
+    "id": "67cddce881b102733300001c",
+    "type": "list",
+    "generated_answer": "*Clostridioides difficile* infection can lead to several major complications, including pseudomembranous colitis, toxic megacolon, bowel perforation, sepsis—resulting from bacterial translocation—and dehydration due to severe diarrhea, potentially culminating in hypovolemic shock and multi-organ failure."
+  },
+  {
+    "id": "67d43cd218b1e36f2e000011",
+    "type": "list",
+    "generated_answer": "Polycystic ovarian syndrome presents with a diverse range of symptoms including irregular menstrual cycles, ovarian cysts, hirsutism, acne, weight gain, infertility resulting from hormonal imbalances like elevated androgens and insulin resistance, and potentially increased risks of endometrial cancer and cardiovascular disease."
+  },
+  {
+    "id": "67d9f6a418b1e36f2e000051",
+    "type": "list",
+    "generated_answer": "Oligodendrocyte progenitor cell (OPC) lineage commitment and differentiation are governed by transcription factors including Olig2, Sox10, Nkx2.2, and Myelin Transcription Factor 1 (MyTF1), which regulate downstream targets essential for myelin formation and central nervous system development."
+  },
+  {
+    "id": "67d7531018b1e36f2e000041",
+    "type": "list",
+    "generated_answer": "Clinical trials including the Lung Cancer Mutation Consortium (LCMC), the Cancer Genome Atlas (TCGA), and retrospective studies utilizing datasets from Memorial Sloan Kettering Cancer Center and other institutions have provided data used to demonstrate the utility of knowledge graphs, incorporating genomic data, proteomic information, and clinical features, for non-small cell lung cancer (NSCLC) survival prediction."
+  },
+  {
+    "id": "660999a0fdcbea915f00001a",
+    "type": "list",
+    "generated_answer": "For patients with Familial Polyposis, colorectal surgical options include total proctocolectomy with ileal pouch-anal anastomosis (IPAA), also known as pouch surgery, subtotal colectomy with ileorectal anastomosis, and, in select cases, minimally invasive techniques like laparoscopic colectomy, all aimed at removing the colon and rectum to prevent adenocarcinoma development."
+  },
+  {
+    "id": "67c7708481b1027333000002",
+    "type": "yesno",
+    "generated_answer": "No, mucopolysaccharidosis-plus syndrome (MPSPS) is an autosomal recessive disease caused by mutations in the *GALNS* gene, which is not located on the X chromosome."
+  },
+  {
+    "id": "67d7201b18b1e36f2e00002c",
+    "type": "list",
+    "generated_answer": "Cesarean section is indicated by fetal distress, malpresentation—such as breech or transverse lie—, cephalopelvic disproportion, placental abnormalities like placenta previa or abruption, active genital herpes infection, and prior uterine surgery, alongside maternal conditions including pre-eclampsia and failed labor progression."
+  },
+  {
+    "id": "67da148418b1e36f2e000054",
+    "type": "list",
+    "generated_answer": "Melanoma exhibits diverse transcriptional cell states including differentiated melanocytes, proliferative melanoma cells, immune-infiltrated melanoma, drug-resistant melanoma, and neural crest-like melanoma, all characterized by distinct expression of transcription factors, signaling pathways, and immune checkpoint proteins like PD-1 and CTLA-4."
+  },
+  {
+    "id": "67d3434d18b1e36f2e000002",
+    "type": "factoid",
+    "generated_answer": "The BioASQ challenge has been designed to foster interaction between biomedical experts and question-answering systems specifically to accelerate COVID-19 research findings."
+  },
+  {
+    "id": "662fc6aa187cba990d000017",
+    "type": "summary",
+    "generated_answer": "Trifluridine/tipiracil demonstrates superior activity to other fluoropyrimidines, like 5-fluorouracil, in colorectal cancer largely due to its metabolic bypass of dihydropyrimidine dehydrogenase (DPD). DPD rapidly degrades 5-fluorouracil, limiting its intracellular concentration; however, trifluridine is phosphorylated to its active metabolite, trifluorothymidine, *before* encountering DPD, thus increasing drug availability. Furthermore, tipiracil inhibits DPD, further protecting trifluridine from degradation and enhancing its cytotoxic effect on tumor cells by incorporating into DNA, ultimately leading to improved clinical outcomes in heavily pre-treated patients. This dual mechanism overcomes a key resistance pathway observed with traditional fluoropyrimidines."
+  },
+  {
+    "id": "67cc89fa81b102733300000c",
+    "type": "yesno",
+    "generated_answer": "Yes, X chromosome inactivation, particularly incomplete or skewed inactivation, can impact cognition as it affects the dosage of X-linked genes crucial for brain development and function."
+  },
+  {
+    "id": "67d4354518b1e36f2e000010",
+    "type": "factoid",
+    "generated_answer": "Premenstrual Dysphoric Disorder (PMDD), a severe form of premenstrual syndrome, affects an estimated 3-8% of women of reproductive age."
+  },
+  {
+    "id": "67d74a9b18b1e36f2e00003a",
+    "type": "yesno",
+    "generated_answer": "Yes, GATA transcription factors, while primarily known for roles in hematopoiesis, are expressed in the developing and adult brain where they influence neuronal differentiation and synaptic plasticity."
+  },
+  {
+    "id": "67d41b8518b1e36f2e00000d",
+    "type": "yesno",
+    "generated_answer": "Yes, AGRN encodes agrin, a crucial protein in neuromuscular junction formation and maintenance, and disruptions in agrin signaling are implicated in the pathogenesis of Myasthenia gravis due to impaired acetylcholine receptor clustering."
+  },
+  {
+    "id": "67cdbe0c81b1027333000019",
+    "type": "list",
+    "generated_answer": "The tetrology of Fallot is characterized by four distinct cardiac defects—a ventricular septal defect, pulmonary stenosis, overriding aorta, and right ventricular hypertrophy—resulting in decreased pulmonary blood flow and cyanosis."
+  },
+  {
+    "id": "67d7238518b1e36f2e000038",
+    "type": "summary",
+    "generated_answer": "Despite extensive research, no single gene definitively *causes* bipolar disorder; its genetic architecture is highly polygenic and complex. Genome-wide association studies (GWAS) have identified numerous common genetic variants conferring small effects, implicating genes involved in neuronal development, synaptic function, and calcium signaling – notably *DISC1*, *BDNF*, and genes within the major histocompatibility complex (MHC) region. Rare, highly penetrant mutations are less common but have been linked to severe, early-onset forms of the illness, often affecting genes crucial for neurodevelopment. Ultimately, bipolar disorder arises from a combination of these genetic predispositions interacting with environmental factors."
+  },
+  {
+    "id": "67d74b0418b1e36f2e00003b",
+    "type": "summary",
+    "generated_answer": "Hypoxia is a defining characteristic of the glioblastoma multiforme (GBM) microenvironment, profoundly influencing cellular states and driving aggressive tumor behavior. Chronic hypoxia in GBM induces a shift towards glycolytic metabolism, even with sufficient oxygen, known as the Warburg effect, and promotes angiogenesis via increased VEGF expression to attempt oxygen delivery. Furthermore, hypoxia activates hypoxia-inducible factors (HIFs), triggering pathways that enhance cell survival, proliferation, and resistance to radiation and chemotherapy, ultimately contributing to treatment failure and disease progression. These adaptive responses facilitate a more invasive and stem-like phenotype within the GBM cell population."
+  },
+  {
+    "id": "67d496ed18b1e36f2e000019",
+    "type": "factoid",
+    "generated_answer": "JASPAR 2024 contains 218 new transcription factor CORE profiles, representing a 13% increase over JASPAR 2022’s collection of position weight matrices."
+  },
+  {
+    "id": "67cdca3881b102733300001b",
+    "type": "summary",
+    "generated_answer": "Baclofen functions primarily as a GABAB receptor agonist, inducing hyperpolarization of neuronal membranes and reducing calcium influx at nerve terminals. This action inhibits both monosynaptic and polysynaptic reflexes in the spinal cord, leading to diminished muscle spasticity. Unlike many muscle relaxants, baclofen’s efficacy stems from its central nervous system activity rather than direct effects on the neuromuscular junction. Consequently, it is clinically utilized to manage spasticity originating from conditions like multiple sclerosis and spinal cord injury, though its mechanism extends to modulating neurotransmitter release throughout the CNS."
+  },
+  {
+    "id": "67d6bf9a18b1e36f2e000023",
+    "type": "list",
+    "generated_answer": "Metformin, a biguanide used to treat type 2 diabetes by decreasing hepatic glucose production and improving insulin sensitivity, can cause adverse effects including lactic acidosis, gastrointestinal disturbances such as nausea and diarrhea, vitamin B12 deficiency, and, rarely, hepatic dysfunction or cardiovascular events."
+  },
+  {
+    "id": "67c7392981b1027333000001",
+    "type": "list",
+    "generated_answer": "Glioblastoma multiforme (GBM) exhibits diverse cell states including neural stem cells, progenitor cells, tumor-initiating cells, and differentiated tumor cells, alongside infiltrating immune cells such as microglia, macrophages, and T lymphocytes, all within a complex tumor microenvironment characterized by astrocytes, oligodendrocytes, and endothelial cells."
+  },
+  {
+    "id": "67d34ad518b1e36f2e000005",
+    "type": "yesno",
+    "generated_answer": "Yes, high WEE1 expression is linked to PARP inhibition resistance because it activates DNA damage checkpoints, allowing cells to repair DNA and bypass the synthetic lethality induced by PARP inhibitors."
+  },
+  {
+    "id": "67cc9e6381b1027333000016",
+    "type": "list",
+    "generated_answer": "Surgical treatments for pilomatrix carcinoma, a rare adnexal skin cancer arising from hair matrix cells, primarily involve wide local excision with margin control, and potentially Mohs micrographic surgery for cosmetically sensitive areas or recurrent disease, sometimes requiring regional lymph node dissection if metastatic involvement is suspected based on imaging like CT scans or PET scans."
+  },
+  {
+    "id": "67d7fe1718b1e36f2e000043",
+    "type": "factoid",
+    "generated_answer": "*Aedes aegypti* and *Aedes albopictus* mosquitoes are the primary vectors transmitting the dengue virus to humans through their bites."
+  },
+  {
+    "id": "67da131f18b1e36f2e000053",
+    "type": "yesno",
+    "generated_answer": "Yes, glioblastoma recurrence is often linked to a shift towards more aggressive, mesenchymal-like cell states exhibiting increased stemness and resistance to standard therapies, as demonstrated by alterations in gene expression and protein markers."
+  },
+  {
+    "id": "67d45d5818b1e36f2e000012",
+    "type": "factoid",
+    "generated_answer": "An association between the CUBN gene, which encodes a vitamin B12 receptor, and T2DM genetic susceptibility has been described in individuals of East Asian ancestry."
+  },
+  {
+    "id": "67cde99581b102733300001f",
+    "type": "yesno",
+    "generated_answer": "Yes, stem cell therapies show promise for xerostomia treatment by potentially regenerating salivary gland tissue damaged by conditions like Sjögren’s syndrome or radiation therapy."
+  },
+  {
+    "id": "67d6bda918b1e36f2e000021",
+    "type": "factoid",
+    "generated_answer": "African trypanosomiasis, also known as sleeping sickness, is caused by parasitic protozoans of the *Trypanosoma brucei* species transmitted by tsetse flies."
+  },
+  {
+    "id": "67d7506e18b1e36f2e00003f",
+    "type": "factoid",
+    "generated_answer": "TEAD transcription factors recognize a consensus DNA binding site of 5′-NGATAR-3′ within enhancer regions to regulate gene expression."
+  },
+  {
+    "id": "67d4854918b1e36f2e000014",
+    "type": "summary",
+    "generated_answer": "Variant Ranker is a machine learning-based tool designed to prioritize pathogenic variants identified through genomic sequencing. Utilizing a gradient boosting algorithm trained on a comprehensive feature set—including variant annotations, population frequencies, and functional predictions—it assigns a pathogenicity score to each variant. This score estimates the likelihood a variant is disease-causing, aiding clinicians and researchers in filtering down large variant lists to focus on the most clinically relevant candidates for further investigation. Ultimately, Variant Ranker aims to improve diagnostic yield and accelerate precision medicine efforts by streamlining variant interpretation."
+  },
+  {
+    "id": "67cec6e781b1027333000021",
+    "type": "yesno",
+    "generated_answer": "No, creatinine is not usually elevated in Drug-induced intestinal neuropathy (DAIN) because this condition primarily affects the enteric nervous system and does not directly impact kidney function or creatinine production."
+  },
+  {
+    "id": "67d721d118b1e36f2e000031",
+    "type": "yesno",
+    "generated_answer": "Yes, systemic beta lactams can disrupt the human microbiome by reducing the diversity of gut bacteria, as they lack specificity and can impact both pathogenic and commensal species."
+  },
+  {
+    "id": "67da0c0f18b1e36f2e000052",
+    "type": "factoid",
+    "generated_answer": "The most common EGFR mutation in glioblastoma multiforme is EGFRvIII, a deletion variant resulting in constitutive tyrosine kinase receptor activation."
+  },
+  {
+    "id": "67d486e118b1e36f2e000015",
+    "type": "list",
+    "generated_answer": "Polymorphisms in the *ALOX12* gene are associated with increased risk of cardiovascular events including myocardial infarction, stroke, hypertension, and atherosclerosis, potentially due to altered levels of leukotriene metabolites and endothelial dysfunction impacting vascular homeostasis."
+  },
+  {
+    "id": "67cc9bef81b1027333000013",
+    "type": "factoid",
+    "generated_answer": "DRESS, or Drug Reaction with Eosinophilia and Systemic Symptoms, is a severe, potentially life-threatening hypersensitivity reaction typically triggered by certain medications."
+  },
+  {
+    "id": "67d430f918b1e36f2e00000f",
+    "type": "list",
+    "generated_answer": "Statins, competitive inhibitors of HMG-CoA reductase and crucial regulators of cholesterol synthesis within hepatocytes, can induce adverse effects including myopathy, rhabdomyolysis, elevated liver enzymes, increased risk of type 2 diabetes, and, less commonly, cognitive dysfunction and peripheral neuropathy."
+  },
+  {
+    "id": "67d3460218b1e36f2e000004",
+    "type": "summary",
+    "generated_answer": "OncoEnrichR is a web server that leverages the Enrichr gene set enrichment analysis platform to provide oncological researchers with rapid functional interpretation of gene lists derived from genomic studies. It integrates data from numerous cancer-specific databases, including TCGA, CCLE, and curated oncogenic pathways, to identify enriched biological processes, pathways, and associated drugs relevant to the input gene set. Unlike general Enrichr, OncoEnrichR prioritizes cancer-related annotations and offers specific visualizations tailored for oncological data, facilitating hypothesis generation regarding tumor biology and potential therapeutic targets. The tool is freely accessible and supports various input formats, making it a valuable resource for translational cancer research."
+  },
+  {
+    "id": "67cc9ca681b1027333000014",
+    "type": "list",
+    "generated_answer": "Treatment for endometrioma and endometriosis encompasses pain management with nonsteroidal anti-inflammatory drugs (NSAIDs) and hormonal therapies, such as oral contraceptives, progestins, and gonadotropin-releasing hormone (GnRH) agonists, alongside surgical interventions including laparoscopic excision or cyst drainage, and, in select cases, hysterectomy with or without bilateral salpingo-oophorectomy."
+  },
+  {
+    "id": "67d7fee818b1e36f2e000048",
+    "type": "summary",
+    "generated_answer": "Hypothyroidism and depression exhibit a significant bidirectional association, with both conditions frequently co-occurring. Reduced thyroid hormone levels can directly impact neurotransmitter systems—particularly serotonin—and neurotrophic factor expression crucial for mood regulation, leading to depressive symptoms. Conversely, depression itself can sometimes disrupt the hypothalamic-pituitary-thyroid (HPT) axis, potentially contributing to subclinical or overt hypothyroidism. Therefore, assessing thyroid function is recommended in individuals presenting with depressive symptoms, and treating thyroid dysfunction can often improve mood and response to antidepressant therapies."
+  },
+  {
+    "id": "67d48f6c18b1e36f2e000017",
+    "type": "factoid",
+    "generated_answer": "SUPERA utilizes RNA and protein sequence information to predict genomic regions associated with transcriptional condensates, aiding in gene regulation studies."
+  },
+  {
+    "id": "67cf221a81b1027333000022",
+    "type": "factoid",
+    "generated_answer": "Wharton’s Jelly Mesenchymal Stem Cells are derived from the connective tissue within human umbilical cords, offering a valuable source for regenerative medicine."
+  },
+  {
+    "id": "67d6c1bb18b1e36f2e000029",
+    "type": "list",
+    "generated_answer": "Infectious myocarditis, and consequently cardiomyopathy, arises from diverse etiologies including viral infections such as adenovirus, parvovirus B19, and coxsackievirus, bacterial agents like *Borrelia burgdorferi* and *Mycoplasma pneumoniae*, parasitic invasions including *Trypanosoma cruzi*, and, less commonly, fungal pathogens and rickettsial organisms."
+  },
+  {
+    "id": "67d49ade18b1e36f2e00001b",
+    "type": "summary",
+    "generated_answer": "Germline-mediated immunoediting posits that cancer cells can induce heritable changes in immune cells, altering the landscape of anti-tumor immunity across generations. This process involves tumor-derived factors selecting for immune cells with reduced effector function or altered specificity, effectively dampening the overall immune response not just in the current host, but potentially in their progeny. Consequently, germline editing can lead to a transgenerational decline in immune surveillance, promoting cancer progression and potentially increasing susceptibility to future tumor development within a lineage. Evidence suggests epigenetic modifications within immune cells are key mechanisms driving these inherited changes."
+  },
+  {
+    "id": "67cc94f681b102733300000e",
+    "type": "list",
+    "generated_answer": "Human mesenchymal stem cells (MSCs) demonstrate therapeutic potential in a range of diseases, including osteoarthritis, rheumatoid arthritis, multiple sclerosis, Crohn’s disease, graft-versus-host disease, acute respiratory distress syndrome, myocardial infarction, spinal cord injury, and type 1 diabetes, owing to their immunomodulatory and regenerative properties."
+  },
+  {
+    "id": "67d723d918b1e36f2e000039",
+    "type": "summary",
+    "generated_answer": "While no single definitive biomarker exists for depression, research has identified several promising candidates reflecting neurobiological changes associated with the disorder. Alterations in levels of brain-derived neurotrophic factor (BDNF), cortisol, and inflammatory cytokines like interleukin-6 are frequently observed in individuals with depression. Neuroimaging studies also suggest potential biomarkers based on functional and structural connectivity differences in brain regions involved in mood regulation, such as the prefrontal cortex and amygdala; however, these require further validation for clinical utility as diagnostic tools. Ongoing research focuses on multi-biomarker panels and incorporating genetic and epigenetic data to improve diagnostic accuracy and personalized treatment strategies."
+  },
+  {
+    "id": "67d34e2518b1e36f2e000006",
+    "type": "list",
+    "generated_answer": "Biallelic pathogenic variants in the *CRELD1* gene cause autosomal recessive ciliopathy, specifically short-rib thoracic dysplasia 18 with or without polydactyly, characterized by skeletal abnormalities, cystic kidney disease, and often, perinatal lethality due to respiratory insufficiency."
+  },
+  {
+    "id": "67cc960381b102733300000f",
+    "type": "factoid",
+    "generated_answer": "Desflurane and sevoflurane are volatile anesthetic agents—inhaled medications—commonly used to induce and maintain general anesthesia during surgical procedures."
+  },
+  {
+    "id": "67d7232418b1e36f2e000037",
+    "type": "summary",
+    "generated_answer": "Dysmenorrhea, particularly primary dysmenorrhea, is increasingly recognized as involving inflammatory processes, with several markers demonstrating elevated levels in both menstrual fluid and systemic circulation. Prostaglandin F2α (PGF2α) is a key mediator, inducing uterine contractions and inflammation, and is consistently found at higher concentrations in women with dysmenorrhea. Furthermore, increased levels of inflammatory cytokines like interleukin-6 (IL-6), interleukin-8 (IL-8), and tumor necrosis factor-alpha (TNF-α) have been observed in both endometrial biopsies and serum during the menstrual phase of affected individuals, suggesting a systemic inflammatory component contributing to pain and symptom severity. These inflammatory mediators contribute to the pathophysiology beyond solely uterine contractions."
+  },
+  {
+    "id": "67d751e418b1e36f2e000040",
+    "type": "factoid",
+    "generated_answer": "The heterogeneous nuclear ribonucleoprotein A1 (hnRNPA1) protein silences the tumor suppressor microRNA MIR139, thereby promoting acute myeloid leukemia (AML) oncogenesis."
+  },
+  {
+    "id": "67cc97c481b1027333000012",
+    "type": "factoid",
+    "generated_answer": "Fontan palliation, a surgical procedure for single-ventricle heart defects, is performed on the heart to redirect blood flow to the pulmonary arteries."
+  },
+  {
+    "id": "67d6b4e218b1e36f2e00001e",
+    "type": "yesno",
+    "generated_answer": "Yes, childhood asthma is more common in highly polluted areas due to increased exposure to irritants like particulate matter and nitrogen dioxide, which trigger airway inflammation and exacerbate asthma symptoms."
+  },
+  {
+    "id": "67d4161318b1e36f2e00000a",
+    "type": "yesno",
+    "generated_answer": "Yes, nucleosomal DNA exhibits topological memory due to the inherent twisting and strain introduced during wrapping around histone octamers, influencing DNA accessibility and gene expression."
+  },
+  {
+    "id": "67c9e84181b1027333000008",
+    "type": "factoid",
+    "generated_answer": "Listeriolysin, a bacterial enzyme, is associated with the cellular process of phagosome escape—allowing *Listeria monocytogenes* to survive within host cells."
+  },
+  {
+    "id": "67d7203018b1e36f2e00002d",
+    "type": "factoid",
+    "generated_answer": "Postpartum psychosis, a severe mental illness occurring after childbirth, affects approximately 1-2 per 1,000 deliveries."
+  },
+  {
+    "id": "67d497c418b1e36f2e00001a",
+    "type": "factoid",
+    "generated_answer": "Liver RBFOX2, an RNA-binding protein, regulates glucose metabolism by influencing splicing of genes involved in insulin signaling pathways."
+  },
+  {
+    "id": "67cc826c81b102733300000b",
+    "type": "yesno",
+    "generated_answer": "No, Geographic Atrophy is typically found in the macula of the retina, as it’s a late-stage form of age-related macular degeneration affecting central vision and not peripheral tissues like those in the hands or feet."
+  },
+  {
+    "id": "67d7fe6a18b1e36f2e000046",
+    "type": "summary",
+    "generated_answer": "Herpes genitalis, typically caused by herpes simplex virus type 2 (HSV-2), manifests clinically as recurrent episodes of painful vesicular lesions on the genitalia, buttocks, or inner thighs. Initial outbreaks are often accompanied by systemic symptoms like fever, headache, and lymphadenopathy, whereas recurrences are usually milder and localized. A prodromal phase of tingling or burning sensations frequently precedes lesion appearance, and viral shedding can occur asymptomatically, contributing to transmission; diagnostic confirmation relies on viral culture, PCR, or serological testing. Importantly, HSV-2 infection establishes lifelong latency within sacral ganglia, predisposing to periodic reactivation."
+  },
+  {
+    "id": "67d352e918b1e36f2e000009",
+    "type": "list",
+    "generated_answer": "Heterozygous loss-of-function mutations in *SPTAN1*, encoding αII-spectrin, cause hereditary spherocytosis, characterized by red blood cell fragility, anemia, and potentially jaundice, due to defects in the erythrocyte membrane cytoskeleton and impaired membrane stability."
+  },
+  {
+    "id": "67cc969581b1027333000010",
+    "type": "summary",
+    "generated_answer": "Berberine demonstrates neuroprotective effects in ischemic stroke models through multiple mechanisms, including reducing oxidative stress and inflammation, and inhibiting neuronal apoptosis. Pre-treatment and post-treatment studies in animals reveal berberine can attenuate infarct volume and improve neurological function by modulating pathways like AMPK and Nrf2. While promising, clinical translation is limited; human trials are needed to confirm efficacy and determine optimal dosage, as bioavailability remains a significant challenge for berberine’s therapeutic application in stroke. Further research is investigating its potential to synergize with thrombolytic therapies."
+  },
+  {
+    "id": "67d7fe9318b1e36f2e000047",
+    "type": "summary",
+    "generated_answer": "There is a significant and well-documented comorbidity between attention-deficit/hyperactivity disorder (ADHD) and eating disorders, particularly anorexia nervosa and bulimia nervosa. Individuals with ADHD exhibit higher rates of disordered eating behaviors, potentially linked to shared neurobiological factors involving dopamine dysregulation and impaired executive function, contributing to difficulties with impulse control and emotional regulation. Furthermore, ADHD symptoms can exacerbate body image concerns and dieting behaviors, while restrictive eating can, in turn, worsen attentional deficits. Early identification and integrated treatment addressing both conditions are crucial for improved patient outcomes."
+  },
+  {
+    "id": "67d418f418b1e36f2e00000c",
+    "type": "summary",
+    "generated_answer": "Orm1, or orosomucoid 1, is an acute-phase protein prominently expressed by hepatocytes and increasingly recognized as a key factor influencing circulating cell-free DNA (cfDNA) dynamics. Elevated Orm1 levels, typically observed during inflammation or malignancy, bind to and stabilize cfDNA fragments *in vitro* and *in vivo*, increasing its plasma half-life and potentially hindering its clearance. This interaction impacts cfDNA fragment size distribution, with Orm1 preferentially complexing with larger fragments, and has implications for non-invasive diagnostics relying on cfDNA analysis, such as liquid biopsies for cancer detection and monitoring. Consequently, Orm1 concentration must be considered when interpreting cfDNA-based biomarker signals."
+  },
+  {
+    "id": "67cc9d4c81b1027333000015",
+    "type": "yesno",
+    "generated_answer": "Yes, ameleographics can be useful for forensic identification as the unique enamel pit and fissure patterns on teeth are highly individualized and remain relatively stable throughout life."
+  },
+  {
+    "id": "67d81c7218b1e36f2e00004d",
+    "type": "list",
+    "generated_answer": "Prion diseases, also known as transmissible spongiform encephalopathies, are rare neurodegenerative disorders caused by misfolded prion proteins, leading to neuronal loss, astrogliosis, spongiform changes in the brain, and manifesting clinically as Creutzfeldt-Jakob disease, variant Creutzfeldt-Jakob disease, Gerstmann-Sträussler-Scheinker syndrome, and fatal familial insomnia."
+  },
+  {
+    "id": "67d4903418b1e36f2e000018",
+    "type": "factoid",
+    "generated_answer": "The *CTCF* gene, a zinc finger protein, organizes the three-dimensional enhancer network during T cell development by mediating chromatin looping."
+  },
+  {
+    "id": "67c9e48f81b1027333000005",
+    "type": "summary",
+    "generated_answer": "Neoantigens arise from somatic mutations within an individual’s cancer cells, generating novel peptides not found in normal tissues. These peptides are then processed by the cellular machinery – specifically proteasomes – and presented on Major Histocompatibility Complex (MHC) molecules on the cell surface. This presentation allows cytotoxic T lymphocytes (CTLs) to recognize the mutated peptide-MHC complex as foreign, initiating an anti-tumor immune response. Successful neoantigen presentation relies on both the mutation’s immunogenicity and the individual’s MHC haplotype, dictating which peptides can be effectively displayed and recognized."
+  },
+  {
+    "id": "67d7219018b1e36f2e000030",
+    "type": "list",
+    "generated_answer": "Sudden sensorineural hearing loss, often stemming from viral infections, vascular disorders, autoimmune diseases, inner ear membrane ruptures, and, less commonly, neurological conditions like acoustic neuroma or Meniere’s disease, represents diverse etiologies impacting the cochlea, auditory nerve, and central auditory pathways."
+  },
+  {
+    "id": "67d74dd718b1e36f2e00003d",
+    "type": "list",
+    "generated_answer": "The EURO-NMD registry captures patient demographics, diagnoses encompassing various neuromuscular diseases like muscular dystrophies and spinal muscular atrophy, genetic data including gene mutations and variants, clinical assessments detailing muscle strength and functional abilities, imaging data from MRI and ultrasound, laboratory findings such as creatine kinase levels, and treatment information regarding corticosteroids and supportive care."
+  },
+  {
+    "id": "67cdbdb981b1027333000018",
+    "type": "factoid",
+    "generated_answer": "Adnexal masses originate from the tissues of the ovary, fallopian tube, or surrounding pelvic structures, often involving germ cells or surface epithelium."
+  },
+  {
+    "id": "67d7228818b1e36f2e000034",
+    "type": "factoid",
+    "generated_answer": "Mean survival after a diagnosis of multiple sclerosis is generally near the normal life expectancy, though it can be reduced by disease severity and complications."
+  },
+  {
+    "id": "67d49cf318b1e36f2e00001c",
+    "type": "summary",
+    "generated_answer": "SEQUOIA is a deep learning model that predicts per-sample cancer gene expression profiles directly from whole-slide histology images, bypassing the need for costly and time-consuming RNA sequencing. Trained on paired histology and transcriptomic data, SEQUOIA leverages convolutional neural networks to identify morphological features indicative of underlying molecular states. The model demonstrates accuracy comparable to existing computational deconvolution methods, particularly for predicting immune cell infiltration and cancer subtype signatures, and can generalize across diverse tissue types and staining protocols. This approach offers a potential avenue for large-scale, retrospective cancer studies utilizing readily available archival tissue samples."
+  },
+  {
+    "id": "67c9e75881b1027333000006",
+    "type": "factoid",
+    "generated_answer": "CD47, a transmembrane protein expressed on many cell types, signals “don’t eat me” by binding to SIRPα on macrophages, inhibiting phagocytosis."
+  },
+  {
+    "id": "67d6c10618b1e36f2e000027",
+    "type": "yesno",
+    "generated_answer": "No, surfactant therapy is also utilized in adults with acute respiratory distress syndrome (ARDS) to reduce surface tension in damaged alveoli and improve oxygenation, though its use is more established in neonatology for respiratory distress syndrome."
+  },
+  {
+    "id": "67dedd6818b1e36f2e000061",
+    "type": "factoid",
+    "generated_answer": "Deep learning-based PheML framework, utilizing phenotype prediction models, was developed leveraging the extensive genetic and health data within the UK Biobank."
+  },
+  {
+    "id": "67e6b93718b1e36f2e0000be",
+    "type": "summary",
+    "generated_answer": "Nipocalimab is a novel humanized monoclonal antibody targeting the neonatal Fc receptor (FcRn), a key regulator of IgG homeostasis. By binding to FcRn, nipocalimab sterically hinders the receptor’s ability to shield IgG from intracellular catabolism, leading to accelerated IgG degradation and reduced circulating IgG levels. This mechanism effectively diminishes pathogenic IgG autoantibodies in autoimmune diseases, and also lowers total IgG, potentially useful in conditions like myasthenia gravis and immune thrombocytopenia. Preclinical and clinical data suggest nipocalimab’s efficacy is dependent on the specific IgG subclass and disease pathology."
+  },
+  {
+    "id": "67ded51918b1e36f2e00005e",
+    "type": "summary",
+    "generated_answer": "Theragnostics represent an integrated approach to medicine, combining diagnostic imaging with targeted therapy. These agents possess both imaging and therapeutic moieties, allowing for patient selection based on biomarker expression *and* subsequent delivery of a tailored treatment to the same target. Typically, a diagnostic scan identifies individuals expressing a specific molecular target, followed by administration of the same molecule radiolabeled with a therapeutic isotope to selectively destroy diseased tissue, such as in cancer. This personalized strategy aims to maximize efficacy and minimize systemic toxicity compared to conventional treatments."
+  },
+  {
+    "id": "67e2cfa918b1e36f2e000099",
+    "type": "summary",
+    "generated_answer": "Intra-articular knee steroid injections provide short-term pain relief for osteoarthritis by reducing synovial inflammation, though effects typically diminish within weeks to months. While offering symptomatic improvement, steroids do not alter disease progression and repeated injections are associated with potential cartilage damage and accelerated osteoarthritis. Current guidelines recommend judicious use, often alongside other therapies like physical therapy, and consideration of alternative injectates such as hyaluronic acid or platelet-rich plasma, particularly for long-term management. Careful patient selection and monitoring are crucial to balance benefits and risks."
+  },
+  {
+    "id": "67eaf2cd18b1e36f2e0000e1",
+    "type": "summary",
+    "generated_answer": "Cancer-associated fibroblasts (CAFs) significantly contribute to immune evasion by physically restricting immune cell infiltration into the tumor microenvironment through dense extracellular matrix deposition and altered tissue architecture. Furthermore, CAFs secrete immunosuppressive factors like TGF-β and IL-6, directly inhibiting the activity of cytotoxic T lymphocytes and promoting the recruitment of regulatory T cells and myeloid-derived suppressor cells. This creates an immunosuppressive milieu that shields cancer cells from immune-mediated killing, fostering tumor progression and resistance to immunotherapy. Ultimately, CAF-mediated immune exclusion represents a critical mechanism of adaptive resistance in many cancers."
+  },
+  {
+    "id": "67e2d75118b1e36f2e00009d",
+    "type": "summary",
+    "generated_answer": "Mantis-ML 2.0 is a deep learning-based computational tool designed for predicting non-canonical splicing events from genomic sequence. Building upon its predecessor, this updated version incorporates a novel transformer architecture and expanded training datasets, significantly improving accuracy in identifying cryptic splice sites and intron retention. Specifically, Mantis-ML 2.0 demonstrates enhanced performance in predicting the effects of genetic variants on splicing, offering refined predictions for both disease-associated and broadly applicable splicing alterations. Its outputs provide quantitative scores reflecting splicing impact, aiding in variant prioritization for functional genomic studies and personalized medicine applications."
+  },
+  {
+    "id": "67e6bf8818b1e36f2e0000c5",
+    "type": "factoid",
+    "generated_answer": "Zodasiran, a novel siRNA therapeutic, specifically targets hepatic angiotensinogen (AGT) mRNA to reduce its expression and lower blood pressure."
+  },
+  {
+    "id": "67e1356018b1e36f2e000070",
+    "type": "factoid",
+    "generated_answer": "Sublci and gyri are found in the cerebral cortex of the brain, representing grooves and ridges that increase surface area for neural processing."
+  },
+  {
+    "id": "67e28ded18b1e36f2e000080",
+    "type": "factoid",
+    "generated_answer": "Varicoceles, or enlarged veins within the scrotum, represent the most common reversible cause of male infertility by impairing sperm development."
+  },
+  {
+    "id": "67eaf29c18b1e36f2e0000e0",
+    "type": "factoid",
+    "generated_answer": "A mutation in the *BRAF* gene, specifically V600E, is found in approximately 50% of melanomas and leads to constitutive kinase activation."
+  },
+  {
+    "id": "67e6cf7218b1e36f2e0000d1",
+    "type": "list",
+    "generated_answer": "MR-PheWAS studies in basal cell carcinoma have identified several potential biomarkers, including alterations in **gene expression** of **PTCH1** and **SMO**, changes in **protein levels** of **hedgehog signaling pathway components**, variations in **immune cell infiltration** specifically **T cells** and **macrophages**, and associations with phenotypes related to **skin pigmentation** and **sun exposure** history."
+  },
+  {
+    "id": "67e5530418b1e36f2e0000aa",
+    "type": "yesno",
+    "generated_answer": "No, while Plozasiran lowers lipoprotein(a) and may reduce cardiovascular risk, current clinical trial data do not demonstrate a direct reduction in the incidence of pancreatitis, as elevated lipoprotein(a) is not definitively linked to pancreatitis development."
+  },
+  {
+    "id": "67e0533418b1e36f2e000069",
+    "type": "list",
+    "generated_answer": "Chikungunya virus infection typically presents with fever, myalgia, arthralgia—often debilitating and affecting small joints like hands and feet—headache, maculopapular rash, and occasionally, fatigue, nausea, and conjunctivitis, stemming from the virus’s impact on synovial fibroblasts and immune cell activation."
+  },
+  {
+    "id": "67e40c0f18b1e36f2e0000a2",
+    "type": "factoid",
+    "generated_answer": "Preventing congenital cytomegalovirus (CMV) infection, a leading cause of non-hereditary hearing loss, involves educating pregnant women about hygiene practices to limit exposure to the virus."
+  },
+  {
+    "id": "67eb822e18b1e36f2e0000f1",
+    "type": "factoid",
+    "generated_answer": "Ten-eleven translocation (TET) enzymes are a family of dioxygenases that catalyze the oxidation of 5-methylcytosine, initiating DNA demethylation."
+  },
+  {
+    "id": "67df18f518b1e36f2e000064",
+    "type": "yesno",
+    "generated_answer": "Yes, MAP3K15 has been linked to obesity through studies demonstrating its role in regulating adipogenesis and energy homeostasis, impacting fat cell development and metabolic processes."
+  },
+  {
+    "id": "67e69d2718b1e36f2e0000b6",
+    "type": "summary",
+    "generated_answer": "Remibrutinib is a potent, selective, and irreversible Bruton’s tyrosine kinase (BTK) inhibitor currently under investigation for various B-cell malignancies and autoimmune diseases. The drug functions by covalently binding to a cysteine residue (Cys481) within the BTK active site, leading to sustained BTK inactivation and subsequent disruption of B-cell receptor signaling. This inhibition ultimately reduces B-cell activation, proliferation, and survival, impacting downstream pathways crucial for disease pathogenesis. Unlike some other BTK inhibitors, remibrutinib exhibits greater selectivity for BTK over other kinases, potentially minimizing off-target effects."
+  },
+  {
+    "id": "67e1359918b1e36f2e000071",
+    "type": "summary",
+    "generated_answer": "Pendelluft, or “pendular breathing,” describes a rhythmic waxing and waning of tidal volume without a corresponding change in respiratory drive, often observed during sleep or anesthesia. This phenomenon arises from interactions between lung mechanics, particularly compliance and resistance, and the timing of inspiratory efforts relative to airway closure and reopening. Consequently, cycles of larger and smaller breaths occur as the lung transitions between states of varying distensibility, impacting gas exchange efficiency. While typically benign, significant pendelluft can indicate increased susceptibility to airway collapse and may contribute to atelectasis in vulnerable patients."
+  },
+  {
+    "id": "67e2abdf18b1e36f2e000089",
+    "type": "list",
+    "generated_answer": "Elective abortion can result in immediate complications such as uterine perforation, hemorrhage, cervical laceration, and infection, alongside potential long-term sequelae including pelvic inflammatory disease, Asherman’s syndrome—characterized by intrauterine adhesions—and, though rarely, impacts on future reproductive health like ectopic pregnancy or preterm birth."
+  },
+  {
+    "id": "67eb70ee18b1e36f2e0000eb",
+    "type": "yesno",
+    "generated_answer": "No, glioblastoma rarely metastasizes outside the CNS because of its aggressive, diffuse growth pattern and lack of expression of molecules needed for penetrating the blood-brain barrier and establishing distant colonies."
+  },
+  {
+    "id": "67e7df6118b1e36f2e0000d8",
+    "type": "factoid",
+    "generated_answer": "The SILVA database serves as a comprehensive catalogue of full-length 16S rRNA gene sequences, frequently used for bacterial community analysis in environments like wastewater treatment plants."
+  },
+  {
+    "id": "67e6c4dd18b1e36f2e0000ca",
+    "type": "list",
+    "generated_answer": "WHIM syndrome, characterized by Warts, Hypogammaglobulinemia, Infections, and Myelokathexis, presents with recurrent respiratory infections, human papillomavirus-related cutaneous warts, neutropenia affecting neutrophils, and impaired antibody responses due to B lymphocytes and immunoglobulin deficiencies."
+  },
+  {
+    "id": "67e85c4318b1e36f2e0000d9",
+    "type": "list",
+    "generated_answer": "Percutaneous thermal ablation techniques suitable for treating bone oligometastases include radiofrequency ablation, microwave ablation, cryoablation, and high-intensity focused ultrasound, all targeting tumor cells, bone matrix, and surrounding soft tissues while sparing critical structures like nerves and blood vessels."
+  },
+  {
+    "id": "67e270d318b1e36f2e000075",
+    "type": "factoid",
+    "generated_answer": "Cytomegalovirus (CMV), a common herpesvirus, is the most frequent infectious agent leading to congenital sensorineural hearing loss in newborns."
+  },
+  {
+    "id": "67eb6ea518b1e36f2e0000e9",
+    "type": "yesno",
+    "generated_answer": "Yes, melanoma can occur in areas not exposed to sunlight, as it can develop in melanocytes present in other tissues like the eyes, mucous membranes, and even beneath nails, independent of UV radiation."
+  },
+  {
+    "id": "67dc452018b1e36f2e00005a",
+    "type": "yesno",
+    "generated_answer": "No, CYLD is primarily a deubiquitinating enzyme that regulates NF-κB signaling and inflammation, functioning mainly within cells rather than directly modifying or organizing the extracellular matrix."
+  },
+  {
+    "id": "67e6c2fa18b1e36f2e0000c8",
+    "type": "yesno",
+    "generated_answer": "No, gepotidacin is a topoisomerase III inhibitor primarily developed for uncomplicated urinary tract infections and does not currently demonstrate efficacy against the pathogens typically causing meningitis, such as *Neisseria meningitidis* or *Streptococcus pneumoniae*."
+  },
+  {
+    "id": "67cf3f6481b1027333000025",
+    "type": "factoid",
+    "generated_answer": "Bromocriptine, a dopamine agonist, is clinically indicated for the treatment of hyperprolactinemia and certain Parkinson’s disease symptoms."
+  },
+  {
+    "id": "67e2b8a818b1e36f2e000091",
+    "type": "yesno",
+    "generated_answer": "Yes, biologics like monoclonal antibodies targeting specific proteins are used in pancreatic cancer to enhance immune response or directly inhibit tumor growth, though their role is still evolving and often within clinical trials."
+  },
+  {
+    "id": "67eb713518b1e36f2e0000ed",
+    "type": "yesno",
+    "generated_answer": "No, MGMT promoter methylation predicts a *better* response to temozolomide because MGMT repairs DNA damage caused by temozolomide, and methylation silences MGMT, thus increasing drug efficacy."
+  },
+  {
+    "id": "67e7db2918b1e36f2e0000d6",
+    "type": "factoid",
+    "generated_answer": "Currently, over 40 germline genetic associations have been identified with clonal hematopoiesis, a condition impacting blood cell development, in European-ancestry populations."
+  },
+  {
+    "id": "67e6c3f918b1e36f2e0000c9",
+    "type": "list",
+    "generated_answer": "Exblifep contains pexidartinib, a fibroblast growth factor receptor (FGFR) inhibitor, and its inactive ingredients include microcrystalline cellulose, mannitol, croscarmellose sodium, hypromellose, polyethylene glycol, titanium dioxide, iron oxides, and magnesium stearate, all contributing to the drug’s formulation and delivery."
+  },
+  {
+    "id": "67decf2a18b1e36f2e00005c",
+    "type": "list",
+    "generated_answer": "Current interventions for congenital talipes equinovarus, commonly known as clubfoot, include serial casting utilizing the Ponseti method, tenotomy of the Achilles tendon, bracing with a foot abduction orthosis, and, in more severe or resistant cases, surgical release of ligaments and tendons to correct deformities of the foot, ankle, and hindfoot."
+  },
+  {
+    "id": "67e2b26318b1e36f2e00008c",
+    "type": "list",
+    "generated_answer": "Several biologic drugs, including monoclonal antibodies such as omalizumab for asthma and mepolizumab and reslizumab for eosinophilic granulomatosis with polyangiitis, as well as interleukin inhibitors like dupilumab targeting IL-4 and IL-13 receptors in atopic dermatitis with respiratory components, and anti-IgE therapies, are utilized in the treatment of diverse respiratory diseases."
+  },
+  {
+    "id": "67eb559518b1e36f2e0000e5",
+    "type": "summary",
+    "generated_answer": "IDH1 and IDH2 mutations are frequently observed in lower-grade gliomas and secondary glioblastomas, representing early events in gliomagenesis that lead to the production of the oncometabolite 2-hydroxyglutarate (2-HG). This accumulation of 2-HG alters epigenetic regulation, inhibiting α-ketoglutarate-dependent dioxygenases and promoting aberrant gene expression patterns characteristic of these tumors. Importantly, *IDH*-mutant gliomas generally exhibit a more favorable prognosis compared to *IDH*-wildtype glioblastomas, with improved responses to treatment and longer overall survival, though prognosis varies based on co-occurring genetic alterations and MGMT promoter methylation status. Consequently, *IDH* mutation status is now a critical diagnostic and prognostic biomarker guiding clinical management."
+  },
+  {
+    "id": "67df1a1d18b1e36f2e000065",
+    "type": "factoid",
+    "generated_answer": "The R232Q missense variant in SPDL1, a surfactant protein D-like lectin, is strongly associated with idiopathic pulmonary fibrosis (IPF) susceptibility."
+  },
+  {
+    "id": "67e6be3118b1e36f2e0000c3",
+    "type": "factoid",
+    "generated_answer": "Fidanacogene elaparvovec is a gene therapy approved to treat hemophilia B, a rare genetic bleeding disorder caused by factor IX deficiency."
+  },
+  {
+    "id": "67e3113d18b1e36f2e00009f",
+    "type": "summary",
+    "generated_answer": "The Pringle maneuver is a surgical technique used to temporarily occlude blood flow to the liver, specifically the portal triad—hepatic artery, portal vein, and common bile duct—to achieve hepatic hemostasis during liver surgery. This interruption of inflow reduces blood loss by temporarily halting both arterial and venous supply, facilitating clearer visualization of the surgical field and enabling precise resection or repair. While effective, prolonged ischemia can lead to hepatocellular damage, necessitating careful monitoring and limited application times, typically under 60 minutes with intermittent release. The maneuver is commonly employed in procedures like liver resections, trauma management, and liver transplantation."
+  },
+  {
+    "id": "67e2942a18b1e36f2e000082",
+    "type": "summary",
+    "generated_answer": "*Histoplasma capsulatum* is a dimorphic fungus primarily found in soil enriched with bird or bat guano, particularly in the Ohio and Mississippi River valleys of North America, as well as parts of Central and South America, Africa, and Asia. The mold form thrives in this environment, releasing conidia that become airborne when the soil is disturbed. Conversion to the pathogenic yeast form occurs within mammalian hosts following inhalation, establishing infection. Warm, humid conditions and decaying organic matter further promote fungal growth and dissemination in these favored geographical locations."
+  },
+  {
+    "id": "67eb569718b1e36f2e0000e8",
+    "type": "list",
+    "generated_answer": "Tumors frequently exploit immune evasion by upregulating checkpoint proteins such as PD-1, PD-L1, CTLA-4, LAG-3, and TIM-3, which inhibit T cell activation, cytokine production, and cytotoxic activity, ultimately suppressing antitumor immunity and promoting disease progression."
+  },
+  {
+    "id": "67e6c9d518b1e36f2e0000cd",
+    "type": "factoid",
+    "generated_answer": "The Mexico City Prospective Study selected 1,000 individuals for whole-genome sequencing data generation to investigate genetic contributions to common diseases."
+  },
+  {
+    "id": "67e6c6fa18b1e36f2e0000cb",
+    "type": "list",
+    "generated_answer": "Samter's Triad, clinically characterized by aspirin-exacerbated respiratory disease (AERD), involves chronic rhinosinusitis with nasal polyps, asthma, and severe hypersensitivity reactions—including bronchospasm and rhinorrhea—to nonsteroidal anti-inflammatory drugs (NSAIDs) like aspirin, stemming from altered arachidonic acid metabolism and leukotriene pathway activation."
+  },
+  {
+    "id": "67e014c918b1e36f2e000068",
+    "type": "factoid",
+    "generated_answer": "Bempedoic acid lowers LDL cholesterol by inhibiting ATP citrate lyase, a key enzyme in cholesterol synthesis within hepatocytes."
+  },
+  {
+    "id": "67e2c03d18b1e36f2e000094",
+    "type": "summary",
+    "generated_answer": "Adolescent obesity significantly increases the risk of numerous chronic diseases in adulthood, including type 2 diabetes, cardiovascular disease, and certain cancers, due to sustained metabolic dysregulation and chronic inflammation. Beyond metabolic impacts, it’s associated with increased prevalence of musculoskeletal disorders like osteoarthritis and non-alcoholic fatty liver disease, often accelerating their onset. Furthermore, psychological consequences such as depression and anxiety are frequently observed, alongside a heightened likelihood of premature mortality. These long-term effects are often amplified by the duration and severity of obesity during the critical developmental period of adolescence."
+  },
+  {
+    "id": "67eb817c18b1e36f2e0000f0",
+    "type": "factoid",
+    "generated_answer": "Glioblastoma patients receiving standard treatment—surgery, radiation, and temozolomide chemotherapy—typically exhibit a median survival time of approximately 15-18 months."
+  },
+  {
+    "id": "67dede2918b1e36f2e000062",
+    "type": "factoid",
+    "generated_answer": "DeepDTA, a deep learning framework utilizing convolutional neural networks, has been developed to predict the druggability of protein targets based on structure."
+  },
+  {
+    "id": "67e6b63118b1e36f2e0000bc",
+    "type": "summary",
+    "generated_answer": "The Eiffel-by-Night sign, observed on chest radiographs, indicates pneumomediastinum resulting from bronchial barotrauma, typically following forceful coughing, vomiting, or Valsalva maneuvers. Radiographically, it appears as radiolucent streaks outlining the trachea and mediastinal structures, resembling the latticework of the Eiffel Tower at night. While often benign and self-limiting, the sign’s clinical significance lies in differentiating it from more serious conditions like esophageal rupture or pneumothorax, necessitating careful patient evaluation and potentially further imaging such as CT scanning to confirm the diagnosis and exclude life-threatening pathology. Prompt recognition allows for conservative management and avoidance of unnecessary interventions."
+  },
+  {
+    "id": "67d0396281b1027333000027",
+    "type": "summary",
+    "generated_answer": "Guillain-Barré syndrome (GBS) is currently hypothesized to be primarily an autoimmune disorder triggered by preceding infections, most commonly *Campylobacter jejuni*, but also cytomegalovirus, Epstein-Barr virus, and Zika virus. Molecular mimicry is believed to be a key mechanism, where antibodies generated against these pathogens cross-react with gangliosides on peripheral nerve myelin, leading to complement-mediated demyelination. While the exact initiating antigen varies, this immune response ultimately damages the peripheral nervous system, causing ascending paralysis and sensory disturbances; axonal variants, less common, involve direct antibody attack on the axon. Emerging evidence suggests genetic predisposition also influences susceptibility and disease severity."
+  },
+  {
+    "id": "67e2849218b1e36f2e00007a",
+    "type": "factoid",
+    "generated_answer": "The most common genetic variant causing cystic fibrosis is a deletion of three nucleotides in the *CFTR* gene, resulting in a loss of the phenylalanine amino acid."
+  },
+  {
+    "id": "67eaf28f18b1e36f2e0000df",
+    "type": "list",
+    "generated_answer": "The glioblastoma tumor microenvironment comprises neoplastic cells, microglia, astrocytes, oligodendrocytes, endothelial cells, pericytes, infiltrating lymphocytes, macrophages, fibroblasts, extracellular matrix components, and soluble factors like cytokines and growth factors, all contributing to immunosuppression and therapeutic resistance."
+  },
+  {
+    "id": "67e2944218b1e36f2e000083",
+    "type": "factoid",
+    "generated_answer": "NetAct, a Cytoscape application, facilitates the study of metabolic pathway evolution by modeling and analyzing biochemical reaction networks."
+  },
+  {
+    "id": "67e6d06918b1e36f2e0000d2",
+    "type": "yesno",
+    "generated_answer": "Yes, calcanezumab, a CGRP monoclonal antibody, can be used for vestibular migraine as it targets the calcitonin gene-related peptide pathway implicated in migraine pathophysiology, including the vestibular symptoms experienced by some patients."
+  },
+  {
+    "id": "67dec8fb18b1e36f2e00005b",
+    "type": "summary",
+    "generated_answer": "Kisspeptin, originally identified for its role in gonadotropin-releasing hormone (GnRH) secretion and reproductive function, is increasingly recognized for exhibiting complex and often paradoxical effects in cancer. While initially thought to universally suppress tumor growth via GnRH-dependent and -independent mechanisms, studies now demonstrate kisspeptin can *promote* cancer progression in several malignancies, including melanoma, breast, and pancreatic cancers, by directly stimulating tumor cell proliferation and metastasis. This duality appears context-dependent, influenced by receptor expression levels, tumor type, and the surrounding microenvironment, suggesting kisspeptin’s role in cancer is far more nuanced than initially proposed and warrants further investigation as a potential therapeutic target—or risk—depending on the cancer."
+  },
+  {
+    "id": "67e40a2418b1e36f2e0000a1",
+    "type": "list",
+    "generated_answer": "*Klebsiella* species, Gram-negative bacteria, commonly cause hospital-acquired infections—including pneumonia, bloodstream infections (bacteremia), wound infections, and urinary tract infections—particularly in immunocompromised patients, and antibiotic resistance, specifically to carbapenems and cephalosporins, is a growing clinical concern."
+  },
+  {
+    "id": "67eb55d818b1e36f2e0000e6",
+    "type": "yesno",
+    "generated_answer": "No, DNA methylation does not always lead to gene silencing, as it can sometimes correlate with increased gene expression depending on the genomic context and specific gene involved."
+  },
+  {
+    "id": "67e7dbc518b1e36f2e0000d7",
+    "type": "summary",
+    "generated_answer": "Gene-SCOUT is a comprehensive, publicly accessible database integrating genomic and proteomic data to predict the function of uncharacterized genes, primarily in microbial genomes. It employs a sequence similarity-based approach, comparing query sequences against a curated collection of protein families, domains, and functional annotations. Beyond simple homology, Gene-SCOUT utilizes a scoring system considering multiple factors like alignment length and E-value to provide robust functional predictions, often identifying potential metabolic pathways or physiological roles. This resource is particularly valuable for annotating newly sequenced genomes and furthering our understanding of microbial diversity and evolution."
+  },
+  {
+    "id": "67e69e7918b1e36f2e0000b7",
+    "type": "yesno",
+    "generated_answer": "No, inebilizumab targets B-cell populations via CD19, and while it shows promise in other autoimmune conditions, current evidence does not support its efficacy specifically for the complex inflammatory pathways driving IgG4-related disease."
+  },
+  {
+    "id": "67ded55318b1e36f2e00005f",
+    "type": "yesno",
+    "generated_answer": "Yes, botulinum toxin A is used to treat arthritis because it blocks acetylcholine release, reducing pain by inhibiting muscle spasms and inflammation around affected joints."
+  },
+  {
+    "id": "67e40e9418b1e36f2e0000a4",
+    "type": "list",
+    "generated_answer": "The newborn heel prick test screens for a panel of metabolic disorders, including phenylketonuria, congenital hypothyroidism, galactosemia, and fatty acid oxidation defects, as well as hemoglobinopathies like sickle cell disease and cystic fibrosis, to identify treatable conditions impacting development and overall health."
+  },
+  {
+    "id": "67eb55f418b1e36f2e0000e7",
+    "type": "factoid",
+    "generated_answer": "The most common genetic alteration in primary glioblastoma is amplification of the *EGFR* gene, a receptor tyrosine kinase frequently driving tumor growth."
+  },
+  {
+    "id": "67df10be18b1e36f2e000063",
+    "type": "summary",
+    "generated_answer": "gwRVIS (genome-wide RNA Velocity and Isoform Specificity) is a computational method used to infer cellular transition states and future states by integrating single-cell RNA sequencing data with full-length transcript isoform information. Unlike traditional RNA velocity approaches focusing on overall gene expression, gwRVIS leverages splicing kinetics of individual isoforms to provide a more precise and nuanced understanding of dynamic cellular processes like differentiation and response to stimuli. This isoform-level resolution enhances the accuracy of trajectory inference and allows for identification of regulatory changes driving cell fate decisions, particularly in complex tissues with diverse cellular subtypes. Consequently, gwRVIS offers improved biological interpretability compared to methods relying solely on gene-level expression changes."
+  },
+  {
+    "id": "67e56e1e18b1e36f2e0000af",
+    "type": "summary",
+    "generated_answer": "NTLA-2002 is an mRNA therapeutic utilizing lipid nanoparticles (LNPs) to deliver a functional transthyretin (TTR) gene to the liver. Upon LNP uptake, the mRNA is translated by hepatocytes, producing a stabilized TTR protein that outcompetes circulating misfolded TTR responsible for amyloid formation in transthyretin amyloidosis. This results in reduced serum amyloidogenic TTR levels and subsequent stabilization of existing amyloid fibrils, effectively halting disease progression by addressing the underlying protein misfolding and deposition pathology. The transient expression of mRNA minimizes the risk of long-term off-target effects associated with traditional gene therapies."
+  },
+  {
+    "id": "67e133f118b1e36f2e00006f",
+    "type": "factoid",
+    "generated_answer": "Calabash chalk, a type of geophagy consisting of kaolinite clay, is consumed by pregnant women to supplement iron and calcium deficiencies during gestation."
+  },
+  {
+    "id": "67e288d518b1e36f2e00007c",
+    "type": "factoid",
+    "generated_answer": "The Democratic Republic of Congo currently reports the highest incidence of African Trypanosomiasis, a parasitic disease transmitted by tsetse flies."
+  },
+  {
+    "id": "67ea538318b1e36f2e0000dd",
+    "type": "summary",
+    "generated_answer": "The tumor microenvironment (TME) profoundly influences the mesenchymal-like (MES) state of glioblastoma multiforme (GBM), driving its aggressive behavior and therapeutic resistance. Hypoxia, a hallmark of the GBM TME, upregulates HIF-1α, promoting epithelial-mesenchymal transition (EMT) and MES gene expression programs. Furthermore, interactions with stromal cells like astrocytes and microglia release growth factors and cytokines—including TGF-β and IL-6—that directly induce and maintain the MES phenotype, fostering invasion and immune evasion. Consequently, the TME doesn’t merely *house* GBM, but actively sculpts its most dangerous characteristics."
+  },
+  {
+    "id": "67dc41a618b1e36f2e000059",
+    "type": "yesno",
+    "generated_answer": "No, loss of the tumor suppressor LKB1/STK11 typically *promotes* cancer development and progression by disrupting energy metabolism and cell polarity, rather than conferring resistance to existing cancer."
+  },
+  {
+    "id": "67e6bdc618b1e36f2e0000c2",
+    "type": "factoid",
+    "generated_answer": "Tulisokibart targets interleukin-23 (IL-23), a cytokine crucial in the inflammatory pathways of several autoimmune diseases."
+  },
+  {
+    "id": "67cf365781b1027333000023",
+    "type": "list",
+    "generated_answer": "Landau-Kleffner syndrome presents with acquired aphasia, language regression—typically receptive language before expressive—, auditory hallucinations, epilepsy, and neurological deficits affecting speech and comprehension, often emerging between ages three and seven years."
+  },
+  {
+    "id": "67e2c4b618b1e36f2e000095",
+    "type": "list",
+    "generated_answer": "Environmental lead exposure results in neurological damage, including cognitive deficits and behavioral problems, alongside hematological effects such as anemia, nephropathy affecting kidney function, cardiovascular issues like hypertension, and disruptions to calcium metabolism and vitamin D absorption, ultimately impacting overall development and homeostasis."
+  },
+  {
+    "id": "67eb557218b1e36f2e0000e4",
+    "type": "summary",
+    "generated_answer": "Glioblastoma stem-like cells (GSCs) represent a subpopulation within glioblastoma tumors possessing self-renewal and differentiation capabilities, driving tumor initiation, progression, and recurrence. These cells exhibit enhanced resistance to conventional therapies like radiation and chemotherapy due to increased expression of DNA repair mechanisms and anti-apoptotic pathways, alongside limited proliferation compared to differentiated tumor cells. GSCs contribute to therapeutic failure by repopulating the tumor post-treatment and mediating invasive growth, often migrating to distant sites within the brain. Consequently, targeting GSCs is considered crucial for developing more effective glioblastoma treatments, though achieving selective elimination remains a significant challenge."
+  },
+  {
+    "id": "67e28a8418b1e36f2e00007d",
+    "type": "list",
+    "generated_answer": "Mirnovo offers advantages over existing RNA modification site prediction tools—like MeRIP-seq, m6A-seq, and GUIDE-seq—through its deep learning architecture, enabling improved prediction of N6-methyladenosine (m6A) sites, RNA secondary structure elements, and RNA-binding protein interactions, alongside enhanced accuracy and broader genomic coverage."
+  },
+  {
+    "id": "67e56b5418b1e36f2e0000ad",
+    "type": "factoid",
+    "generated_answer": "Abelacimab is a humanized monoclonal antibody targeting factor XIa, a key protein in the contact activation pathway of the coagulation cascade."
+  },
+  {
+    "id": "67e94f4418b1e36f2e0000dc",
+    "type": "yesno",
+    "generated_answer": "No, ameloblastoma is typically a benign, slow-growing odontogenic tumor originating from enamel organ remnants, though it can be locally aggressive and mimic malignancy."
+  },
+  {
+    "id": "67e2cd8b18b1e36f2e000097",
+    "type": "factoid",
+    "generated_answer": "N-acetylcysteine (NAC) is the antidote for paracetamol intoxication, working to restore glutathione levels and prevent liver damage."
+  },
+  {
+    "id": "67eb7cf718b1e36f2e0000ef",
+    "type": "list",
+    "generated_answer": "Tumors secrete immunosuppressive cytokines, including transforming growth factor-beta (TGF-β), interleukin-10 (IL-10), and vascular endothelial growth factor (VEGF), to promote the differentiation and activation of regulatory T-cells (Tregs), alongside myeloid-derived suppressor cells (MDSCs), ultimately suppressing effector T-cell function and facilitating immune evasion."
+  },
+  {
+    "id": "67e2d99318b1e36f2e00009e",
+    "type": "yesno",
+    "generated_answer": "Yes, copy number variations (CNVs) are increasingly recognized as contributing to epilepsy susceptibility, as rare and recurrent CNVs have been significantly associated with both familial generalized and focal epilepsy syndromes through altered gene dosage and function."
+  },
+  {
+    "id": "67e5712e18b1e36f2e0000b2",
+    "type": "factoid",
+    "generated_answer": "Plaques en Prairie Fauchée, characterized by retinal whitening, are specifically associated with malaria due to retinal ischemia caused by infected red blood cells."
+  },
+  {
+    "id": "67d1a0de81b102733300002a",
+    "type": "list",
+    "generated_answer": "Plastic multilayer closure, while generally safe, can be associated with complications including seroma formation, wound dehiscence, infection involving *Staphylococcus aureus* and *Pseudomonas aeruginosa*, hematoma, skin necrosis, suture granulomas, and, less commonly, foreign body reactions to the polypropylene meshes and absorbable sutures utilized in the procedure."
+  },
+  {
+    "id": "67e4165d18b1e36f2e0000a6",
+    "type": "yesno",
+    "generated_answer": "No, many biologicals—derived from living sources and potentially immunogenic—carry risks of fetal harm or maternal immune reactions, necessitating careful risk-benefit assessment before use during pregnancy."
+  },
+  {
+    "id": "67eaf32618b1e36f2e0000e3",
+    "type": "summary",
+    "generated_answer": "E-boxes are short DNA sequence motifs (CANNTG) recognized by transcription factors from the basic helix-loop-helix (bHLH) family, notably Myc, Max, and members of the Fox family. These factors bind E-boxes located in the promoter and enhancer regions of numerous genes, modulating their transcription. In cancer, dysregulation of E-box-binding proteins, particularly Myc overexpression, drives aberrant gene expression programs promoting cell proliferation, metabolism, and angiogenesis. Consequently, E-box-mediated transcriptional control is frequently altered in various cancers and represents a potential therapeutic target."
+  },
+  {
+    "id": "67dc40da18b1e36f2e000058",
+    "type": "summary",
+    "generated_answer": "StarGazer (also known as BIN1) is a large, multi-domain scaffolding protein crucial for neuronal morphology and synaptic function, prominently expressed in the brain, particularly in excitatory neurons. It regulates the dynamic organization of the actin cytoskeleton via interactions with proteins like syndecan and α-actinin, impacting dendritic spine development and synaptic plasticity. Loss-of-function mutations in *BIN1* are strongly associated with increased risk for late-onset Alzheimer’s disease, likely due to impaired endocytosis and disrupted neuronal homeostasis, though the precise mechanisms are still under investigation. Recent research also implicates StarGazer in regulating mitochondrial trafficking and autophagy, further highlighting its broad role in neuronal health."
+  },
+  {
+    "id": "67e6ba8e18b1e36f2e0000bf",
+    "type": "list",
+    "generated_answer": "Ivonescimab, a humanized monoclonal antibody, specifically targets programmed death-ligand 1 (PD-L1) and its interaction with programmed death-1 (PD-1) receptors, as well as inhibits the activation of downstream signaling pathways including the JAK-STAT pathway, ultimately modulating immune responses and tumor microenvironment interactions."
+  },
+  {
+    "id": "67e08afd18b1e36f2e00006a",
+    "type": "factoid",
+    "generated_answer": "Eptinezumab is a monoclonal antibody directly targeting calcitonin gene-related peptide (CGRP), a neuropeptide involved in migraine pathophysiology."
+  },
+  {
+    "id": "67e299b618b1e36f2e000087",
+    "type": "summary",
+    "generated_answer": "Ophthalmologic loiasis, caused by the parasitic filarial worm *Loa loa*, manifests primarily as subconjunctival migration of adult worms across the eye, eliciting transient pain and conjunctivitis. This occurs because *Loa loa* has a diurnal migration pattern, coinciding with periods of wakefulness and increased blood flow in the conjunctiva. While typically self-limiting as the worm exits the eye, repeated or prolonged ocular involvement can lead to corneal damage and, rarely, vision impairment. Diagnosis relies on identifying the worm directly, and treatment involves microfilaricidal drugs, though careful monitoring is crucial due to potential neurological complications."
+  },
+  {
+    "id": "67eb86d618b1e36f2e0000f2",
+    "type": "yesno",
+    "generated_answer": "Yes, a single gene can be regulated by multiple enhancers, as these distal regulatory elements can integrate signals from diverse transcription factors to fine-tune gene expression in a tissue-specific or developmental-stage specific manner."
+  },
+  {
+    "id": "67e6ce6e18b1e36f2e0000cf",
+    "type": "factoid",
+    "generated_answer": "The Pharma Proteomics Project identified 1,787 primary genetic associations via pQTL mapping, linking genetic variants to protein quantitative trait loci."
+  },
+  {
+    "id": "67e6a05c18b1e36f2e0000b8",
+    "type": "summary",
+    "generated_answer": "Imlunestrant is a novel oral selective estrogen receptor degrader (SERD) demonstrating potent anti-estrogen activity in estrogen receptor-positive (ER+) breast cancer. Unlike selective estrogen receptor modulators (SERMs), imlunestrant induces ER protein degradation, leading to a more complete and sustained suppression of estrogen signaling. This degradation occurs through promoting ERα ubiquitination and proteasomal destruction, effectively reducing the levels of functional ER available to drive tumor growth. Preclinical and clinical data suggest imlunestrant overcomes acquired resistance to endocrine therapies, including those mediated by ESR1 mutations, by targeting the receptor for complete removal rather than simply blocking its activity."
+  },
+  {
+    "id": "67e12bc718b1e36f2e00006e",
+    "type": "yesno",
+    "generated_answer": "Yes, temporomandibular joint replacement is a viable option for severe cases, though it’s typically reserved for patients with debilitating arthritis or trauma unresponsive to more conservative treatments due to the complexity of the joint."
+  },
+  {
+    "id": "67fbe85d18b1e36f2e000122",
+    "type": "summary",
+    "generated_answer": "Neuroimaging studies consistently reveal structural and functional differences in several brain regions of individuals with anxiety disorders. Specifically, the amygdala, responsible for emotional processing, often exhibits heightened reactivity and increased volume, while the prefrontal cortex—involved in emotional regulation—may demonstrate reduced activity and grey matter volume. Alterations in the hippocampus, critical for contextualizing fear, and disrupted connectivity between these regions are also frequently observed. These neurobiological variations likely contribute to the exaggerated fear responses and impaired emotional control characteristic of anxiety."
+  },
+  {
+    "id": "67fc2f7818b1e36f2e00012c",
+    "type": "yesno",
+    "generated_answer": "Yes, PTEN loss in glioblastoma (GBM) frequently leads to increased immunosuppression within the tumor microenvironment and downstream activation of signaling pathways that directly inhibit immune cell function, thus contributing to immunotherapy resistance."
+  },
+  {
+    "id": "67d49e0c18b1e36f2e00001d",
+    "type": "list",
+    "generated_answer": "RJH-Metastasis 1.0 identifies several genes significantly associated with colorectal cancer with liver metastasis (CRCLM), including *CD44*, *CEACAM6*, *FAP*, *TERT*, *EGFR*, and *KRAS*, alongside immune-related genes like *IL8* and *PDCD1*, and matrix metalloproteinases such as *MMP9*, all contributing to metastatic progression."
+  },
+  {
+    "id": "67e6b34318b1e36f2e0000b9",
+    "type": "factoid",
+    "generated_answer": "rVSV-ZEBOV-GP is a recombinant vesicular stomatitis virus vaccine specifically used for the prevention of Ebola virus disease."
+  },
+  {
+    "id": "67e0906c18b1e36f2e00006b",
+    "type": "factoid",
+    "generated_answer": "A seroma is a collection of serum, a clear fluid, that can accumulate in tissues following surgical procedures or trauma."
+  },
+  {
+    "id": "67fbe2f318b1e36f2e000117",
+    "type": "yesno",
+    "generated_answer": "Yes, pilates can reduce pelvic pain by strengthening core muscles, improving pelvic alignment, and enhancing neuromuscular control, all of which contribute to pelvic stability and pain reduction."
+  },
+  {
+    "id": "67f6f13618b1e36f2e0000ff",
+    "type": "list",
+    "generated_answer": "Epithelial-to-mesenchymal transition (EMT) is driven by a complex interplay of transcription factors, including SNAIL1, SNAIL2 (also known as SLUG), ZEB1, ZEB2, TWIST1, and TWIST2, which repress epithelial markers like E-cadherin and upregulate mesenchymal proteins such as vimentin and N-cadherin, ultimately influencing cellular morphology and motility."
+  },
+  {
+    "id": "67e296bc18b1e36f2e000085",
+    "type": "factoid",
+    "generated_answer": "The largest whole-exome sequencing study of epilepsy to date involved analyzing exomes from over 15,000 individuals, seeking causative genetic variants."
+  },
+  {
+    "id": "67e4590e18b1e36f2e0000a9",
+    "type": "factoid",
+    "generated_answer": "Westermark’s Sign, characterized by diminished vascular markings in the lung periphery, is specific to pulmonary embolism—a blockage in one of the pulmonary arteries."
+  },
+  {
+    "id": "67fafe7318b1e36f2e00010b",
+    "type": "yesno",
+    "generated_answer": "No, *Faecalibacterium prausnitzii* is an anaerobic bacterium, thriving in the oxygen-deprived environment of the colon and utilizing fermentation rather than aerobic respiration for energy production."
+  },
+  {
+    "id": "67ed634018b1e36f2e0000fa",
+    "type": "list",
+    "generated_answer": "Several novel measles vaccines are under investigation, including mRNA-based vaccines, subunit vaccines targeting the hemagglutinin and fusion proteins, and live attenuated vaccines incorporating modified viruses and rationally designed mutations to enhance immunogenicity and broaden protection against measles virus genotypes."
+  },
+  {
+    "id": "67fd734e18b1e36f2e00013f",
+    "type": "yesno",
+    "generated_answer": "Yes, both CD8+ T cells and NK cells express cytotoxic granules containing perforin and granzyme B, enabling them to induce apoptosis in target cells via similar cytolytic mechanisms."
+  },
+  {
+    "id": "67e6d1b518b1e36f2e0000d3",
+    "type": "factoid",
+    "generated_answer": "The UK biobank proteogenomics study identified an association between clonal haematopoiesis and increased circulating levels of the glycoprotein, fibronectin."
+  },
+  {
+    "id": "67e56ff018b1e36f2e0000b1",
+    "type": "list",
+    "generated_answer": "Zenocutuzumab, a monoclonal antibody, specifically targets insulin-like growth factor 1 receptor (IGF-1R), insulin-like growth factor 2 receptor (IGF-2R), and insulin receptor (IR), all receptor tyrosine kinases crucial in cell growth, survival, and metabolism, thereby inhibiting downstream signaling pathways like PI3K/AKT/mTOR and MAPK."
+  },
+  {
+    "id": "67fc555a18b1e36f2e000131",
+    "type": "factoid",
+    "generated_answer": "Hysterosalpingography (HSG) is a fluoroscopic X-ray used to evaluate the uterus and fallopian tubes, assessing their patency and identifying potential blockages."
+  },
+  {
+    "id": "67fbe68c18b1e36f2e00011e",
+    "type": "factoid",
+    "generated_answer": "The American Cancer Society suggests discussing prostate cancer screening, involving a PSA blood test and digital rectal exam, with a doctor starting at age 50 for men at average risk."
+  },
+  {
+    "id": "67f6f14118b1e36f2e000100",
+    "type": "yesno",
+    "generated_answer": "Yes, mesenchymal-like glioblastoma cells exhibit increased immune evasion due to reduced MHC class I expression and increased PD-L1 expression, hindering T cell recognition and promoting an immunosuppressive tumor microenvironment."
+  },
+  {
+    "id": "67d45fbc18b1e36f2e000013",
+    "type": "list",
+    "generated_answer": "Specific single nucleotide polymorphisms (SNPs) within the *CARD8* gene, including rs2043575 and rs10930908, have been associated with decreased risk of diabetic nephropathy, a kidney disease resulting from diabetes, through modulation of inflammasome activation and subsequent reduction in glomerular inflammation and fibrosis."
+  },
+  {
+    "id": "67e6c0f618b1e36f2e0000c7",
+    "type": "yesno",
+    "generated_answer": "Yes, Fasudil can be used for subarachnoid haemorrhage as it’s a Rho-kinase inhibitor shown to improve cerebral vasospasm and neurological outcomes following this type of bleed by promoting vasodilation and reducing inflammation."
+  },
+  {
+    "id": "67f8584b18b1e36f2e000106",
+    "type": "summary",
+    "generated_answer": "Activation Likelihood Estimation (ALE) is a meta-analytic technique used in neuroimaging to identify brain regions consistently activated across multiple functional magnetic resonance imaging (fMRI) studies. ALE operates by quantifying the spatial overlap of activation foci reported in individual studies, accounting for variations in anatomy and statistical power, and generating a statistical map representing the probability of true activation. Unlike traditional meta-analysis relying on effect sizes, ALE focuses on *presence* versus *absence* of activation, making it robust to differing experimental paradigms and analysis pipelines. This approach provides a more conservative and reliable assessment of the neural substrates supporting a given cognitive process or neurological condition."
+  },
+  {
+    "id": "67fbe1a118b1e36f2e000112",
+    "type": "list",
+    "generated_answer": "Mutations in genes including *KRAS*, *TP53*, *CDKN2A*, *SMAD4*, *PALB2*, *BRCA1/2*, and *ATM*, alongside alterations in *INK4A-ARF* locus and inherited syndromes like Lynch syndrome and familial atypical multiple mole melanoma (FAMMM), significantly elevate the risk for developing pancreatic adenocarcinoma."
+  },
+  {
+    "id": "67fc380c18b1e36f2e00012e",
+    "type": "summary",
+    "generated_answer": "Glioblastoma multiforme (GBM) exhibits remarkable heterogeneity at the genomic, transcriptomic, and phenotypic levels, profoundly impacting treatment response. This intra-tumoral diversity results in selective pressures, allowing for the rapid emergence of resistant subpopulations even before therapy initiation. Consequently, standard treatments like temozolomide and radiation often target only a fraction of the tumor cells, while resistant clones—often characterized by alterations in *EGFR*, *PTEN*, and *MGMT*—proliferate and drive recurrence. Understanding and addressing this heterogeneity through personalized approaches, including spatially-resolved multi-omics and targeted therapies, is crucial for improving GBM outcomes."
+  },
+  {
+    "id": "67d48d1118b1e36f2e000016",
+    "type": "summary",
+    "generated_answer": "FINDbase is a publicly accessible, comprehensive database of human fungal infections, created and maintained by the Global Action Fund for Fungal Infections (GAFFI). It catalogues geographically referenced cases of clinically relevant fungal diseases – including candidiasis, aspergillosis, cryptococcosis, and mucormycosis – alongside associated risk factors and outcomes. This resource leverages both published literature and surveillance data to map the global epidemiology of invasive fungal infections, identifying areas of high burden and informing public health strategies. FINDbase aims to improve diagnosis, treatment, and prevention efforts for these often-neglected infections, particularly in resource-limited settings."
+  },
+  {
+    "id": "67e6b72818b1e36f2e0000bd",
+    "type": "list",
+    "generated_answer": "The VRd regimen for multiple myeloma incorporates the proteasome inhibitor bortezomib, the immunomodulatory drug lenalidomide, and the corticosteroid dexamethasone, acting synergistically to induce apoptosis in myeloma cells and improve patient outcomes through modulation of the tumor microenvironment and immune response."
+  },
+  {
+    "id": "67daf71018b1e36f2e000057",
+    "type": "yesno",
+    "generated_answer": "Yes, pollinosis is indeed another name for seasonal allergic rhinitis specifically caused by airborne pollen from trees, grasses, and weeds, triggering an immune response with symptoms like sneezing and itchy eyes."
+  },
+  {
+    "id": "67ed64e118b1e36f2e0000fd",
+    "type": "summary",
+    "generated_answer": "The low-FODMAP diet is currently the most widely recommended dietary approach for managing Irritable Bowel Syndrome (IBS) symptoms. This diet restricts fermentable oligosaccharides, disaccharides, monosaccharides, and polyols – short-chain carbohydrates poorly absorbed in the small intestine that contribute to gas, bloating, and altered bowel habits. Implementation typically involves an elimination phase followed by a systematic reintroduction of FODMAPs to identify individual trigger foods, guided by a registered dietitian. While effective for symptom reduction, the low-FODMAP diet is not intended as a long-term solution and should prioritize nutritional adequacy under professional guidance."
+  },
+  {
+    "id": "67f6f1c218b1e36f2e000102",
+    "type": "summary",
+    "generated_answer": "Macrophages are prominent immune cells within the glioblastoma (GBM) microenvironment, exhibiting remarkable plasticity and adopting phenotypes that can either promote or suppress tumor progression. While classically activated (M1) macrophages possess anti-tumor activity through direct cytotoxicity and antigen presentation, GBM frequently polarizes macrophages towards a pro-tumorigenic (M2) state. These M2 macrophages contribute to immunosuppression, angiogenesis, and matrix remodeling, ultimately fostering GBM growth, invasion, and resistance to therapy. Consequently, manipulating macrophage polarization represents a promising, though complex, therapeutic strategy in GBM treatment."
+  },
+  {
+    "id": "67dae2d018b1e36f2e000056",
+    "type": "list",
+    "generated_answer": "The AURA3 trial demonstrated that acquired resistance to osimertinib in *EGFR*-mutated non-small cell lung cancer frequently involves mutations in *KRAS* (specifically G12C), *MET* amplification, and *HER2* alterations, and less commonly, transformations to small cell lung cancer or *BRAF* mutations, ultimately impacting treatment efficacy and necessitating alternative therapeutic strategies."
+  },
+  {
+    "id": "67e6cd6a18b1e36f2e0000ce",
+    "type": "yesno",
+    "generated_answer": "No, current clinical trials have not demonstrated statistically significant efficacy of luvadaxistat in improving neurological function in patients with Friedreich's Ataxia, despite its intended mechanism of increasing frataxin levels."
+  },
+  {
+    "id": "67d1a36781b102733300002b",
+    "type": "summary",
+    "generated_answer": "Xylazine, a veterinary sedative and analgesic, is increasingly detected in the illicit drug supply, primarily co-administered with fentanyl. Its presence significantly elevates the risk of overdose due to its potent central nervous system and respiratory depression effects, which do not fully reverse with naloxone. Xylazine causes severe soft tissue damage, including skin ulcerations, potentially leading to limb amputation, and contributes to increased mortality among people who use drugs. The co-occurrence is driving a new wave of public health concerns, necessitating expanded harm reduction strategies and the development of xylazine-specific reversal agents."
+  },
+  {
+    "id": "67fbe25118b1e36f2e000115",
+    "type": "yesno",
+    "generated_answer": "Yes, obesity demonstrates a strong familial component due to shared genetic predispositions, epigenetic factors, and common environmental influences within families that impact metabolic regulation and energy balance."
+  },
+  {
+    "id": "67fbee9818b1e36f2e000124",
+    "type": "factoid",
+    "generated_answer": "Glioblastoma multiforme (GBM) tumors typically contain 30-50% macrophages/microglia, which are immune cells that can both support and suppress tumor growth."
+  },
+  {
+    "id": "67e28bdd18b1e36f2e00007e",
+    "type": "summary",
+    "generated_answer": "Chimeric antigen receptor (CAR) T-cell therapy, often shortened to “Chimira” in some contexts, is an adoptive cell therapy where a patient’s T cells are genetically engineered to express a synthetic receptor – the CAR – recognizing a specific antigen on tumor cells. This CAR redirects the T cells to specifically target and destroy cancer cells, bypassing normal immune checkpoints. Currently approved CAR T-cell therapies primarily target CD19 in B-cell malignancies, demonstrating remarkable efficacy in relapsed/refractory cases; however, research is expanding to solid tumors with new target antigens and CAR designs to overcome limitations like on-target, off-tumor toxicity and immunosuppression. The process involves leukapheresis, T-cell modification *ex vivo*, and subsequent re-infusion into the patient."
+  },
+  {
+    "id": "67e5541718b1e36f2e0000ab",
+    "type": "summary",
+    "generated_answer": "Talquetamab is a first-in-class bispecific T-cell engager antibody targeting both CD3, found on all T cells, and GPRC5D, a transmembrane protein highly expressed on multiple myeloma cells. This interaction forces a physical link between T cells and myeloma cells, independent of MHC presentation, activating the T cells to release cytotoxic granules and induce myeloma cell death. Consequently, talquetamab redirects T-cell cytotoxicity specifically towards GPRC5D-expressing tumor cells, bypassing typical tumor evasion mechanisms and promoting durable responses in heavily pre-treated patients. The resulting T-cell activation also leads to cytokine release, a common feature of this therapeutic class."
+  },
+  {
+    "id": "67f8ea8318b1e36f2e000107",
+    "type": "factoid",
+    "generated_answer": "Both fomoterol and salmeterol are long-acting beta2-adrenergic receptor agonists, but fomoterol has a faster onset of action due to its different lipophilic profile."
+  },
+  {
+    "id": "67fbe3cf18b1e36f2e00011a",
+    "type": "yesno",
+    "generated_answer": "No, while research suggests altered levels of serotonin and cortisol may correlate with borderline personality disorder, there is currently no single, definitively established biomarker for its diagnosis due to the disorder’s complex etiology and heterogeneity."
+  },
+  {
+    "id": "67fd6fe418b1e36f2e00013d",
+    "type": "summary",
+    "generated_answer": "Plasmacytoid dendritic cells (pDCs) are a specialized subset of dendritic cells critically involved in antiviral immunity, particularly against viruses initiating infection through intracellular nucleic acid sensing. Unlike conventional dendritic cells, pDCs excel at type I interferon (IFN-α/β) production upon recognition of unmethylated CpG DNA and RNA from pathogens via Toll-like receptors (TLRs), specifically TLR7 and TLR9. This robust IFN response directly inhibits viral replication and bridges innate and adaptive immunity by promoting T cell activation and antibody production. Consequently, pDCs play a key role in controlling viral infections and contribute to autoimmune pathogenesis when dysregulated."
+  },
+  {
+    "id": "67d4179618b1e36f2e00000b",
+    "type": "list",
+    "generated_answer": "Primary sclerosing cholangitis effector genes, including *HLA-B8*, *HLA-DR3*, *IL23R*, and *NOD2*, contribute to disease pathogenesis through chronic inflammation, bile duct damage mediated by T cells and macrophages, and fibrosis involving collagen deposition and activation of hepatic stellate cells."
+  },
+  {
+    "id": "67e56c7418b1e36f2e0000ae",
+    "type": "list",
+    "generated_answer": "Tirzepatide, a dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist, primarily targets the GIP receptor and GLP-1 receptor, both members of the class B G protein-coupled receptors (GPCRs), leading to increased insulin secretion, suppressed glucagon secretion, and slowed gastric emptying, ultimately improving glycemic control in type 2 diabetes."
+  },
+  {
+    "id": "67faf34018b1e36f2e00010a",
+    "type": "yesno",
+    "generated_answer": "Yes, these cardiovascular risk factors—high blood pressure, BMI, and non-HDL cholesterol—are linked to increased dementia risk due to their contribution to cerebrovascular damage and amyloid plaque development in the brain."
+  },
+  {
+    "id": "67fbe3a518b1e36f2e000119",
+    "type": "list",
+    "generated_answer": "Autologous blood transfusions—involving red blood cells, platelets, and plasma—are indicated for elective surgeries such as orthopedic procedures and cardiac surgery, patients with anemia undergoing major surgery, and individuals donating blood for anticipated autotransfusion during high-risk procedures, alongside managing certain hematologic conditions and mitigating alloimmunization risks."
+  },
+  {
+    "id": "67fd73dd18b1e36f2e000140",
+    "type": "list",
+    "generated_answer": "Commonly used markers to identify exhausted T cells include programmed cell death protein 1 (PD-1), cytotoxic T-lymphocyte-associated protein 4 (CTLA-4), T-cell immunoglobulin and mucin-domain containing-3 (TIM-3), lymphocyte activation gene-3 (LAG-3), and decreased production of cytokines like interferon-gamma and tumor necrosis factor-alpha, alongside alterations in expression of CD62L and CCR7."
+  },
+  {
+    "id": "67e7d88f18b1e36f2e0000d5",
+    "type": "list",
+    "generated_answer": "Target selection in kidney disease utilizes genomics, proteomics, metabolomics, and transcriptomics to identify disease-causing genes, proteins, metabolites, and RNA molecules, alongside pathway analysis, systems biology modeling, and validation through *in vitro* and *in vivo* studies with relevant cellular models, animal models, and ultimately, human clinical trials."
+  },
+  {
+    "id": "67e5731918b1e36f2e0000b3",
+    "type": "list",
+    "generated_answer": "Epclusa is a combination drug containing sofosbuvir, a nucleotide analog NS5B polymerase inhibitor, and velpatasvir, an NS5A replication complex inhibitor, used for the treatment of chronic hepatitis C virus (HCV) infection across all six major genotypes."
+  },
+  {
+    "id": "67f8f45518b1e36f2e000108",
+    "type": "list",
+    "generated_answer": "A blood test for Alzheimer’s disease typically measures levels of amyloid-beta peptides, total tau protein, and phosphorylated tau protein (p-tau), alongside neurofilament light chain (NfL) as a marker of neurodegeneration, and sometimes glial fibrillary acidic protein (GFAP) reflecting astrocyte activation, to assess disease pathology and progression."
+  },
+  {
+    "id": "67ed4bdf18b1e36f2e0000f3",
+    "type": "summary",
+    "generated_answer": "Currently, two main types of poliovirus vaccines are utilized globally: inactivated poliovirus vaccine (IPV) and oral poliovirus vaccine (OPV). IPV, administered via injection, contains inactivated polioviruses and induces humoral immunity, preventing paralytic disease. OPV, given orally, uses attenuated live polioviruses, providing robust intestinal immunity and potential herd immunity, but carries a very low risk of vaccine-derived poliovirus paralysis. Increasingly, global eradication efforts favor a phased transition from OPV to IPV, supplemented by novel OPV2 strains with improved genetic stability to minimize risks."
+  },
+  {
+    "id": "67fd7a0218b1e36f2e000141",
+    "type": "factoid",
+    "generated_answer": "Central memory T cells (T<sub>CM</sub>), crucial for rapid recall responses, are characterized by high expression of both CD45RO and CCR7 surface proteins."
+  },
+  {
+    "id": "67e6b4cb18b1e36f2e0000bb",
+    "type": "summary",
+    "generated_answer": "Xalnesiran is an investigational small interfering RNA (siRNA) therapeutic designed to reduce the production of angiopoietin-like 4 (ANGPTL4), a key regulator of lipoprotein metabolism. Specifically, Xalnesiran utilizes the RNA interference pathway to induce targeted degradation of ANGPTL4 mRNA in hepatocytes, thereby diminishing ANGPTL4 protein levels. This reduction subsequently lowers triglycerides and lipoprotein(a) [Lp(a)], both established risk factors for cardiovascular disease, by enhancing lipoprotein lipase activity and clearance. Clinical trials are evaluating its efficacy in patients with hypertriglyceridemia and elevated Lp(a) who are at high cardiovascular risk."
+  },
+  {
+    "id": "67ded26a18b1e36f2e00005d",
+    "type": "summary",
+    "generated_answer": "Tenecteplase is a tissue plasminogen activator (tPA), a thrombolytic medication used primarily in the emergency treatment of acute ischemic stroke and acute ST-elevation myocardial infarction (STEMI). As a genetically engineered variant of human tPA, tenecteplase exhibits increased fibrin specificity and a longer circulating half-life compared to alteplase, potentially leading to improved clot dissolution and clinical outcomes. Its mechanism involves binding to fibrin within a thrombus, converting plasminogen to plasmin, and subsequently degrading the clot, thereby restoring blood flow. Administration typically occurs as a single intravenous bolus, simplifying its use in time-critical scenarios."
+  },
+  {
+    "id": "67ed4c9018b1e36f2e0000f5",
+    "type": "yesno",
+    "generated_answer": "Yes, a DNA vaccine—specifically, a plasmid DNA vaccine for hepatitis B—has been approved for human use in several countries, demonstrating the technology’s potential to induce an immune response via intracellular antigen production."
+  },
+  {
+    "id": "67fce38c18b1e36f2e000135",
+    "type": "list",
+    "generated_answer": "Chromatin accessibility profiling of glioblastoma stem cells (GSCs) has identified distinct states characterized by varying levels of neural progenitor cell markers, mesenchymal markers, and immune-related genes, alongside signatures of self-renewal pathways, differentiation programs, and stress response elements, ultimately revealing heterogeneity within the GSC population."
+  },
+  {
+    "id": "67e6d27518b1e36f2e0000d4",
+    "type": "factoid",
+    "generated_answer": "Zolbetuximab is a monoclonal antibody targeting the CLDN18.2 protein, which is frequently overexpressed in gastric and pancreatic cancers."
+  },
+  {
+    "id": "67cf3b6381b1027333000024",
+    "type": "list",
+    "generated_answer": "*Sophora tonkinensis* yields several bioactive compounds, including alkaloids such as sophorine and matrine, flavonoids like quercetin and rutin, triterpenoids, and phenolic acids, demonstrating its potential for pharmaceutical applications due to these diverse chemical constituents."
+  },
+  {
+    "id": "67ed57e718b1e36f2e0000f9",
+    "type": "list",
+    "generated_answer": "Iatrogenic mortality primarily results from adverse drug events, surgical complications, healthcare-associated infections—including those caused by *Clostridium difficile* and methicillin-resistant *Staphylococcus aureus*, diagnostic errors, device-related failures, and systemic issues like inadequate staffing and communication breakdowns within hospitals and clinics."
+  },
+  {
+    "id": "67fd5d6e18b1e36f2e000139",
+    "type": "factoid",
+    "generated_answer": "Loss of the 1p and 19q chromosomal arms is frequently observed in secondary glioblastoma, a particularly aggressive brain cancer subtype."
+  },
+  {
+    "id": "67e6b43e18b1e36f2e0000ba",
+    "type": "summary",
+    "generated_answer": "Nexiguran ziclumeran is a novel, selective antagonist of the human Mas-related G protein-coupled receptor X2 (MRGPRX2), a G protein-coupled receptor primarily expressed on sensory neurons. This receptor is activated by acyl-phenols released from inflamed tissues, triggering non-histaminergic itch. By blocking MRGPRX2, ziclumeran directly inhibits the neuronal signalling pathway responsible for this itch sensation, offering a targeted approach for treating chronic pruritus, particularly that associated with cholestatic liver disease, without systemic histamine receptor effects. Clinical trials demonstrate its efficacy in reducing itch intensity in these patients."
+  },
+  {
+    "id": "67d01cc581b1027333000026",
+    "type": "yesno",
+    "generated_answer": "Yes, emerging evidence suggests a potential association between GLP-1 receptor agonists and increased reports of suicidal ideation, though a definitive causal link requires further investigation and likely involves complex neurobiological mechanisms."
+  },
+  {
+    "id": "67fbe7b818b1e36f2e00011f",
+    "type": "yesno",
+    "generated_answer": "Yes, physicians unfortunately face a higher risk of suicide due to factors like intense work pressure, emotional exhaustion, and stigma surrounding seeking mental healthcare within their profession."
+  },
+  {
+    "id": "67f6f20618b1e36f2e000103",
+    "type": "factoid",
+    "generated_answer": "CCL2 chemokine is critically involved in recruiting myeloid-derived suppressor cells to glioblastoma (GBM) tumors, promoting immunosuppression within the tumor microenvironment."
+  },
+  {
+    "id": "67e573f418b1e36f2e0000b4",
+    "type": "yesno",
+    "generated_answer": "Yes, infigratinib demonstrates effectiveness for achondroplasia by specifically inhibiting FGFR3, the gene mutation primarily responsible for the skeletal dysplasia characteristic of the condition, leading to improved growth."
+  },
+  {
+    "id": "67e9342618b1e36f2e0000da",
+    "type": "summary",
+    "generated_answer": "Anthropogenic gadolinium refers to gadolinium deposited in tissues due to exposure from human activities, primarily as a contrast agent in magnetic resonance imaging (MRI). While gadolinium is naturally occurring, its increased presence in the body stems from the use of gadolinium-based contrast agents (GBCAs), which can exhibit varying degrees of stability and release free gadolinium ions. This retained gadolinium has been detected years after exposure in diverse tissues, raising concerns about potential long-term toxicity, particularly in individuals with impaired renal function who exhibit reduced clearance. Research focuses on understanding the biodistribution, mechanisms of toxicity, and developing more stable GBCAs or alternative contrast methods to mitigate these risks."
+  },
+  {
+    "id": "67e3cf4318b1e36f2e0000a0",
+    "type": "list",
+    "generated_answer": "Testicular torsion, a urological emergency, arises from a congenital anomaly of the tunica vaginalis, athletic trauma, or anatomical predisposition like bell clapper deformity, and can be exacerbated by vigorous physical activity, leading to impaired blood flow via the testicular artery and pampiniform plexus, ultimately affecting spermatogenesis and testicular function."
+  },
+  {
+    "id": "67fce47a18b1e36f2e000136",
+    "type": "yesno",
+    "generated_answer": "Yes, neuroblastoma and triple-negative breast cancer exhibit shared mesenchymal-like transcriptional programs involving upregulation of genes like *ZEB1* and *VIM*, contributing to aggressive phenotypes and potential therapeutic resistance in both cancers."
+  },
+  {
+    "id": "67e4571218b1e36f2e0000a7",
+    "type": "yesno",
+    "generated_answer": "Yes, perampanel, an AMPA receptor antagonist used for epilepsy, has been linked to reports of psychiatric adverse events including homicidal ideation and aggression, potentially due to its effects on glutamate neurotransmission and associated brain circuits."
+  },
+  {
+    "id": "67fbe21f18b1e36f2e000114",
+    "type": "summary",
+    "generated_answer": "Ankylosing spondylitis (AS) is a chronic inflammatory disease primarily affecting the axial skeleton, manifesting initially as inflammatory back pain and stiffness, typically improving with exercise rather than rest. Peripheral joint involvement, such as hips and shoulders, and enthesitis—inflammation where tendons and ligaments attach to bone—are also common. Extra-articular manifestations can include uveitis (eye inflammation), fatigue, and, less frequently, cardiac or pulmonary complications; progressive disease can lead to spinal fusion and reduced mobility. Early diagnosis and management are crucial to mitigate symptom progression and maintain functional capacity."
+  },
+  {
+    "id": "67fbe09d18b1e36f2e000110",
+    "type": "summary",
+    "generated_answer": "Attention-deficit/hyperactivity disorder (ADHD) often presents differently in girls compared to boys, leading to underdiagnosis. While hyperactivity is common in boys with ADHD, girls more frequently exhibit inattentive symptoms like difficulty focusing, daydreaming, and disorganization, which can be misinterpreted as simply being “spacey” or lacking motivation. This inattentive presentation, coupled with a tendency to internalize symptoms like anxiety and low self-esteem, can mask the underlying ADHD; furthermore, girls may develop coping mechanisms to mask their difficulties, further obscuring diagnosis. Consequently, girls are often diagnosed later in life, or misdiagnosed with conditions like anxiety or depression."
+  },
+  {
+    "id": "67fc323818b1e36f2e00012d",
+    "type": "factoid",
+    "generated_answer": "That phenomenon is called ectopic expression, specifically when an oncogene’s expression is inappropriately activated by a distant enhancer element."
+  },
+  {
+    "id": "67e457ed18b1e36f2e0000a8",
+    "type": "summary",
+    "generated_answer": "Vutrisiran is an RNA interference (RNAi) therapeutic that silences transthyretin (TTR) gene expression, thereby reducing the production of both wild-type and mutant TTR protein. Specifically, it’s a small interfering RNA (siRNA) encapsulated in a GalNAc-conjugated lipid nanoparticle, enabling selective delivery to the liver – the primary site of TTR synthesis. Once inside hepatocytes, vutrisiran guides the RNA-induced silencing complex (RISC) to degrade TTR mRNA, leading to a sustained reduction in serum and hepatic TTR levels and mitigating amyloid fibril formation associated with hereditary transthyretin-mediated amyloidosis. This mechanism addresses the underlying cause of the disease, rather than simply managing symptoms."
+  },
+  {
+    "id": "67ded64018b1e36f2e000060",
+    "type": "factoid",
+    "generated_answer": "In drug delivery, a payload refers to the biologically active pharmaceutical ingredient—typically a small molecule or nucleic acid—intended to produce a therapeutic effect."
+  },
+  {
+    "id": "67fbe49218b1e36f2e00011b",
+    "type": "yesno",
+    "generated_answer": "Yes, schizophrenia can be diagnosed after 50, though it’s less common and often associated with late-onset psychosis potentially linked to underlying neurological conditions or vascular changes in the brain."
+  },
+  {
+    "id": "67eb711718b1e36f2e0000ec",
+    "type": "summary",
+    "generated_answer": "Tumor-treating fields (TTFields) utilize alternating electric fields delivered via wearable transducers to disrupt microtubule formation and mitotic spindle assembly, ultimately inhibiting glioma cell division. This antimitotic effect is particularly potent in rapidly proliferating cancer cells like those found in glioblastoma (GBM). Unlike traditional therapies, TTFields have a unique non-invasive mechanism and demonstrated improved survival when combined with temozolomide chemotherapy in recurrent GBM, and as adjuvant therapy following standard-of-care for newly diagnosed GBM. While not curative, TTFields represent a valuable addition to the GBM treatment paradigm, offering a distinct approach to disease control."
+  },
+  {
+    "id": "67e6bed318b1e36f2e0000c4",
+    "type": "factoid",
+    "generated_answer": "Axatilimab is a monoclonal antibody that targets the CSF1R receptor, a key driver of macrophage activity in various cancers and fibrotic diseases."
+  },
+  {
+    "id": "67fd087218b1e36f2e000137",
+    "type": "summary",
+    "generated_answer": "Molecular polaritons arise from the strong coupling of electronic excitations within organic molecules and the photons of an optical cavity. This strong coupling regime requires a large overlap between the molecular transition dipole moment and the cavity mode, typically achieved using high-finesse microcavities or plasmonic nanostructures. Consequently, the resulting polaritons are hybrid light-matter quasiparticles possessing properties of both the molecule and the photon, exhibiting modified dispersion relations and enhanced light-matter interaction strengths. Fabrication often involves embedding molecules within the cavity or precisely positioning them relative to nanostructured plasmonic elements."
+  },
+  {
+    "id": "67ed650c18b1e36f2e0000fe",
+    "type": "yesno",
+    "generated_answer": "No, irritable bowel syndrome is considered a disorder of gut-brain interaction with multifactorial causes, rather than being attributable to a single infectious agent, though post-infectious IBS can develop after gastroenteritis."
+  },
+  {
+    "id": "67f6f18918b1e36f2e000101",
+    "type": "factoid",
+    "generated_answer": "Infiltrating macrophages in glioblastoma (GBM), a particularly aggressive brain cancer, primarily derive from circulating monocytes recruited from the bloodstream and, to a lesser extent, from microglia."
+  },
+  {
+    "id": "67e6c8dd18b1e36f2e0000cc",
+    "type": "list",
+    "generated_answer": "The CAPIRI regimen for metastatic colorectal cancer comprises capecitabine, irinotecan, and bevacizumab, a monoclonal antibody targeting vascular endothelial growth factor, alongside the fluoropyrimidine modulator, S-1, and the oral 5-fluorouracil prodrug, tegafur, often administered with leucovorin to enhance efficacy."
+  },
+  {
+    "id": "67fb064318b1e36f2e00010d",
+    "type": "factoid",
+    "generated_answer": "Aptamers are short, single-stranded DNA or RNA oligonucleotides that bind to specific target molecules with high affinity."
+  },
+  {
+    "id": "67e2b5fb18b1e36f2e00008e",
+    "type": "yesno",
+    "generated_answer": "Yes, a mother positive for Hepatitis B can generally breastfeed, as the virus is not transmitted through breast milk and antiviral medications can reduce maternal viral load."
+  },
+  {
+    "id": "67eb701618b1e36f2e0000ea",
+    "type": "list",
+    "generated_answer": "Tumors evade immune responses through multiple mechanisms, including downregulation of **MHC class I molecules** preventing **T cell** recognition, secretion of **immunosuppressive cytokines** like **TGF-β** and **IL-10**, recruitment of **regulatory T cells** and **myeloid-derived suppressor cells**, expression of **PD-L1** to inhibit **T cell** activation via **PD-1**, and alterations to the **tumor microenvironment** fostering immune exclusion."
+  },
+  {
+    "id": "67e6bd0e18b1e36f2e0000c1",
+    "type": "factoid",
+    "generated_answer": "Lenacapavir, a capsid disruption inhibitor, is currently tested for the treatment of HIV-1 infection in heavily treatment-experienced adults."
+  },
+  {
+    "id": "67d03a2581b1027333000028",
+    "type": "yesno",
+    "generated_answer": "No, Anopheles is the genus of a parasitic mosquito, not a fly, as it belongs to the order Diptera but specifically within the Culicidae family characterized by their proboscis and blood-feeding habits."
+  },
+  {
+    "id": "67ed575b18b1e36f2e0000f7",
+    "type": "list",
+    "generated_answer": "Treatment for restless legs syndrome commonly involves lifestyle modifications, such as regular exercise and sleep hygiene, alongside pharmacological interventions including dopamine agonists, alpha-2 delta ligands (gabapentinoids), benzodiazepines, and, in some cases, opioids, to manage symptoms related to dopamine neurotransmission and neuronal excitability."
+  },
+  {
+    "id": "67e6cf2618b1e36f2e0000d0",
+    "type": "yesno",
+    "generated_answer": "No, current clinical trial data does not demonstrate a significant overall survival benefit with zotiraciclib when added to standard treatment for glioblastoma, despite showing some potential for improved progression-free survival in specific subgroups."
+  },
+  {
+    "id": "680d5e47353a4a2e6b000005",
+    "type": "factoid",
+    "generated_answer": "Bronchiectasis is a chronic lung condition characterized by permanent widening of the airways, often resulting from recurrent infections."
+  },
+  {
+    "id": "680f4a68353a4a2e6b000007",
+    "type": "yesno",
+    "generated_answer": "Yes, biopharmaceuticals like ketamine and monoclonal antibodies targeting specific inflammatory pathways are increasingly used to treat treatment-resistant depression by modulating neurotransmitter systems and immune responses involved in the disorder’s pathophysiology."
+  },
+  {
+    "id": "680a083218b1e36f2e00014d",
+    "type": "yesno",
+    "generated_answer": "Yes, microglia actively participate in synaptic pruning during development by engulfing and eliminating weaker or less-used synapses via complement-mediated pathways, refining neural circuits."
+  },
+  {
+    "id": "67e5557c18b1e36f2e0000ac",
+    "type": "factoid",
+    "generated_answer": "Fezolinetant is a neurokinin 3 (NK3) receptor antagonist, specifically targeting this receptor in the hypothalamus to reduce vasomotor symptoms of menopause."
+  },
+  {
+    "id": "6810fef8353a4a2e6b000016",
+    "type": "factoid",
+    "generated_answer": "Diethylstilbestrol, a synthetic estrogen, was historically used to prevent miscarriage in women with a history of recurrent pregnancy loss."
+  },
+  {
+    "id": "6810cb23353a4a2e6b000012",
+    "type": "factoid",
+    "generated_answer": "Palivizumab, a respiratory syncytial virus (RSV) monoclonal antibody, is the primary biopharmaceutical used for preventing severe bronchiolitis in high-risk infants."
+  },
+  {
+    "id": "680bc7a718b1e36f2e000156",
+    "type": "summary",
+    "generated_answer": "The cancer-immunity cycle describes the sequential steps by which the immune system recognizes and eliminates cancer cells. It begins with the release of tumor antigens, followed by their presentation to T cells in draining lymph nodes, activating these T cells to infiltrate the tumor microenvironment. Successful completion of the cycle requires T-cell recognition of tumor cells *in situ* and subsequent killing; however, tumors frequently evade immunity at any stage through mechanisms like antigen loss or immunosuppressive signaling. Understanding these checkpoints is crucial for developing effective immunotherapies designed to restore anti-tumor immunity."
+  },
+  {
+    "id": "67e56f2018b1e36f2e0000b0",
+    "type": "summary",
+    "generated_answer": "Iptacopan is a first-in-class, orally administered factor B inhibitor that modulates the alternative pathway of the complement system. By selectively blocking factor B, a crucial component of the alternative pathway’s initiation and amplification loops, iptacopan prevents the formation of C3 convertase and subsequent downstream complement activation. This mechanism reduces C3 cleavage and the generation of inflammatory mediators, thereby mitigating complement-driven pathology in diseases like C3 glomerulopathy and atypical hemolytic uremic syndrome. Unlike eculizumab, iptacopan offers upstream inhibition, potentially providing broader control of alternative pathway activation and preserving some beneficial complement functions."
+  },
+  {
+    "id": "67fe5f0918b1e36f2e000144",
+    "type": "factoid",
+    "generated_answer": "The previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) was NASH, representing Non-alcoholic Steatohepatitis, a historically used diagnostic term."
+  },
+  {
+    "id": "67fbe4d718b1e36f2e00011d",
+    "type": "summary",
+    "generated_answer": "Addiction’s genetic basis is complex and polygenic, involving numerous genes that incrementally increase risk rather than directly *causing* the disorder. Variations in genes regulating dopamine signaling (e.g., *DRD2*, *DRD4*) and stress response (e.g., *CRHR1*) are frequently implicated, influencing reward sensitivity and impulsivity. Furthermore, genes affecting drug metabolism – like those encoding liver enzymes – modulate vulnerability by altering drug effects and detoxification rates. Importantly, gene-environment interactions play a crucial role, meaning genetic predisposition requires environmental exposure to initiate and maintain addictive behaviors."
+  },
+  {
+    "id": "680a079718b1e36f2e000147",
+    "type": "yesno",
+    "generated_answer": "No, natural killer cells utilize activating and inhibitory receptors to recognize stressed or altered self-cells, like cancer cells, without requiring prior antigen presentation by MHC molecules."
+  },
+  {
+    "id": "67e5749b18b1e36f2e0000b5",
+    "type": "list",
+    "generated_answer": "Blinatumomab, a bispecific T-cell engager (BiTE) antibody, targets CD19 expressed on B-lineage cells, including malignant B cells in leukemia and lymphoma, and the CD3 receptor found on T cells, thereby inducing T-cell-mediated lysis of CD19-positive tumor cells."
+  },
+  {
+    "id": "680d5f2a353a4a2e6b000006",
+    "type": "summary",
+    "generated_answer": "Erdosteine, a mucolytic agent, demonstrates potential benefits in managing bronchiectasis by reducing sputum viscosity and improving mucociliary clearance. Clinical trials suggest Erdosteine can decrease the frequency of exacerbations and enhance quality of life in bronchiectasis patients, likely through its ability to modify mucus rheology and potentially possess anti-inflammatory effects. While not a curative treatment, Erdosteine is often used as an adjunct therapy alongside conventional bronchiectasis management, such as airway clearance techniques and antibiotics, to alleviate symptoms and improve pulmonary function. Further research continues to refine its precise role and optimal application within comprehensive treatment strategies."
+  },
+  {
+    "id": "6810f6f0353a4a2e6b000015",
+    "type": "yesno",
+    "generated_answer": "No, GLP-1 receptor agonists are generally not approved for obesity treatment in children under 10 due to limited long-term safety and efficacy data in this age group, and potential impacts on developing physiology."
+  },
+  {
+    "id": "680a237618b1e36f2e000152",
+    "type": "yesno",
+    "generated_answer": "Yes, radiomic features, which quantify image characteristics, demonstrate prognostic value in glioblastoma by correlating with underlying tumor biology and treatment response, ultimately impacting survival outcomes."
+  },
+  {
+    "id": "68110110353a4a2e6b000018",
+    "type": "yesno",
+    "generated_answer": "Yes, N-acetylcysteine improves survival in paracetamol overdose-induced acute liver failure by restoring glutathione stores, thereby reducing hepatotoxicity and allowing for liver regeneration."
+  },
+  {
+    "id": "680f4c63353a4a2e6b00000d",
+    "type": "factoid",
+    "generated_answer": "Praziquantel, an anthelmintic drug, is the primary pharmacological treatment for urinary schistosomiasis caused by *Schistosoma haematobium* parasites."
+  },
+  {
+    "id": "680a087218b1e36f2e00014f",
+    "type": "list",
+    "generated_answer": "Radiomics typically extracts quantitative features characterizing tumor **shape**, **size**, **texture**—including first-order statistics like **mean** and **standard deviation**, and higher-order features from **gray-level co-occurrence matrices** and **wavelet transforms**—as well as **intensity** distributions, and **spatial relationships** within **medical images** like **CT scans** and **MRI** to correlate with **genomic data** and **clinical outcomes**."
+  },
+  {
+    "id": "6810daad353a4a2e6b000013",
+    "type": "list",
+    "generated_answer": "Fecal microbiota transplantation is a therapeutic intervention primarily utilized for recurrent *Clostridioides difficile* infection, and is being investigated for treatment of inflammatory bowel diseases like *ulcerative colitis* and *Crohn’s disease*, as well as metabolic syndrome, *irritable bowel syndrome*, and certain neurological conditions affecting the *gut-brain axis*."
+  },
+  {
+    "id": "6810c27b353a4a2e6b000010",
+    "type": "yesno",
+    "generated_answer": "No, sertraline is generally not approved for use in children under 8 due to limited clinical trial data demonstrating both efficacy and safety in that age group, and potential impacts on developing brains."
+  },
+  {
+    "id": "680a07a418b1e36f2e000148",
+    "type": "factoid",
+    "generated_answer": "Dendritic cells, macrophages, and B cells are the primary antigen-presenting cells, initiating immune responses by displaying antigens on their surface to T cells."
+  },
+  {
+    "id": "67fbd58c18b1e36f2e00010e",
+    "type": "yesno",
+    "generated_answer": "Yes, misfolded and aggregated proteins like amyloid-beta and tau accumulate in neurodegenerative diseases, disrupting cellular processes and triggering neuronal dysfunction and eventual cell death through mechanisms like proteotoxicity and impaired axonal transport."
+  },
+  {
+    "id": "67fbe10618b1e36f2e000111",
+    "type": "list",
+    "generated_answer": "Autism spectrum disorder presentation in girls often differs from boys, manifesting as more subtle social communication deficits, internalizing behaviors like anxiety and depression, camouflaging social difficulties, and co-occurring conditions such as eating disorders and epilepsy, alongside potentially later diagnoses and differing cognitive profiles."
+  },
+  {
+    "id": "680fcb72353a4a2e6b00000e",
+    "type": "list",
+    "generated_answer": "Immunoglobulins, also known as antibodies, are categorized into five major classes—IgG, IgA, IgM, IgE, and IgD—each exhibiting distinct structural and functional characteristics relating to humoral immunity, antigen binding, and effector mechanisms like complement activation and mast cell degranulation."
+  },
+  {
+    "id": "6805568118b1e36f2e000145",
+    "type": "list",
+    "generated_answer": "Disease-modifying antirheumatic drugs (DORAs) encompass a diverse group of medications—including methotrexate, leflunomide, sulfasalazine, and hydroxychloroquine—that target the immune system, specifically cytokines and lymphocytes, to reduce inflammation and joint damage in autoimmune diseases like rheumatoid arthritis and psoriatic arthritis."
+  },
+  {
+    "id": "67e26b0b18b1e36f2e000073",
+    "type": "yesno",
+    "generated_answer": "No, takotsubo cardiomyopathy is significantly more prevalent in postmenopausal women, likely due to estrogen’s protective effects on the cardiovascular system and differences in stress response mechanisms."
+  },
+  {
+    "id": "680a080b18b1e36f2e00014b",
+    "type": "summary",
+    "generated_answer": "Radiomics is an emerging field that leverages high-throughput extraction of quantitative features from medical images—beyond what is visually assessed—to build predictive and prognostic models. These features, encompassing texture, shape, and intensity characteristics, are then correlated with genomic, proteomic, and clinical data to reveal underlying biological processes. Consequently, radiomics aims to characterize disease heterogeneity and predict treatment response, ultimately enabling personalized medicine approaches in areas like oncology and neurology. Advanced machine learning algorithms are crucial for analyzing the complex datasets generated by this process and identifying clinically relevant biomarkers."
+  },
+  {
+    "id": "6810db0a353a4a2e6b000014",
+    "type": "factoid",
+    "generated_answer": "Fibromyalgia’s cause remains unknown, but likely involves a combination of genetic predisposition and environmental factors affecting central pain processing."
+  },
+  {
+    "id": "67e2cfcf18b1e36f2e00009a",
+    "type": "list",
+    "generated_answer": "Prevention of osteoporosis in postmenopausal women involves adequate intake of calcium and vitamin D, weight-bearing exercise to increase bone mineral density, hormone therapy with estrogens to mitigate bone resorption, bisphosphonates and denosumab to inhibit osteoclast activity, and lifestyle modifications like smoking cessation and limited alcohol consumption to support skeletal health."
+  },
+  {
+    "id": "680a081d18b1e36f2e00014c",
+    "type": "summary",
+    "generated_answer": "Astrocytes are crucial glial cells in the central nervous system, performing diverse functions extending beyond simple structural support. They regulate the extracellular ionic balance, critically maintaining neuronal excitability and synaptic transmission via potassium buffering and glutamate uptake. Furthermore, astrocytes contribute to the blood-brain barrier integrity through induction of tight junctions in endothelial cells and provide metabolic support to neurons by supplying lactate and other metabolites. Recent research also highlights their roles in synaptic plasticity and immune responses within the CNS."
+  },
+  {
+    "id": "6810ff8f353a4a2e6b000017",
+    "type": "yesno",
+    "generated_answer": "No, laparoscopic salpingectomy is a procedure to remove fallopian tubes, primarily used for ovarian and fallopian tube cancer prevention or treatment, and is not relevant to the treatment of testicular cancer, which requires orchiectomy and potentially further therapies like chemotherapy."
+  },
+  {
+    "id": "67fbe21818b1e36f2e000113",
+    "type": "list",
+    "generated_answer": "Thyroid cancer development is associated with genetic factors, including *RET* and *BRAF* mutations, environmental exposures such as ionizing radiation, autoimmune diseases like Hashimoto’s thyroiditis, and familial syndromes including familial medullary thyroid carcinoma and Cowden syndrome."
+  },
+  {
+    "id": "67fc20ee18b1e36f2e00012a",
+    "type": "yesno",
+    "generated_answer": "No, glioblastoma tumors typically exhibit a remarkably immunosuppressive microenvironment that limits effective lymphocyte infiltration, despite some evidence of T cell presence at the tumor periphery."
+  },
+  {
+    "id": "67f8527318b1e36f2e000104",
+    "type": "list",
+    "generated_answer": "Several videolaryngoscopy techniques aid adult tracheal intubation, including direct videolaryngoscopy with the Glidescope, indirect videolaryngoscopy utilizing the McGrath MAC, fiberoptic bronchoscopy for difficult airways, and supraglottic airway videolaryngoscopy with devices like the i-gel or LMA Supreme, all visualizing the vocal cords, epiglottis, and trachea to facilitate endotracheal tube placement."
+  },
+  {
+    "id": "680f4ae9353a4a2e6b000009",
+    "type": "yesno",
+    "generated_answer": "No, electroconvulsive therapy is generally not used for epilepsy as it can potentially lower the seizure threshold and worsen seizure control, though historically it was explored for psychogenic non-epileptic seizures."
+  },
+  {
+    "id": "67fd922518b1e36f2e000143",
+    "type": "summary",
+    "generated_answer": "Macrophage polarization within the tumor microenvironment is broadly categorized as M1 and M2, representing extremes of a plasticity spectrum. M1 macrophages, classically activated by IFN-γ and LPS, exhibit pro-inflammatory properties, promoting anti-tumor immunity through antigen presentation and cytotoxic molecule release. Conversely, M2 macrophages, induced by IL-4, IL-10, and TGF-β, are associated with immunosuppression, angiogenesis, and tumor progression via growth factor secretion and matrix remodeling. However, this binary classification is an oversimplification; tumors often harbor macrophages with mixed phenotypes, and plasticity between M1 and M2 states is dynamically regulated by tumor-derived signals."
+  },
+  {
+    "id": "67fc1a3818b1e36f2e000129",
+    "type": "factoid",
+    "generated_answer": "Nissen fundoplication is a surgical procedure, typically used to treat gastroesophageal reflux disease (GERD), where the stomach is wrapped around the lower esophagus to reinforce the lower esophageal sphincter."
+  },
+  {
+    "id": "67e285b018b1e36f2e00007b",
+    "type": "factoid",
+    "generated_answer": "Turner syndrome typically involves complete or partial absence of one X chromosome, often due to monosomy X (45,X) or X chromosome structural variants like deletions."
+  },
+  {
+    "id": "680a07f918b1e36f2e00014a",
+    "type": "factoid",
+    "generated_answer": "Mitochondria, often called the “powerhouses” of the cell, are the organelles responsible for generating adenosine triphosphate (ATP) through cellular respiration."
+  },
+  {
+    "id": "67cdc78381b102733300001a",
+    "type": "factoid",
+    "generated_answer": "Biliary atresia, a rare disease affecting the liver’s bile ducts, commonly presents in infants shortly after birth, typically within the first two months of life."
+  },
+  {
+    "id": "67d7ff2c18b1e36f2e000049",
+    "type": "list",
+    "generated_answer": "Gluten allergy or intolerance—encompassing celiac disease, non-celiac gluten sensitivity, and wheat allergy—manifests through diverse symptoms including gastrointestinal distress, such as diarrhea and bloating, and systemic effects like dermatitis herpetiformis, fatigue, neurological symptoms, and, in severe cases, malabsorption leading to vitamin deficiencies and anemia."
+  },
+  {
+    "id": "680a084018b1e36f2e00014e",
+    "type": "yesno",
+    "generated_answer": "No, T cell entry into the healthy central nervous system is tightly restricted by the blood-brain barrier and limited expression of adhesion molecules, preventing routine immune surveillance within the CNS."
+  },
+  {
+    "id": "67cde41a81b102733300001d",
+    "type": "yesno",
+    "generated_answer": "Yes, urolithiasis is the broad term encompassing the formation of stones anywhere in the urinary system, which includes the kidneys, and therefore is essentially synonymous with kidney stones."
+  },
+  {
+    "id": "67e2b80618b1e36f2e00008f",
+    "type": "summary",
+    "generated_answer": "*Legionella pneumophila* is acquired through inhalation of aerosolized water or soil containing the bacteria, not person-to-person transmission. The bacteria thrive in freshwater environments and proliferate within engineered water systems like cooling towers, hot water tanks, and plumbing. Infection occurs when contaminated aerosols of small droplet size (<5 μm) are generated and inhaled, allowing the bacteria to reach the lower respiratory tract. Individuals are not typically infected by drinking contaminated water, but aspiration—accidental inhalation of water—can pose a risk, particularly in those with impaired swallowing."
+  },
+  {
+    "id": "680a21ff18b1e36f2e000151",
+    "type": "summary",
+    "generated_answer": "The choroid plexus, responsible for cerebrospinal fluid (CSF) production, plays a crucial role in central nervous system (CNS) immune surveillance. Composed of specialized ependymal cells and a fenestrated capillary network, it functions as a selective barrier regulating leukocyte entry into the brain parenchyma, while simultaneously sampling CSF for peripheral immune signals. Choroid plexus epithelial cells express MHC class I and II molecules and can present antigens, activating T cells and initiating immune responses; they also secrete cytokines and chemokines modulating immune cell trafficking. This unique anatomical and immunological positioning allows the choroid plexus to act as a key interface between the CNS and the systemic immune system, contributing to both immune privilege and defense against pathogens."
+  },
+  {
+    "id": "67fc546c18b1e36f2e000130",
+    "type": "yesno",
+    "generated_answer": "Yes, antibiotic use can induce hiccups due to disruption of the gut microbiome and potential effects on the vagus nerve, which controls the diaphragm."
+  },
+  {
+    "id": "680f4aa6353a4a2e6b000008",
+    "type": "summary",
+    "generated_answer": "Snake antivenoms are complex mixtures of polyclonal antibodies generated by immunizing a host animal, typically a horse or sheep, with snake venom. These antibodies specifically recognize and bind to the toxins present in the venom, neutralizing their harmful effects—such as neurotoxicity, hemotoxicity, and myotoxicity—and facilitating their clearance from the body. Antivenoms are often produced against the venoms of multiple snake species within a region, resulting in a heterologous formulation containing antibodies to a range of toxins. Purification processes remove host proteins, but residual components can still cause adverse reactions like serum sickness in some patients."
+  },
+  {
+    "id": "680a078618b1e36f2e000146",
+    "type": "yesno",
+    "generated_answer": "Yes, both microglia and peripheral macrophages originate from yolk-sac-derived myeloid progenitors, establishing a shared hematopoietic lineage despite differing developmental timing and tissue residency."
+  },
+  {
+    "id": "67e098cb18b1e36f2e00006d",
+    "type": "summary",
+    "generated_answer": "Gastric pacemakers, or gastric electrical stimulation (GES) devices, treat symptoms of chronic gastroparesis by modulating gastric myoelectric activity. The device consists of a neurostimulator implanted in the abdominal wall and leads tunneled to the stomach or jejunum, delivering low-voltage, high-frequency electrical pulses. These pulses aren’t intended to directly cause contractions, but rather to influence the stomach’s natural electrical slow waves, improving coordinated gastric emptying and reducing nausea/vomiting. GES is typically reserved for patients unresponsive to pharmacological interventions and dietary modifications, offering symptomatic relief rather than a cure for the underlying condition."
+  },
+  {
+    "id": "67d6be8a18b1e36f2e000022",
+    "type": "yesno",
+    "generated_answer": "Yes, newborns can have glaucoma, as it can be congenital due to improper development of the eye’s drainage system during gestation, leading to increased intraocular pressure."
+  },
+  {
+    "id": "680bc74618b1e36f2e000155",
+    "type": "list",
+    "generated_answer": "Recent advances in cancer immunotherapy include checkpoint inhibitors targeting PD-1, PD-L1, and CTLA-4, adoptive cell therapies such as CAR-T cells and tumor-infiltrating lymphocytes, oncolytic viruses, cancer vaccines utilizing neoantigens, and bispecific antibodies redirecting T cells to tumor-associated antigens, all aiming to enhance the immune system’s response against malignant neoplasms."
+  },
+  {
+    "id": "67f857eb18b1e36f2e000105",
+    "type": "yesno",
+    "generated_answer": "Yes, delirium is a frequent complication after cardiac surgery due to factors like inflammation, altered perfusion, and the effects of anesthesia on the vulnerable brain."
+  },
+  {
+    "id": "67e291a718b1e36f2e000081",
+    "type": "list",
+    "generated_answer": "Human phobias encompass a range of anxiety disorders characterized by excessive, irrational fears triggered by specific objects, situations, or activities—including animals, natural environments, blood-injection-injury, heights, and social interactions—and involve physiological responses like increased heart rate, sweating, and panic attacks mediated by the amygdala, hypothalamus, and autonomic nervous system."
+  },
+  {
+    "id": "680b7f4818b1e36f2e000154",
+    "type": "summary",
+    "generated_answer": "Convolutional neural networks (CNNs) are increasingly utilized in radiomics to move beyond handcrafted feature extraction, directly learning complex imaging biomarkers from high-dimensional medical images. Unlike traditional radiomic approaches, CNNs automatically identify and quantify subtle, often imperceptible, patterns indicative of disease phenotype and genotype, improving predictive accuracy. These networks can be applied to raw image data or to previously extracted radiomic features, enhancing both feature selection and classification tasks for diagnosis, prognosis, and treatment response prediction. Ultimately, CNNs facilitate a more comprehensive and data-driven approach to radiomic analysis, potentially revealing novel imaging biomarkers."
+  },
+  {
+    "id": "67cde43c81b102733300001e",
+    "type": "summary",
+    "generated_answer": "Graves’ disease is an autoimmune disorder resulting in hyperthyroidism, caused by antibodies stimulating the thyroid-stimulating hormone receptor (TSHR). This chronic stimulation leads to excessive thyroid hormone production, manifesting clinically as symptoms like goiter, ophthalmopathy (eye disease), and dermopathy. Pathogenesis involves genetic predisposition combined with environmental triggers, ultimately disrupting immune tolerance to thyroid antigens. Treatment strategies encompass antithyroid medications to reduce hormone synthesis, radioactive iodine therapy to ablate thyroid tissue, and, less commonly, surgical thyroidectomy."
+  },
+  {
+    "id": "67e2958018b1e36f2e000084",
+    "type": "yesno",
+    "generated_answer": "Yes, numerous studies demonstrate a complex interplay of genetic and environmental factors influencing suicide risk, with variations in genes related to serotonin, dopamine, and brain development implicated in vulnerability."
+  },
+  {
+    "id": "680c174d353a4a2e6b000001",
+    "type": "list",
+    "generated_answer": "Common post-translational modifications of proteins include phosphorylation involving kinases and phosphatases, glycosylation with glycans added to asparagine or serine residues, ubiquitination targeting proteins for degradation via the proteasome, acetylation affecting histones and gene expression, methylation impacting chromatin structure, and lipidation adding lipid anchors for membrane association."
+  },
+  {
+    "id": "67e0053118b1e36f2e000067",
+    "type": "yesno",
+    "generated_answer": "Yes, both MiOXSYS and OxiSperm utilize fluorescent dyes that react with reactive oxygen species to quantify ROS levels within sperm samples, providing an indirect measure of oxidative stress."
+  },
+  {
+    "id": "67e2a8d618b1e36f2e000088",
+    "type": "list",
+    "generated_answer": "Several parasitic infections, including *Plasmodium falciparum* malaria, hookworm (*Necator americanus* and *Ancylostoma duodenale*) infection, *Schistosoma* species schistosomiasis, *Trypanosoma brucei* African trypanosomiasis, and *Leishmania* species leishmaniasis, can induce anemia through mechanisms like red blood cell destruction, iron deficiency, and bone marrow suppression."
+  },
+  {
+    "id": "680a07ed18b1e36f2e000149",
+    "type": "factoid",
+    "generated_answer": "Acetylcholine, a crucial neurotransmitter, is most associated with initiating muscle activation at the neuromuscular junction by depolarizing muscle fibers."
+  },
+  {
+    "id": "67e93f2d18b1e36f2e0000db",
+    "type": "factoid",
+    "generated_answer": "Gadolinium-based contrast agents, used in magnetic resonance imaging, can cause nephrogenic systemic fibrosis in patients with impaired kidney function."
+  },
+  {
+    "id": "67e2bde318b1e36f2e000093",
+    "type": "yesno",
+    "generated_answer": "Yes, obesity is a significant risk factor for sleep apnea because excess adipose tissue in the upper airway can narrow the passage and increase the likelihood of collapse during sleep."
+  },
+  {
+    "id": "680c137818b1e36f2e000158",
+    "type": "list",
+    "generated_answer": "Tumor microenvironment components, including pericytes, cancer-associated fibroblasts, and extracellular matrix proteins, characteristically promote cancer hallmarks such as sustained proliferative signaling, evasion of growth suppressors, resistance to cell death, angiogenesis, and genomic instability and metastasis."
+  },
+  {
+    "id": "67ca061181b102733300000a",
+    "type": "factoid",
+    "generated_answer": "XIST proteins, long non-coding RNAs, mediate X-chromosome inactivation—a crucial epigenetic process for dosage compensation in females."
+  },
+  {
+    "id": "67e26d6218b1e36f2e000074",
+    "type": "factoid",
+    "generated_answer": "Systemic scleroderma, an autoimmune disease affecting connective tissues, typically begins between ages 30 and 50, though it can occur earlier or later."
+  },
+  {
+    "id": "680a21eb18b1e36f2e000150",
+    "type": "factoid",
+    "generated_answer": "Oligodendrocytes, a type of glial cell found in the central nervous system, are responsible for forming the myelin sheath around axons."
+  },
+  {
+    "id": "67fa3c5818b1e36f2e000109",
+    "type": "factoid",
+    "generated_answer": "BIONDA is a novel, bispecific antibody targeting both CD3 and BCMA, designed to redirect T cells for the treatment of multiple myeloma."
+  },
+  {
+    "id": "6810c54b353a4a2e6b000011",
+    "type": "list",
+    "generated_answer": "Electroconvulsive therapy is clinically indicated for severe major depressive disorder, treatment-resistant bipolar disorder, catatonia, and acutely psychotic conditions—including schizophrenia—as well as for managing mania and, less commonly, neuroleptic malignant syndrome, particularly when rapid response is crucial due to life-threatening symptoms."
+  },
+  {
+    "id": "67fd5d6518b1e36f2e000138",
+    "type": "factoid",
+    "generated_answer": "Glioblastoma frequently exhibits amplification of the epidermal growth factor receptor (EGFR) gene, a receptor tyrosine kinase, on chromosome 7."
+  },
+  {
+    "id": "67fb046e18b1e36f2e00010c",
+    "type": "factoid",
+    "generated_answer": "Zanidatamab, a bispecific antibody, targets both CD20 on B-cells and CD3 on T-cells to induce targeted cancer cell lysis."
+  },
+  {
+    "id": "67d6bbfa18b1e36f2e000020",
+    "type": "summary",
+    "generated_answer": "Diagnosis of HIV infection typically begins with an antibody/antigen immunoassay to detect both HIV-1/HIV-2 antibodies and the p24 antigen, offering early detection capabilities. A positive or indeterminate initial test necessitates confirmation via a more specific assay, such as an HIV-1/HIV-2 differentiation immunoassay or a viral nucleic acid test (NAT), which directly measures HIV RNA. NAT is particularly useful for acute infection when antibody levels are low, and is also employed to assess viral load in established infections, guiding treatment decisions and monitoring disease progression. Finally, CD4+ T-cell counts are routinely monitored to assess immune function and stage the infection."
+  },
+  {
+    "id": "680fe1e3353a4a2e6b00000f",
+    "type": "yesno",
+    "generated_answer": "No, a SNP is a common variation at a single nucleotide position, occurring in at least 1% of the population, while a mutation is a broader term encompassing any change to the DNA sequence, regardless of frequency."
+  },
+  {
+    "id": "680d5dd8353a4a2e6b000004",
+    "type": "summary",
+    "generated_answer": "Melatonin is indeed present in human milk, with concentrations varying significantly based on maternal circadian rhythms, being highest during the night and lowest during the day. Levels are influenced by factors like maternal age, gestational age at delivery, and even infant feeding patterns. While the physiological role of milk-borne melatonin for the infant is still being investigated, it’s hypothesized to contribute to infant sleep-wake cycle regulation and antioxidant defense, potentially offering neuroprotective benefits. Importantly, ingested melatonin is rapidly metabolized, suggesting a primarily signalling rather than hormonal effect in the neonate."
+  },
+  {
+    "id": "67d7208218b1e36f2e00002e",
+    "type": "summary",
+    "generated_answer": "Alopecia, or hair loss, arises from diverse physiopathological mechanisms impacting the hair follicle cycle. These include inflammation disrupting follicle function—as seen in alopecia areata—androgenetic predisposition causing follicular miniaturization, and autoimmune responses targeting hair follicles. Disruptions to the normal anagen (growth), catagen (transition), and telogen (resting) phases, often driven by hormonal imbalances, nutritional deficiencies, or genetic factors, ultimately lead to reduced hair density. Scarring alopecias involve irreversible follicular destruction and replacement with fibrotic tissue, representing a distinct pathological process."
+  },
+  {
+    "id": "67fc381f18b1e36f2e00012f",
+    "type": "summary",
+    "generated_answer": "Phenotype switching in melanoma refers to the reversible transition between distinct cellular states, primarily altering between proliferative, invasive, and drug-resistant phenotypes. This plasticity is driven by dynamic changes in gene expression, often mediated by transcription factors like MITF and SOX10, and is not necessarily linked to genetic mutations. Consequently, melanoma cells can rapidly adapt to selective pressures, such as targeted therapies, by shifting to a non-sensitive phenotype, contributing to acquired resistance and disease recurrence. Understanding the signalling pathways governing these transitions is crucial for developing strategies to prevent or overcome therapeutic failure."
+  },
+  {
+    "id": "67c9e46881b1027333000004",
+    "type": "summary",
+    "generated_answer": "Neoantigens are novel peptide antigens generated by somatic mutations within cancer cells, or cells infected with viruses, that are presented on major histocompatibility complex (MHC) molecules. Unlike typical tumor-associated antigens, neoantigens are not present in normal tissues, making them highly specific targets for the immune system. Their identification relies on integrating genomic sequencing data to predict which mutated peptides will bind MHC and elicit a T cell response. Consequently, neoantigens are increasingly utilized in personalized cancer immunotherapy strategies, including vaccines and adoptive T cell therapies, to enhance anti-tumor immunity."
+  },
+  {
+    "id": "67fbe2ab18b1e36f2e000116",
+    "type": "yesno",
+    "generated_answer": "Yes, hyaluronic acid injections can temporarily improve knee pain by increasing synovial fluid viscosity and providing lubrication within the joint, reducing friction and inflammation."
+  },
+  {
+    "id": "67eaf14c18b1e36f2e0000de",
+    "type": "list",
+    "generated_answer": "Several transcription factors, including SOX9, NFIB, STAT3, and PAX6, are crucial for establishing and maintaining human astrocyte identity, alongside regulatory elements and epigenetic modifiers that govern gene expression programs specific to these glial cells within the central nervous system."
+  },
+  {
+    "id": "67c9e7ee81b1027333000007",
+    "type": "yesno",
+    "generated_answer": "Yes, Peto's Paradox observes that larger, longer-lived species generally do *not* have higher cancer rates, challenging the expectation that more cell divisions would equate to increased mutation accumulation and cancer risk."
+  },
+  {
+    "id": "67d71d8f18b1e36f2e00002b",
+    "type": "factoid",
+    "generated_answer": "*Clostridioides difficile* is a Gram-positive, spore-forming anaerobic bacterium commonly causing antibiotic-associated diarrhea and colitis."
+  },
+  {
+    "id": "67cdb26a81b1027333000017",
+    "type": "list",
+    "generated_answer": "Sodium-glucose cotransporter 2 inhibitors, a class of medications targeting **SGLT2 proteins** in the **proximal renal tubule**, provide benefits including improved **glycemic control** in patients with **type 2 diabetes**, reduced **cardiovascular events** such as **heart failure** and **myocardial infarction**, and potential **renal protection** through decreased **glomerular hyperfiltration** and **albuminuria**."
+  },
+  {
+    "id": "67e2b0a018b1e36f2e00008b",
+    "type": "factoid",
+    "generated_answer": "Escherichia coli, a Gram-negative bacterium, is the most frequent causative agent of uncomplicated urinary tract infections."
+  },
+  {
+    "id": "67e090be18b1e36f2e00006c",
+    "type": "yesno",
+    "generated_answer": "Yes, *Bacillus clausii* is considered a probiotic because it’s a spore-forming bacterium capable of surviving gastric transit and exerting beneficial effects on the host’s intestinal microbiota."
+  },
+  {
+    "id": "67d7fded18b1e36f2e000042",
+    "type": "list",
+    "generated_answer": "Chlamydia genital infection in women commonly presents with symptoms including abnormal vaginal discharge, lower abdominal pain, painful sexual intercourse (dyspareunia), inflammation of the cervix, and potentially, pelvic inflammatory disease—affecting the uterus, fallopian tubes, and ovaries—and sometimes, asymptomatic presentations occur requiring screening via nucleic acid amplification tests (NAATs) to detect *Chlamydia trachomatis*."
+  }
+]
